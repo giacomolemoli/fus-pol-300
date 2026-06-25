@@ -1,7 +1,11 @@
 ---
 title: "Week 1: Introduction"
 subtitle: "Course Title"
-format: revealjs
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    chalkboard: false
 ---
 
 ## Overview
