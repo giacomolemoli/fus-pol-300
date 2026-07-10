@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+.reveal {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  border-bottom: 2px solid #c0b8a8;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.4em;
+}

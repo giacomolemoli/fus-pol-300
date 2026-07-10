@@ -28,6 +28,9 @@ Brief background on the topic. Use bullet points for key ideas.
 
 **Concept B**: Definition here.
 
+::: {.callout-caution title="watch out"}
+This is something to keep in mind
+:::
 ---
 
 ## Discussion

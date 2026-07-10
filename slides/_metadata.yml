@@ -1,5 +1,7 @@
 format:
   revealjs:
-    theme: simple
+    theme: [serif, custom.scss]
+    margin: 0.05
+    incremental: true
     slide-number: true
     chalkboard: false
