@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Course Title"
+  title: "Pol 300"
   site-url: "https://giacomolemoli.github.io/fus-pol-course"
   navbar:
     left:
@@ -11,8 +11,8 @@ website:
         href: index.qmd
       - text: "Syllabus"
         href: syllabus.qmd
-      - text: "Slides"
-        href: slides/week01.qmd
+      - text: "Course Schedule"
+        href: schedule.qmd
   page-footer:
     center: "Giacomo Lemoli · [giacomolemoli.github.io](https://giacomolemoli.github.io)"
 

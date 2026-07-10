@@ -2,35 +2,58 @@
 title: "Syllabus"
 ---
 
+## Course Information
+- Instructor: **Giacomo Lemoli** — [giacomolemoli.github.io](https://giacomolemoli.github.io)
+- Instructor’s Email: [glemoli@fus.edu](mailto:glemoli@fus.edu)
+- Office location: LAC 8 (3rd floor)
+- Office Hours: Monday-Thursday 12:30-14:30
+- Class location: TBA
+- Class meeting times: Monday-Thursday 14:30-15:45
+
 ## Course Description
 
-Provide a brief description of the course.
+## Rationale
 
-## Learning Objectives
+## Course Goals
 
-By the end of this course, students will be able to:
+## Specific Learning Outcomes
 
-1. Objective 1
-2. Objective 2
-3. Objective 3
+## Required Text and Materials
 
-## Requirements
+## Assessment Overview
 
-- **Participation**: 10%
-- **Problem sets**: 40%
-- **Final paper / project**: 50%
+## Assessment Details
 
-## Schedule
+## Grading Policies and Expectations
 
-| Week | Date | Topic | Reading |
-|------|------|-------|---------|
-| 1 | | Introduction | |
-| 2 | | Topic 2 | |
+## How to Do Well in this Course (Policies/Requirements)
 
-## Policies
+## Diversity, Equity, & Inclusion in Our Classroom
+Mutual respect is fundamental for any academic community like Franklin. At Franklin, each individual’s difference and uniqueness enrich our environment. Our shared values and beliefs lead us to respect all members of the community that we live in, and to value each other as individuals regardless of race, color, religion, gender identity or expression, sexual orientation, national or ethnic origin, genetics, age, or differences in ability. As members of the Franklin community, we support awareness of diversity, equity and inclusion through academic research, practical experiences and exchanges in everyday life.
+All parties in the classroom space, including on class excursions and Academic Travel, are expected to:
 
-**Attendance**: Regular attendance is expected.
+- Show respect for all, valuing differences in identities, perspectives, and backgrounds;
+- Engage in constructive dialogue that illustrates tolerance and respect for differing views and opinions;
+- Contribute to a learning environment that ensures equal opportunities for all, avoiding any behavior that may marginalize or exclude others;
+- Engage with course content and others in a culturally-aware manner, recognizing the impact of stereotypes, biases and assumptions.
+Any form of discrimination, harassment, or disrespect based on identity will not be tolerated and should be reported immediately, either through the Bias Incident Reporting form on Moodle or by contacting the University-Wide Committee on Diversity, Equity and Inclusion at [dei@fus.edu](mailto:dei@fus.edu)
 
-**Academic integrity**: All submitted work must be your own.
+**Lived Name/Pronoun Syllabus Statement** 
+I will gladly honor your request to address you by the name or gender pronoun that you choose.  I will provide the opportunity for you to indicate your choice on the first day of class so that I may make appropriate changes to my records, and I am always open to change. 
 
-**Accessibility**: Please contact the instructor if you need accommodations.
+
+## Academic Integrity: Statement on Cheating and Plagiarism
+A student whose actions are deemed by the University to be out of sympathy with the ideals, objectives or the spirit of good conduct as fostered by the University and Swiss community, may be placed on Disciplinary Probation or become subject to dismissal from the University. Cheating is a dishonest action out of sympathy with the ideals, objectives and spirit of the University. Furthermore, cheating reflects negatively on one’s personal integrity and is unjust to those students who have studied.
+
+See the full statement [here](https://fus.smartcatalogiq.com/current/academic-catalog/undergraduate-academic-policies-and-procedures/academic-dishonesty-statement-on-cheating-and-plagiarism/) 
+
+## Resources Available 
+Students with certified learning differences are entitled to accommodations for all in-class activities, including, but not limited to, assessments. To ensure that both the learning objectives of the course and the needs of the student are upheld, a discussion of how a student’s accommodations will be implemented in the course must take place. In order to allow adequate time for implementation of appropriate accommodations, this discussion must be requested by the student within the first two weeks of the semester. In the case of a delayed diagnosis, this request must take place as soon as possible, and within two weeks of official notification from the Franklin Office of Accessibility Services.
+The course instructor may require the student to sign a contract specifying related rights and responsibilities.
+
+## Course Schedule 
+
+See the full course schedule [here](schedule.qmd).
+
+
+## Bibliography

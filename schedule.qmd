@@ -1,0 +1,8 @@
+---
+title: "Course Schedule"
+---
+
+| Week | Date | Topic | Readings | Slides |
+|------|------|-------|----------|--------|
+| 1 | | Introduction | | [Week 1](slides/week01.qmd){target="_blank"} |
+

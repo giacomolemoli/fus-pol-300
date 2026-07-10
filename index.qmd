@@ -3,21 +3,15 @@ title: "Pol 300: Comparative Politics"
 subtitle: "Fall 2026 - Franklin Switzerland"
 ---
 
-## Welcome
+![William Conor, State opening of the Northern Ireland Parliament in 1921](https://www.niassembly.gov.uk/globalassets/pagefiles/2968/connor_painting1.jpg)
 
-....Under construction....
+## Course Information
+- Instructor: **Giacomo Lemoli** — [giacomolemoli.github.io](https://giacomolemoli.github.io)
+- Instructor’s Email: [glemoli@fus.edu](mailto:glemoli@fus.edu)
+- Office location: LAC 8 (3rd floor)
+- Office Hours: Monday-Thursday 12:30-14:30
+- Class location: TBA
+- Class meeting times: Monday-Thursday 14:30-15:45
 
-## Syllabus 
-TBA
-
-## Schedule Overview (template)
-
-| Week | Topic | Materials |
-|------|-------|-----------|
-| 1 | Introduction | [Slides](slides/week01.qmd) |
-| 2 | Topic 2 | |
-| 3 | Topic 3 | |
-
-## Instructor
-
-**Giacomo Lemoli** — [giacomolemoli.github.io](https://giacomolemoli.github.io)
+## Textbook
+William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**, 2024, CQ Press
