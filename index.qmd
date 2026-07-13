@@ -15,3 +15,17 @@ subtitle: "Fall 2026 - Franklin Switzerland"
 
 ## Textbook
 William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**, 2024, CQ Press
+
+## Recommended Books
+The following books are recommended for students who want to cover some of the course modules in more detail.
+
+**Democratization**
+- Przeworski, A. (2018). *Why bother with elections?* John Wiley & Sons.
+- Ash, T. G. (2010). *The magic lantern: The revolution of'89 witnessed in Warsaw, Budapest, Berlin, and Prague.* Vintage.
+- Lieberman, E. (2022). *Until we have won our liberty: South Africa after apartheid.* Princeton University Press
+- Tocqueville, A. (1833 [2003]). *Democracy in America: And two essays on America.* Penguin UK.
+
+
+**Democratic Backsliding**
+- Levitsky, S., & Ziblatt, D. (2019). *How democracies die.* Crown.
+- Przeworski, A. (2019). *Crises of democracy.* Cambridge University Press.
