@@ -1,6 +1,6 @@
 ---
 title: "Week 1: Introduction"
-subtitle: "Course Title"
+subtitle: "Comparative Politics"
 format: revealjs
 ---
 
