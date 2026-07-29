@@ -14,7 +14,7 @@ subtitle: "Fall 2026 - Franklin Switzerland"
 - Class meeting times: Monday-Thursday 14:30-15:45
 
 ## Textbook
-William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**, 2024, CQ Press
+William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**. 2024, CQ Press
 
 ## Recommended Books
 The following books are recommended for students who want to cover some of the course modules in more detail.
@@ -22,12 +22,13 @@ The following books are recommended for students who want to cover some of the c
 **Democratization**
 
 - Przeworski, A. (2018). *Why bother with elections?* John Wiley & Sons.
-- Ash, T. G. (2010). *The magic lantern: The revolution of'89 witnessed in Warsaw, Budapest, Berlin, and Prague.* Vintage.
-- Lieberman, E. (2022). *Until we have won our liberty: South Africa after apartheid.* Princeton University Press
-- Tocqueville, A. (1833 [2003]). *Democracy in America: And two essays on America.* Penguin UK.
+- Ash, T. G. (2010). *The magic lantern: The revolution of'89 witnessed in Warsaw, Budapest, Berlin, and Prague*. Vintage.
+- Lieberman, E. (2022). *Until we have won our liberty: South Africa after apartheid*. Princeton University Press
+- Tocqueville, A. (1833 [2003]). *Democracy in America: And two essays on America*. Penguin UK.
 
 
-**Democratic Backsliding**
+**Democracy and Autocracy**
 
 - Levitsky, S., & Ziblatt, D. (2019). *How democracies die.* Crown.
 - Przeworski, A. (2019). *Crises of democracy.* Cambridge University Press.
+- Treisman, D., & Guriev, S. (2023). *Spin dictators: The changing face of tyranny in the 21st century.* Princeton University Press

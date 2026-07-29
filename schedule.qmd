@@ -2,7 +2,34 @@
 title: "Course Schedule"
 ---
 
+**FCP**: Foundations of Comparative Politics
+
 | Week | Date | Topic | Readings | Slides |
 |------|------|-------|----------|--------|
-| 1 | | Introduction | | [Week 1](slides/week01.qmd){target="_blank"} |
-
+| 1 | | Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
+| 1 | | Methods in Comparative Politics: Causal Inference | | |
+| 2 |  | *Discussion Session* | | |
+| 2 |  | **No class (APSA Conference)** | | |
+| 3 |  | The State | FCP ch.4 | |
+| 3 |  | *Discussion Session* |  | |
+| 4 |  | Economic Causes of Democracy and Dictatorship | FCP ch.5 | |
+| 4 |  | *Discussion Session* |  | |
+| 5 |  | Democratic Transitions | FCP ch.7 | |
+| 5 |  | *Discussion Session* | | |
+| 6 |  | Varieties of Dictatorship | FCP ch.8 | |
+| 6 |  | *Discussion Session* | | |
+| 7 |  | Parliamentary and Presidential Systems | FCP ch.10 | |
+| 7 |  | *Discussion Session* | | |
+|  |  | **Midterm Review** | | |
+|  |  | **Midterm** | | |
+|  |  | **Academic travel** | | |
+| 8 |  | Electoral Systems | FCP ch.11 | |
+| 8 |  | *Discussion Session* | | |
+| 9 |  | Cleavages and Party Systems | FCP ch.12 | |
+| 9 |  | *Discussion Session* | | |
+| 10 |  | Veto Players | FCP ch.13 | |
+| 10 |  | *Discussion Session* | | |
+| 11 |  | Effects of Institutions | FCP ch.14 | |
+| 11 |  | *Discussion Session* |  | |
+|  |  | **Final Exam Review** |  | |
+|  |  | **Final Exam** |  | |
