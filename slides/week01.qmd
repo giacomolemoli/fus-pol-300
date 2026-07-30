@@ -47,6 +47,56 @@ For each of you, I would like to know:
 
 # What to Expect during the Course {.section}
 
+
+## Required Text and Materials
+
+> William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**. 2024, CQ Press
+
+- Two hard copies available in the Library
+- If you want to purchase it, I recommend the ebook version
+- Articles and session-specific materials for discussion sessions will be uploaded on Moodle
+
+---
+
+## Assessment Overview
+
+| **Assignment** | **Midterm Weight** | **Final Weight** |
+|-----------------|--------------------|-------------------|
+| Midterm exam (covering part I) | 60% | 30% |
+| Final Exam (covering part II) | 0% | 30% |
+| Paper presentation | 0% | 20% |
+| Class participation | 40% | 20% |
+
+---
+
+## Course Structure and Attendance
+
+- Each week covers one topic/module across two sessions
+- **Monday**: main concepts (following the textbook)
+    - Lecture with active participation expected
+- **Thursday**: review and discussion session
+    - Review of concepts of the week
+    - In-class discussions (two-sided)
+    - Applications $\approx$ exam questions
+    - Students' paper presentations + discussion
+
+
+---
+
+## What You Need to Do Well
+
+- [Attendance]{.alert} in all sessions is <u>necessary</u> (but not sufficient) to do well in exams and participation grades
+- [Reading]{.alert} each session's material before class
+- Coming to class [prepared]{.alert} and [curious]{.alert} with an open mind
+
+---
+
+## Presentations
+
+[TBA]
+
+---
+
 ## What is Comparative Politics?
 
 ---
@@ -120,56 +170,6 @@ Does ethnicity matter in politics? (from Müller-Crepon and Bormann 2026)
 - Why do we see ethnic *cleavages* in some countries and not others?
 
 ---
-
-## Required Text and Materials
-
-> William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**. 2024, CQ Press
-
-- Two hard copies available in the Library
-- If you want to purchase it, I recommend the ebook version
-- Articles and session-specific materials for discussion sessions will be uploaded on Moodle
-
----
-
-## Assessment Overview
-
-| **Assignment** | **Midterm Weight** | **Final Weight** |
-|-----------------|--------------------|-------------------|
-| Midterm exam (covering part I) | 60% | 30% |
-| Final Exam (covering part II) | 0% | 30% |
-| Paper presentation | 0% | 20% |
-| Class participation | 40% | 20% |
-
----
-
-## Course Structure and Attendance
-
-- Each week covers one topic/module across two sessions
-- **Monday**: main concepts (following the textbook)
-    - Lecture with active participation expected
-- **Thursday**: review and discussion session
-    - Review of concepts of the week
-    - In-class discussions (two-sided)
-    - Applications $\approx$ exam questions
-    - Students' paper presentations + discussion
-
-
----
-
-## What You Need to Do Well
-
-- [Attendance]{.alert} in all sessions is <u>necessary</u> (but not sufficient) to do well in exams and participation grades
-- [Reading]{.alert} each session's material before class
-- Coming to class [prepared]{.alert} and [curious]{.alert} with an open mind
-
----
-
-## Presentations
-
-[TBA]
-
----
-
 
 # What is Science? {.section}
 
