@@ -10,7 +10,7 @@ subtitle: "Fall 2026 - Franklin Switzerland"
 - Instructor’s Email: [glemoli@fus.edu](mailto:glemoli@fus.edu)
 - Office location: LAC 8 (3rd floor)
 - Office Hours: Monday-Thursday 12:30-14:30
-- Class location: TBA
+- Class location: Kaletsch Campus Bldg., Room 5
 - Class meeting times: Monday-Thursday 14:30-15:45
 
 ## Textbook

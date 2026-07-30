@@ -4,41 +4,173 @@ subtitle: "Comparative Politics"
 format: revealjs
 ---
 
-## Overview
+# Introduction(s) {.section}
 
-- Course goals and logistics
-- What is [Topic]?
-- Why does it matter?
+## Course Information and Logistics
 
----
-
-## Background
-
-Brief background on the topic. Use bullet points for key ideas.
-
-- Point 1
-- Point 2
-- Point 3
+- Instructor: **Giacomo Lemoli** — [giacomolemoli.github.io](https://giacomolemoli.github.io)
+- Instructor’s Email: [glemoli@fus.edu](mailto:glemoli@fus.edu)
+- Office location: LAC 8 (3rd floor)
+- Office Hours: Monday-Thursday 12:30-14:30
+- Class location: Kaletsch Campus Bldg., Room 5
+- Class meeting times: Monday-Thursday 14:30-15:45
 
 ---
 
-## Key Concepts
+## Course Platforms
 
-**Concept A**: Definition here.
+We have a course website: [giacomolemoli.github.io/fus-pol-300/](https://giacomolemoli.github.io/fus-pol-300/)
 
-**Concept B**: Definition here.
+- Syllabus, schedule, slides $\rightarrow$ course website
+- Papers, PDFs, assignments, grades, communications $\rightarrow$ Moodle
 
-::: {.callout-caution title="watch out"}
-This is something to keep in mind
+---
+
+## About me
+
+- I am a postdoctoral researcher in Prof. Strijbis' team [DIVIDE](https://data.snf.ch/grants/grant/10003605)
+- I am a political scientist and specialize in Comparative politics
+- I was born and raised in Italy; before moving to Switzerland I studied and worked in the US and France
+
+---
+
+## About you
+
+For each of you, I would like to know:
+
+- Your name
+- The place you call home
+- What is the first political memory you have?
+- What is the place of this course in your studies and what do you expect to get from it?
+
+---
+
+# What to Expect during the Course {.section}
+
+## What is Comparative Politics?
+
+---
+
+## Comparative Questions
+
+How many parties compose Parliaments across the world?
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](figures/congress_composition.png)
 :::
+
+::: {.column width="30%"}
+![](figures/house_of_commons.png)
+:::
+
+::: {.column width="30%"}
+![](figures/dutch_chamber.png)
+:::
+
+::::
+
+- [Effective Number of Parties]{.alert} (a measure of Parliament fragmentation): US, UK $\approx$ 2; Netherlands $\approx$ 8
+- Why? And does it matter?
+
+
 ---
 
-## Discussion
+## Comparative Questions
 
-What do we know? What remains unclear?
+Why do "similar" countries have different economic outcomes?
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Religious_map_of_Nigeria%2C_2022.png/1920px-Religious_map_of_Nigeria%2C_2022.png)
+:::
+
+::: {.column width="60%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Religious_affiliation_by_district_%28kecamatan%29_in_Indonesia_%282022%29.svg/1920px-Religious_affiliation_by_district_%28kecamatan%29_in_Indonesia_%282022%29.svg.png?_=20250916132221)
+:::
+
+::::
+
+- Similar population, ethnic diversity, geographic/religious differences
+- GDP rank: Indonesia = 17, Nigeria = 46; ACLED conflict index rank: Indonesia = 45, Nigeria = 5
 
 ---
 
-## Next Week
+## Comparative Questions
 
-Topic for next week and assigned readings.
+Does ethnicity matter in politics? (from Müller-Crepon and Bormann 2026)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](figures/bmc_kenya_cvr.png)
+:::
+
+::: {.column width="50%"}
+![](figures/bmc_tanzania_cvr.png)
+:::
+
+::::
+
+- Kenya and Tanzania $\rightarrow$ geographic neighbors, same national language
+- Kenya: prob. that two people vote the same party $\uparrow$ 40pp if they are coethnics
+- Tanzania: almost same prob. between coethnics and non-coethnics
+- Why do we see ethnic *cleavages* in some countries and not others?
+
+---
+
+## Required Text and Materials
+
+> William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**. 2024, CQ Press
+
+- Two hard copies available in the Library
+- If you want to purchase it, I recommend the ebook version
+- Articles and session-specific materials for discussion sessions will be uploaded on Moodle
+
+---
+
+## Assessment Overview
+
+| **Assignment** | **Midterm Weight** | **Final Weight** |
+|-----------------|--------------------|-------------------|
+| Midterm exam (covering part I) | 60% | 30% |
+| Final Exam (covering part II) | 0% | 30% |
+| Paper presentation | 0% | 20% |
+| Class participation | 40% | 20% |
+
+---
+
+## Course Structure and Attendance
+
+- Each week covers one topic/module across two sessions
+- **Monday**: main concepts (following the textbook)
+    - Lecture with active participation expected
+- **Thursday**: review and discussion session
+    - Review of concepts of the week
+    - In-class discussions (two-sided)
+    - Applications $\approx$ exam questions
+    - Students' paper presentations + discussion
+
+
+---
+
+## What You Need to Do Well
+
+- [Attendance]{.alert} in all sessions is <u>necessary</u> (but not sufficient) to do well in exams and participation grades
+- [Reading]{.alert} each session's material before class
+- Coming to class [prepared]{.alert} and [curious]{.alert} with an open mind
+
+---
+
+## Presentations
+
+[TBA]
+
+---
+
+
+# What is Science? {.section}
+
+# What is Politics? {.section}
