@@ -86,24 +86,79 @@ For each of you, I would like to know:
 ## What You Need to Do Well
 
 - [Attendance]{.alert} in all sessions is <u>necessary</u> (but not sufficient) to do well in exams and participation grades
-- [Reading]{.alert} each session's material before class
+- [Reading]{.alert} each session's material <u>before</u> class
 - Coming to class [prepared]{.alert} and [curious]{.alert} with an open mind
 
 ---
 
 ## Presentations
 
-[TBA]
+- We will have a round of presentations of academic articles during the discussion sessions
+- The articles will be about the topic of the week
+- Goal: see how theories and concepts are used in political science research
+- Duration: 15 minutes with slides + class discussion
+- Presentation guide in Discussion session 1
+
+# What is Comparative Politics?
+
+## Comparative Politics
+
+The study of political phenomena that are predominantly **within country** relationships
+
+- In contrast with international politics ($\rightarrow$ **between countries**)
+- In practice the two dimensions are deeply connected
+- Arguably the largest and foundational area of **political science**
+
+. . . 
+
+$\implies$ what is political science?
 
 ---
 
-## What is Comparative Politics?
+## What is Politics?
+
+The domain of human behavior that involves the use of **power**
+
+Consider these everyday life situations. What do they have in common?
+
+1. Organize house cleaning between roommates
+2. Allocate faculty offices in a new campus
+3. Who to vote for students representative
+
+. . . 
+
+$\implies$ our goals may require influencing others or escaping their influence
+
+. . . 
+
+- Similar interactions are observed in "real" politics
+- Studying politics $\rightarrow$ identifying and explain scientifically the outcome regularities
+
+---
+
+## What is Science? 
+
+Scientific method: 
+
+- Question: why do we observe X?
+- Theory/model: a simplifying map of the world with logical connections
+- Implications/hypotheses: deduce implications from the model
+- Observations: test the hypotheses 
+- Evaluation: rejection or provisional corroboration of the theory
+
+---
+
+## Why Comparative?
+
+- Questions arise from comparisons
+- Theories are falsifiable finding an likely case that contradicts the theory
+- Theories are causal (*ceteris paribus*). To understand the effect of X we compare two cases almost identical in everything except X
 
 ---
 
 ## Comparative Questions
 
-How many parties compose Parliaments across the world?
+**Q**: why do Parliaments have different numbers of parties?
 
 :::: {.columns}
 
@@ -129,7 +184,7 @@ How many parties compose Parliaments across the world?
 
 ## Comparative Questions
 
-Why do "similar" countries have different economic outcomes?
+**Q**: Why do "similar" countries have different economic outcomes?
 
 :::: {.columns}
 
@@ -150,12 +205,12 @@ Why do "similar" countries have different economic outcomes?
 
 ## Comparative Questions
 
-Does ethnicity matter in politics? (from Müller-Crepon and Bormann 2026)
+**Q**: Does ethnicity matter in politics?
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](figures/bmc_kenya_cvr.png)
+![from Müller-Crepon and Bormann, APSR 2026](figures/bmc_kenya_cvr.png)
 :::
 
 ::: {.column width="50%"}
@@ -171,6 +226,3 @@ Does ethnicity matter in politics? (from Müller-Crepon and Bormann 2026)
 
 ---
 
-# What is Science? {.section}
-
-# What is Politics? {.section}
