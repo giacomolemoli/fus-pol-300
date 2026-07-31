@@ -1,0 +1,5 @@
+---
+title: "2. Methods"
+subtitle: "Comparative Politics"
+format: revealjs
+---
