@@ -7,9 +7,9 @@ title: "Course Schedule"
 | Week | Date | Topic | Readings | Slides |
 |------|------|-------|----------|--------|
 | 1 | | Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
-| 1 | | Methods in Comparative Politics: Causal Inference | | |
-| 2 |  | *Discussion Session* | | |
-| 2 |  | **No class (APSA Conference)** | | |
+| 2 | | Methods in Comparative Politics: Causal Inference | | |
+|  |  | *Discussion Session* | | |
+|  |  | **No class (APSA Conference)** | | |
 | 3 |  | The State | FCP ch.4 | |
 | 3 |  | *Discussion Session* |  | |
 | 4 |  | Economic Causes of Democracy and Dictatorship | FCP ch.5 | |

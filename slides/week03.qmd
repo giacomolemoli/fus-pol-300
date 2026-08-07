@@ -3,3 +3,69 @@ title: "3. The State"
 subtitle: "Comparative Politics"
 format: revealjs
 ---
+
+## A World of States
+
+- [Politics]{.alert} $\rightarrow$ domain of human behavior that concerns the use of power
+- The [state]{.alert} $\rightarrow$ master political institution through which power is exercised
+
+![Source: Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_Map_of_The_World_%282026%29.png/1920px-Flag_Map_of_The_World_%282026%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+::: {.nonincremental}
+- Today: $\approx$ 200 independent states in the world
+- Virtually every human being is under state authority
+:::
+
+---
+
+## Varieties of States
+
+::::{.columns}
+
+::: {.column width="50%"}
+
+![Swiss federal palace in Bern](https://prod-aboutswch-hcms-sdweb.imgix.net/dam/en/sd-web/1JMHPoagqsPZ/politisches-system-uebersicht.jpg?auto=format&w=2048)
+
+:::
+
+::: {.column width="50%"}
+
+![Somali civil war (Source: Wikimedia commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Map_of_the_Somali_Civil_War.svg/960px-Map_of_the_Somali_Civil_War.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+:::
+
+::::
+
+- Some states provide public services, guarantee safety and protection (e.g., Switzerland)
+- Others do not have full authority over thier territory (e.g., Somalia)
+- Others have authority but exercise unchecked violence on their populations (e.g., European fascism, Rwanda 1994)
+
+---
+
+## Questions
+
+- What is a state and what does it do? 
+- Why do states exist and how did they evolve to the current configuration?
+- Why these differences in states' governance and outcomes?
+
+---
+
+
+## Our plan for today
+
+Two views of the state:
+
+- The Social Contract View $\rightarrow$ external protection to permit social cooperation
+    - Solve the problem of "horizontal" violence 
+- The Predatory View $\rightarrow$ entrenches power of few over many
+    - Create a problem of "vertical" violence
+
+---
+
+# What is the State? {.section}
+
+# The Social Contract View {.section}
+
+# The Predatory View {.section}
+
+# Summing Up {.section}
