@@ -11,10 +11,8 @@ format: revealjs
 
 ![Source: Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_Map_of_The_World_%282026%29.png/1920px-Flag_Map_of_The_World_%282026%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 
-::: {.nonincremental}
-- Today: $\approx$ 200 independent states in the world
-- Virtually every human being is under state authority
-:::
+- Today: virtually every human being is under state authority
+
 
 ---
 
@@ -24,20 +22,20 @@ format: revealjs
 
 ::: {.column width="50%"}
 
-![Swiss federal palace in Bern](https://prod-aboutswch-hcms-sdweb.imgix.net/dam/en/sd-web/1JMHPoagqsPZ/politisches-system-uebersicht.jpg?auto=format&w=2048)
+![Swiss federal palace in Bern](https://prod-aboutswch-hcms-sdweb.imgix.net/dam/en/sd-web/1JMHPoagqsPZ/politisches-system-uebersicht.jpg?auto=format&w=2048){width="60%"}
 
 :::
 
 ::: {.column width="50%"}
 
-![Somali civil war (Source: Wikimedia commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Map_of_the_Somali_Civil_War.svg/960px-Map_of_the_Somali_Civil_War.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+![Somali civil war (Source: Wikimedia commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Map_of_the_Somali_Civil_War.svg/960px-Map_of_the_Somali_Civil_War.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width="50%"}
 
 :::
 
 ::::
 
 - Some states provide public services, guarantee safety and protection (e.g., Switzerland)
-- Others do not have full authority over thier territory (e.g., Somalia)
+- Others do not have full authority over their territory (e.g., Somalia)
 - Others have authority but exercise unchecked violence on their populations (e.g., European fascism, Rwanda 1994)
 
 ---
@@ -55,17 +53,156 @@ format: revealjs
 
 Two views of the state:
 
-- The Social Contract View $\rightarrow$ external protection to permit social cooperation
+- The [Social Contract View]{.alert} $\rightarrow$ external protection to permit social cooperation
     - Solve the problem of "horizontal" violence 
-- The Predatory View $\rightarrow$ entrenches power of few over many
+- The [Predatory View]{.alert} $\rightarrow$ entrenches power of few over many
     - Create a problem of "vertical" violence
 
----
 
 # What is the State? {.section}
 
+## Weber's Classic Definition
+
+> "a human community that (successfully) claims the **monopoly** of the **legitimate** use of **physical force** within a given **territory**"
+>
+> Max Weber (1918)
+
+- **Territory**:  a state is delimited by space (unlike nations)
+- **Physical force**: the state exerts (implicit) violence
+- **Legitimate**: state's authority is willingly accepted by people
+- **Monopoly**: the state is the sole provider of force
+
+---
+
+## Problems with Weber's Definition
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- **Territory** and **Physical force** $\rightarrow$ universally accepted
+
+- The other concepts are more contested
+
+- **Legitimacy** $\rightarrow$ is it objective or immutable?
+
+- **Monopoly** $\rightarrow$ what if armed groups claim legitimacy?
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/irs.png){fig-align="center" width="5cm"}
+
+
+
+![](figures/police-repress.png){fig-align="center" width="5cm"}
+
+:::
+
+::::
+
+---
+
+## Other Definitions
+
+> [States are] relatively centralized, differentiated organizations, the officials of which, more or less, successfully **claim control** over the chief concentrated means of violence within a population inhabiting a large contiguous territory.
+>
+> Charles Tilly (1985)
+
+> A state is an organization with a **comparative advantage** in violence, extending over a geographic area whose boundaries are determined by its power to tax constituents.
+>
+> Douglass North (1981)
+
+...
+
+$\implies$ what is new here?
+
+---
+
+## Other Definitions
+
+- **Territory** and **force** are maintained
+- **Legitimacy** and **monopoly** are abandoned $\rightarrow$ weaker conditions
+- Violence is easier for the state and difficult to challenge
+- But the state does not have a perfect monopoly
+
+---
+
+## A Continuum of Stateness
+
+
+
 # The Social Contract View {.section}
+
+## 
+
+{{< video https://www.youtube.com/embed/3mckbLaZ9XI width="800" height="500" align="center" >}}
+
+## The State of Nature
+
+
+|                    | **Refrain** | **Steal** |
+|:-------------------|:-------------:|:----------:|
+| **Refrain**      |   -1, -1      |  -10, 0    |
+| **Steal**          |    0, -10     |  -5, -5    |
+
+
+
+
+
+## The State of Nature
+
+<table style="margin: auto; font-size: 1.2em;">
+  <tr>
+    <td></td>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Refrain</td>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Steal</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Refrain</td>
+    <td style="text-align: center; padding: 15px; background-color: #90EE90; border: 3px solid #228B22;">-1, -1</td>
+    <td style="text-align: center; padding: 15px;">-10, 0</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Steal</td>
+    <td style="text-align: center; padding: 15px;">0, -10</td>
+    <td style="text-align: center; padding: 15px; background-color: #FFB6C1; border: 3px solid #DC143C;">-5, -5</td>
+  </tr>
+</table>
+
+<br>
+
+
+- [**Pareto Optimal:**]{style="color: #228B22; font-weight: bold;"} (Refrain, Refrain) - Best collective outcome
+- [**Nash Equilibrium:**]{style="color: #DC143C; font-weight: bold;"} (Steal, Steal) - Individually rational but collectively suboptimal
+
+$\implies$ the anarchic state of nature results in violence
+
+---
+
+## The Social Contract
+
+
+---
+
+## Problems with the Social Contract View
+
+
+---
+
 
 # The Predatory View {.section}
 
+## The State as Organized Crime
+
+
+
 # Summing Up {.section}
+
+- The state is an institution that excercise power through violence
+- "Ceding" power to the state can be socially beneficial to solve cooperation problems
+- To perform its functions the state extracts resources (taxation)
+- This extraction is easier where the output is observable
+- States try to improve legibility
+- State-society balance

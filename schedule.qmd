@@ -8,7 +8,7 @@ title: "Course Schedule"
 |------|------|-------|----------|--------|
 | 1 | | Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
 | 2 | | Methods in Comparative Politics: Causal Inference | | |
-|  |  | *Discussion Session* | | |
+| 2 |  | *Discussion Session* | | |
 |  |  | **No class (APSA Conference)** | | |
 | 3 |  | The State | FCP ch.4 | |
 | 3 |  | *Discussion Session* |  | |
