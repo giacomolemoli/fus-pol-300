@@ -132,24 +132,52 @@ $\implies$ what is new here?
 ## A Continuum of Stateness
 
 
+---
+
+## Next Steps
+
+![](https://media.gettyimages.com/id/1152427249/nl/vector/leviathan-van-hobbes-na-zegel-van-17de-eeuw.jpg?s=612x612&w=0&k=20&c=dtR_91E0xKylIoWiDZWUEbPUXBaYfGg5p3OhKeP24F8=){fig-align="center"}
+
+
+- We have defined what the state is
+- Now: Why do states exist? 
+- What explains patterns of state formation in the world?
+
 
 # The Social Contract View {.section}
 
-## 
+## An Illustration
 
 {{< video https://www.youtube.com/embed/3mckbLaZ9XI width="800" height="500" align="center" >}}
 
+---
+
+## The Foundations
+
+[hobbes, locke, rousseau tba]
+
+
+---
+
 ## The State of Nature
 
+Imagine an (idealized) "state of nature" with equal men
+
+- Men can [steal]{.alert} from their neighbor or [refrain]{.alert}
+- Imagine the problem two men would face in this world
+
+. . . 
 
 |                    | **Refrain** | **Steal** |
 |:-------------------|:-------------:|:----------:|
 | **Refrain**      |   -1, -1      |  -10, 0    |
 | **Steal**          |    0, -10     |  -5, -5    |
 
+. . . 
 
+What would the men do?
 
-
+---
 
 ## The State of Nature
 
@@ -173,22 +201,85 @@ $\implies$ what is new here?
 
 <br>
 
+::: {.nonincremental}
+- [**Pareto Optimal:**]{style="color: #228B22; font-weight: bold;"} (Refrain, Refrain) - Best [collective]{.alert} outcome
+- [**Nash Equilibrium:**]{style="color: #DC143C; font-weight: bold;"} (Steal, Steal) - Most rational [individual]{.alert} strategy
+:::
 
-- [**Pareto Optimal:**]{style="color: #228B22; font-weight: bold;"} (Refrain, Refrain) - Best collective outcome
-- [**Nash Equilibrium:**]{style="color: #DC143C; font-weight: bold;"} (Steal, Steal) - Individually rational but collectively suboptimal
+. . . 
 
-$\implies$ the anarchic state of nature results in violence
+$\implies$ in the anarchic state of nature men turn against each other
 
 ---
 
 ## The Social Contract
 
+What is the role of the state here?
+
+. . .
+
+$\implies$ the state of nature is undesirable
+
+::: {.nonincremental}
+
+- Violence wins over cooperation 
+- The threat of predation makes long-run investment unprofitable
+- "Protection" groups emerge and are in conflict
+
+:::
+
+. . . 
+
+$\implies$ an authority punishing "steal" benefits everyone 
+
+---
+
+## The Social Contract
+
+[modified game tba]
+
+
+. . . 
+
+
+- Lower the benefit of stealing until no longer appealing
+- The collectively optimal outcome is reached
+
+---
+
+## The Social Contract
+
+Why "social contract"?
+
+- People give up their "natural" rights $\rightarrow$ [freedom]{.alert}
+- In exchange, they receive "civil" rights $\rightarrow$ [laws]{.alert}
+- People "fund" the sovereign $\rightarrow$ [tax]{.alert}
 
 ---
 
 ## Problems with the Social Contract View
 
+:::: {.columns}
 
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- The social contract gives the sovereign capacity to use violence
+- What prevents the sovereign from breaching the contract by force?
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+
+![](https://adam-robbins.com/wp-content/uploads/2025/06/rorshache.jpeg){fig-align="center"}
+
+:::
+
+::::
 ---
 
 
@@ -196,7 +287,77 @@ $\implies$ the anarchic state of nature results in violence
 
 ## The State as Organized Crime
 
+In the predatory view, the state is analogous to the **Mafias**
 
+- Powerful men use violence to increase their power over others
+- Protection is **extorted** rather than **bargained** 
+- Protectors want to expand their area of operations 
+
+. . . 
+
+$\implies$ the state emerges a consequence of power consolidation
+
+---
+
+## The Rise of Early States
+
+[agriculture, legibility]
+
+---
+
+## The Rise of the State in Early Modern Europe
+
+Dissolution of the Roman Empire $\rightarrow$ fragmented political authority
+
+![Source: Yetkinler/Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Europe_1500.png/1920px-Europe_1500.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20200307155929)
+
+. . . 
+
+$\implies$ Our theory should explain the pattern of state centralization
+
+
+---
+
+## Tilly's Theory
+
+> War made the state, and the state made war (Tilly 1990)
+
+- **Population growth** $\implies$ need more land to keep up productivity
+- **Population mobility** $\implies$ need to prevent peasants from fleeing
+- **War technology** $\implies$ "economies of scale" of violence
+
+. . . 
+
+$\implies$ incentive to **conquer** neighbors
+
+---
+
+## Tilly's Theory
+
+> War made the state, and the state made war (Tilly 1990)
+
+
+[diagram tba]
+
+
+3 key elements: war-making, extraction, capital accumulation
+
+- war (and defense from war) requires capital to fund armies
+- taxation systems created and infrastructure created to manage them
+- regular access to capital needed $\rightarrow$ regular extraction needed 
+
+---
+
+## Tilly's Theory
+
+The consolidation of European states:
+
+- Was not the result of bargaining or ideological projects
+- It was the result of the interaction of the forces of war making and accumulation
+
+
+
+---
 
 # Summing Up {.section}
 
@@ -205,4 +366,4 @@ $\implies$ the anarchic state of nature results in violence
 - To perform its functions the state extracts resources (taxation)
 - This extraction is easier where the output is observable
 - States try to improve legibility
-- State-society balance
+- There is always a component of "social contract" (people can "exit" the state)
