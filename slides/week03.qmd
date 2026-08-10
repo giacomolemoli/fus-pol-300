@@ -6,13 +6,10 @@ format: revealjs
 
 ## A World of States
 
-- [Politics]{.alert} $\rightarrow$ domain of human behavior that concerns the use of power
-- The [state]{.alert} $\rightarrow$ master political institution through which power is exercised
-
 ![Source: Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_Map_of_The_World_%282026%29.png/1920px-Flag_Map_of_The_World_%282026%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 
-- Today: virtually every human being is under state authority
-
+- [Politics]{.alert} $\rightarrow$ domain of human behavior that concerns the use of power
+- The [state]{.alert} $\rightarrow$ master political institution through which power is exercised
 
 ---
 
@@ -114,7 +111,7 @@ Two views of the state:
 >
 > Douglass North (1981)
 
-...
+. . .
 
 $\implies$ what is new here?
 
@@ -156,6 +153,7 @@ $\implies$ what is new here?
 
 [hobbes, locke, rousseau tba]
 
+[add illustration of the theory]
 
 ---
 
@@ -259,14 +257,20 @@ Why "social contract"?
 
 ## Problems with the Social Contract View
 
+- It is [normative]{.alert} rather than [positive]{.alert}
+- Single mechanism $\rightarrow$ hard to explain variation in state outcomes
+
+. . . 
+
 :::: {.columns}
 
 ::: {.column width="50%"}
 
 ::: {.nonincremental}
 
-- The social contract gives the sovereign capacity to use violence
-- What prevents the sovereign from breaching the contract by force?
+- The social contract grants the sovereign capacity to use violence
+- The sovereign could use it to breach the contract
+
 
 :::
 
@@ -280,7 +284,7 @@ Why "social contract"?
 :::
 
 ::::
----
+
 
 
 # The Predatory View {.section}
@@ -289,9 +293,23 @@ Why "social contract"?
 
 In the predatory view, the state is analogous to the **Mafias**
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
 - Powerful men use violence to increase their power over others
-- Protection is **extorted** rather than **bargained** 
+- Protection is **extorted** rather than **sought** 
 - Protectors want to expand their area of operations 
+
+::: 
+
+::: {.column width = "50%"}
+
+[add illustration of the theory]
+
+:::
+
+::::
 
 . . . 
 
@@ -299,40 +317,126 @@ $\implies$ the state emerges a consequence of power consolidation
 
 ---
 
-## The Rise of Early States
+## Predation and the Emergence of Early States
 
-[agriculture, legibility]
+Key moment $\implies$ [Neolithic Revolution]{.alert}
+
+8000-6000 BCE $\rightarrow$ emergence of agriculture in highly fertile lands 
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="60%"}
+ 
+
+- From small, mobile groups to large, sedentary communities
+- Plant cereals and legumes to complement traditional activities
+- Domesticate animals
+
+:::
+
+::: {.colum width="40%"}
+![Source: GFDL/Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fertile_crescent_Neolithic_B_circa_7500_BC.jpg/960px-Fertile_crescent_Neolithic_B_circa_7500_BC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width="45%" fig-align="center"}
+:::
+
+::::
 
 ---
 
-## The Rise of the State in Early Modern Europe
+## Grain States
+
+The earliest states were all "grain states" (Scott 2017)
+
+$\implies$ suggests causal link between agriculture and states
+
+. . . 
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- From subsistence to agricultural surplus
+  - $\implies$ social hierarchy of non-producing professions
+
+- Cereals are measurable and storable
+  - $\implies$ opportunity for [appropriation]{.alert} (taxes)
+
+:::
+
+::: {.column width="40%"}
+![Source: Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Dhaniyangal.jpg/960px-Dhaniyangal.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){fig-align="center"}
+:::
+
+::::
+
+---
+
+## The Importance of Information
+
+- The rise of agriculture $\implies$ institutionalized predation
+- States developed technologies to implement it systematically
+
+. . . 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- **Population control**: control/block mobility to preserve food production
+  - Forced resettlement, slavery, etc.
+
+- **Information**: know who lives where and what is produced
+  - Writing, maps, censuses, registries
+
+:::
+
+::: {.column width="50%"}
+![Source: National Archives](figures/ed-map.jpg){fig-align="center"}
+:::
+
+::::
+
+. . . 
+
+$\implies$ States make their territory [legible]{.alert}
+
+---
+
+## State Formation in Early Modern Europe
 
 Dissolution of the Roman Empire $\rightarrow$ fragmented political authority
 
-![Source: Yetkinler/Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Europe_1500.png/1920px-Europe_1500.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20200307155929)
+![Source: Yetkinler/Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Europe_1500.png/1920px-Europe_1500.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20200307155929){fig-align="center"}
 
 . . . 
 
-$\implies$ Our theory should explain the pattern of state centralization
+$\implies$ does the predation view explain state centralization?
 
 
 ---
 
-## Tilly's Theory
+## War and States
 
 > War made the state, and the state made war (Tilly 1990)
 
-- **Population growth** $\implies$ need more land to keep up productivity
-- **Population mobility** $\implies$ need to prevent peasants from fleeing
-- **War technology** $\implies$ "economies of scale" of violence
+. . . 
+
+Two key forces:
+
+- **Population growth** $\implies$ increase land to keep up productivity
+  - $\implies$ incentive to try and conquer neighbors
+
+- **Military technology** $\implies$ protection/aggression is costly
+  - $\implies$ need stable sources of financing 
 
 . . . 
 
-$\implies$ incentive to **conquer** neighbors
+$\implies$ External **wars** and internal **state building**
 
 ---
 
-## Tilly's Theory
+## War and States
 
 > War made the state, and the state made war (Tilly 1990)
 
@@ -348,22 +452,61 @@ $\implies$ incentive to **conquer** neighbors
 
 ---
 
-## Tilly's Theory
+## War and States
 
 The consolidation of European states:
 
 - Was not the result of bargaining or ideological projects
 - It was the result of the interaction of the forces of war making and accumulation
 
-
-
 ---
+
+## The African Experience
+
+Does the model account for non-European experiences?
+
+In Africa: different structural conditions $\implies$ different outcomes (Herbst 2000)
+
+:::: {.columns}
+
+::: {.column  width="60%"}
+
+- Land abundance + population scarcity (opposite of Europe)
+- Colonialism + international system enforces state boundaries
+- $\implies$ less incentives for external expansion and internal state building
+- "Absence" of the state in remote territories
+
+:::
+
+::: {.column  width="40%"}
+
+[diagram of capital + buffer]
+
+:::
+
+::::
+
+
+
 
 # Summing Up {.section}
 
-- The state is an institution that excercise power through violence
-- "Ceding" power to the state can be socially beneficial to solve cooperation problems
-- To perform its functions the state extracts resources (taxation)
-- This extraction is easier where the output is observable
-- States try to improve legibility
-- There is always a component of "social contract" (people can "exit" the state)
+## What We Learned 
+
+- The state is an institution that exercise power through violence
+- To perform its functions the state extracts resources $\rightarrow$ taxation
+- To work well the state needs [legibility]{.alert} $\rightarrow$ know its people
+
+---
+
+## Is There a Correct View?
+
+- Both views of the state highlight powerful forces
+- The [predatory view]{.alert} emphasizes violence and coercion
+  - The pursuit of power is what drives state expansion
+  - Better at explaining the range of observed outcomes
+- But the [social contract view]{.alert} also emphasizes an important force
+  - External authority may be important for cooperation
+  - A consent component is always present $\rightarrow$ e.g., migration
+
+
