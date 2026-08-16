@@ -132,7 +132,7 @@ $\implies$ our goals may require influencing others or escaping their influence
 . . . 
 
 - Similar interactions are observed in "real" politics
-- Studying politics $\rightarrow$ identifying and explain scientifically the outcome regularities
+- Studying politics $\rightarrow$ identify and explain scientifically the outcome regularities
 
 ---
 
@@ -226,3 +226,8 @@ Scientific method:
 
 ---
 
+## 
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 70vh; font-size: 2.5em; font-weight: bold; color: Black;"}
+Thank you for your attention!
+:::

@@ -32,6 +32,7 @@
 
 .reveal .column {
   display: flex;
+  flex-direction: column;
 }
 
 .reveal .column figure {

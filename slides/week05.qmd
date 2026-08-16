@@ -1,8 +1,9 @@
 ---
-title: "2. Methods"
+title: "5. Democratic Transitions"
 subtitle: "Comparative Politics"
 format: revealjs
 ---
+
 
 ## 
 
