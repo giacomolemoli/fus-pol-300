@@ -355,8 +355,6 @@ Agriculture $\Longrightarrow$ Industry + Services
 
 What is the problem?
 
-. . . 
-
 - The government can promise concessions 
 - But future economic conditions may change or legibility can improve
 
@@ -487,7 +485,7 @@ $\implies$ knowing the commitment problem, the burgeoisie escapes taxation
     - But the government is also the enforcer (recall the **social contract**)
 - **Repeated interactions** $\rightarrow$ develop reputation for reliability
     - But the government needs resources now, doesn't think about the future
-- **Move power to the people** $\rightarrow$ removes temptation to renege by force
+- **<u>Transfer power to the people</u>** $\rightarrow$ removes temptation to renege by force
     - The ruler will **always** need consent in the future
 
 
