@@ -6,8 +6,8 @@ title: "Syllabus"
 - Instructor: **Giacomo Lemoli** — [giacomolemoli.github.io](https://giacomolemoli.github.io)
 - Instructor’s Email: [glemoli@fus.edu](mailto:glemoli@fus.edu)
 - Office location: LAC 8 (3rd floor)
-- Office Hours: Monday-Thursday 12:30-14:30
-- Class location: TBA
+- Office Hours: Monday-Thursday 12:30-14:15
+- Class location: Kaletsch Campus Bldg., Room 5
 - Class meeting times: Monday-Thursday 14:30-15:45
 
 ## Course Description
@@ -58,13 +58,26 @@ In the review and discussion sessions, we will discuss scientific articles in co
 
 ## Assessment Details
 
-**Exams** (TBA)
+**Exams**. Two in-class, closed-book exams covering the two parts of the course.
 
-**Paper presentation** (TBA)
+**Paper presentation**. A 15-minute presentation and discussion of a scientific article.
 
 A guide to a satisfactory, professional presentation will be provided.
 
-**Class participation** (TBA)
+**Class participation**.
+
+Active participation is an important requisite of this course. You are expected to actively participate in the many discussions and group activities that we will have during the course. The participation grade crucially depends on your preparation for the class, especially the readings, and the quality of your contributions to the discussion.
+Participation is distinct from attendance. Importantly, the assessment of students’ participation in discussion of political topics will be based on the quality of the students’ contributions to the class, their curiosity and critical thinking. The assessment will never be based on the level of agreement between a student and the instructor, or between a student and other students. The following grading rubric will be used.
+
+- A = speaks often in class, asks thoughtful questions, clearly engaged, always
+prepared
+- B = occasionally contributes to class discussion, not clear that the student has done
+all of the readings, may appear attentive in class
+- C = only participates in class discussions a few times during the semester, does not
+appear to be prepared, does not exhibit interest in the material
+- D = rarely attends class, seems not to be prepared or engaged in the material, does
+not ask questions or provide comments
+- F = never attends class
 
 A guide to satisfactory class participation will be provided.
 
@@ -99,7 +112,7 @@ Examinations are given letter grades according to the following numerical scale:
 
 ### Course structure and attendance
 
-Every week will be devoted to one topic or module, and will have two sessions. The first session (held on Mondays), will cover the main concepts and current debates. These sessions will mostly follow the textbook.  The second session (held on Thursdays) will consist of a review and discussion of the topic of the week. Here, students will apply the concepts seen in class to a variety of problems that will mimic those proposed in the midterm and final exams. Half of the time during the discussion sessions will be devoted to students' presentations of the academic articles, followed by a class discussion. Students will learn how theoretical concepts are developed and tested by political scientists in contemporary research.
+Every week will be devoted to one topic or module, and will have two sessions. The first session will cover the main concepts and current debates. These sessions will mostly follow the textbook.  The second session will consist of a review and discussion of the topic of the week. Here, students will apply the concepts seen in class to a variety of problems that will mimic those proposed in the midterm and final exams. Half of the time during the discussion sessions will be devoted to students' presentations of the academic articles, followed by a class discussion. Students will learn how theoretical concepts are developed and tested by political scientists in contemporary research.
 
 Attendance in all sessions -- lectures and review/discussion -- is <u>necessary</u> (but not sufficient) to do well in the in-class exams and for participation.
 

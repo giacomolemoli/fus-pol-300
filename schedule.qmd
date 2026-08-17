@@ -6,30 +6,30 @@ title: "Course Schedule"
 
 | Week | Date | Topic | Readings | Slides |
 |------|------|-------|----------|--------|
-| 1 | | Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
-| 2 | | Methods in Comparative Politics: Causal Inference | |[Week 2](slides/week02.qmd){target="_blank"} |
-| 2 |  | *Discussion Session* | | |
-|  |  | **No class (APSA Conference)** | | |
-| 3 |  | The State | FCP ch.4 | [Week 3](slides/week03.qmd){target="_blank"} | 
-| 3 |  | *Discussion Session* |  | |
-| 4 |  | Economic Causes of Democracy and Dictatorship | FCP ch.5 | [Week 4](slides/week04.qmd){target="_blank"}|
-| 4 |  | *Discussion Session* |  | |
-| 5 |  | Democratic Transitions | FCP ch.7 | |
-| 5 |  | *Discussion Session* | | |
-| 6 |  | Varieties of Dictatorship | FCP ch.8 | |
-| 6 |  | *Discussion Session* | | |
-| 7 |  | Parliamentary and Presidential Systems | FCP ch.10 | |
-| 7 |  | *Discussion Session* | | |
-|  |  | **Midterm Review** | | |
-|  |  | **Midterm** | | |
+| 1 | Mon, August 24| Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
+| 2 | Thu, August 27| Methods in Comparative Politics: Causal Inference | |[Week 2](slides/week02.qmd){target="_blank"} |
+| 2 |  Mon, August 31| *Discussion Session* | | |
+|  |  Thu, September 3| **No class (APSA Conference)** | | |
+| 3 |  Mon, September 7| The State | FCP ch.4 | [Week 3](slides/week03.qmd){target="_blank"} | 
+| 3 |  Thu, September 10| *Discussion Session* |  | |
+| 4 |  Mon, September 14| Democracy and Dictatorship: Economic Causes | FCP ch.5 | [Week 4](slides/week04.qmd){target="_blank"}|
+| 4 |  Thu, September 17| *Discussion Session* |  | |
+| 5 |  Mon, September 21| Democratic Transitions | FCP ch.7 | |
+| 5 |  Thu, September 24| *Discussion Session* | | |
+| 6 |  Mon, September 28| Varieties of Dictatorship | FCP ch.8 | |
+| 6 |  Thu, October 1| *Discussion Session* | | |
+| 7 |  Mon, October 5| Parliamentary and Presidential Systems | FCP ch.10 | |
+| 7 |  Thu, October 8| *Discussion Session* | | |
+|  |  Mon, October 12| **Midterm Review** | | |
+|  |  Thu, October 15| **Midterm Exam** | | |
 |  |  | **Academic travel** | | |
-| 8 |  | Electoral Systems | FCP ch.11 | |
-| 8 |  | *Discussion Session* | | |
-| 9 |  | Cleavages and Party Systems | FCP ch.12 | |
-| 9 |  | *Discussion Session* | | |
-| 10 |  | Veto Players | FCP ch.13 | |
-| 10 |  | *Discussion Session* | | |
-| 11 |  | Effects of Institutions | FCP ch.14 | |
-| 11 |  | *Discussion Session* |  | |
-|  |  | **Final Exam Review** |  | |
-|  |  | **Final Exam** |  | |
+| 8 |  Thu, November 5| Electoral Systems | FCP ch.11 | |
+| 8 |  Mon, November 9| *Discussion Session* | | |
+| 9 |  Thu, November 12| Cleavages and Party Systems | FCP ch.12 | |
+| 9 |  Mon, November 16| *Discussion Session* | | |
+| 10 |  Thu, November 19| Veto Players | FCP ch.13 | |
+| 10 |  Mon, November 23| *Discussion Session* | | |
+| 11 |  Thu, November 26| Effects of Institutions | FCP ch.14 | |
+| 11 |  Mon, November 30| *Discussion Session* |  | |
+|  |  Thu, December 3| **Final Exam Review** |  | |
+|  |  Mon, December 7| **Final Exam** |  | |

@@ -11,7 +11,7 @@ format: revealjs
 - Instructor: **Giacomo Lemoli** — [giacomolemoli.github.io](https://giacomolemoli.github.io)
 - Instructor’s Email: [glemoli@fus.edu](mailto:glemoli@fus.edu)
 - Office location: LAC 8 (3rd floor)
-- Office Hours: Monday-Thursday 12:30-14:30
+- Office Hours: Monday-Thursday 12:30-14:15
 - Class location: Kaletsch Campus Bldg., Room 5
 - Class meeting times: Monday-Thursday 14:30-15:45
 
@@ -21,15 +21,27 @@ format: revealjs
 
 We have a course website: [giacomolemoli.github.io/fus-pol-300/](https://giacomolemoli.github.io/fus-pol-300/)
 
-- Syllabus, schedule, slides $\rightarrow$ course website
-- Papers, PDFs, assignments, grades, communications $\rightarrow$ Moodle
+<div style="height: 1em;"></div>
+
+
+- Syllabus, schedule, slides $\rightarrow$ <u>course website</u>
+
+<div style="height: 0.5em;"></div>
+
+- Papers, PDFs, assignments, grades, communications $\rightarrow$ <u>Moodle</u>
 
 ---
 
 ## About me
 
 - I am a postdoctoral researcher in Prof. Strijbis' team [DIVIDE](https://data.snf.ch/grants/grant/10003605)
+
+<div style="height: 0.5em;"></div>
+
 - I am a political scientist and specialize in Comparative politics
+
+<div style="height: 0.5em;"></div>
+
 - I was born and raised in Italy; before moving to Switzerland I studied and worked in the US and France
 
 ---
@@ -41,9 +53,8 @@ For each of you, I would like to know:
 - Your name
 - The place you call home
 - What is the first political memory you have?
-- What is the place of this course in your studies and what do you expect to get from it?
+- Why are you taking this course and what do you expect to get from it?
 
----
 
 # What to Expect during the Course {.section}
 
@@ -53,8 +64,15 @@ For each of you, I would like to know:
 > William R. Clark, Matt Golder, Sona N. Golder, **Foundations of Comparative Politics (2nd Edition)**. 2024, CQ Press
 
 - Two hard copies available in the Library
-- If you want to purchase it, I recommend the ebook version
-- Articles and session-specific materials for discussion sessions will be uploaded on Moodle
+- If you want to purchase it, I recommend the [ebook version](https://collegepublishing.sagepub.com/products/foundations-of-comparative-politics-2-274955)
+
+. . . 
+
+<div style="height: 0.5em;"></div>
+
+Scientific articles for the review and discussion sessions
+
+- Articles and discussion session materials will be uploaded on Moodle
 
 ---
 
@@ -71,14 +89,14 @@ For each of you, I would like to know:
 
 ## Course Structure and Attendance
 
-- Each week covers one topic/module across two sessions
-- **Monday**: main concepts (following the textbook)
+- Each week covers one topic/module in two sessions
+- **Lecture**: theories and concepts (following the textbook)
     - Lecture with active participation expected
-- **Thursday**: review and discussion session
-    - Review of concepts of the week
-    - In-class discussions (two-sided)
-    - Applications $\approx$ exam questions
-    - Students' paper presentations + discussion
+- **Review and Discussion session**
+    - <u>Review</u> of concepts of the week
+    - In-class <u>discussions</u> (two-sided)
+    - Examples, exercises $\approx$ exam questions
+    - Students' paper <u>presentations</u> + <u>discussion</u>
 
 
 ---
@@ -87,29 +105,43 @@ For each of you, I would like to know:
 
 - [Attendance]{.alert} in all sessions is <u>necessary</u> (but not sufficient) to do well in exams and participation grades
 - [Reading]{.alert} each session's material <u>before</u> class
+    - The participation grade is based on lecture and discussion sessions
+    - You should be ready to answer questions and do exercises
 - Coming to class [prepared]{.alert} and [curious]{.alert} with an open mind
 
 ---
 
 ## Presentations
 
-- We will have a round of presentations of academic articles during the discussion sessions
+- We will have presentations of academic articles during the discussion sessions
+- <u>You have to choose a paper on Moodle by the end of the week</u>
+- First presentation on <u>September 10</u>
 - The articles will be about the topic of the week
-- Goal: see how theories and concepts are used in political science research
+    - Empirical application or new perspective
+    - They are part of the required readings and possible exam questions
+    - Everyone (presenters and non-presenters) is expected to read the articles to participate in the discussion
 - Duration: 15 minutes with slides + class discussion
 - Presentation guide in Discussion session 1
+
+---
+
+## Questions?
+
 
 # What is Comparative Politics?
 
 ## Comparative Politics
 
-The study of political phenomena that are predominantly **within country** relationships
+The study of political phenomena happening **within country** 
 
 - In contrast with international politics ($\rightarrow$ **between countries**)
 - In practice the two dimensions are deeply connected
-- Arguably the largest and foundational area of **political science**
+- Arguably the largest and foundational area of [political science]{.alert}
+    - Topics: State-building, elections, parties, ethnicity...
 
 . . . 
+
+<div style="height: 0.5em;"></div>
 
 $\implies$ what is political science?
 
@@ -119,46 +151,84 @@ $\implies$ what is political science?
 
 The domain of human behavior that involves the use of **power**
 
-Consider these everyday life situations. What do they have in common?
+. . . 
+
+<div style="height: 1em;"></div>
+
+Consider these familiar situations. What do they have in common?
 
 1. Organize house cleaning between roommates
 2. Allocate faculty offices in a new campus
-3. Who to vote for students representative
+3. Vote someone for students representative
 
 . . . 
 
-$\implies$ our goals may require influencing others or escaping their influence
+<div style="height: 0.5em;"></div>
 
-. . . 
-
-- Similar interactions are observed in "real" politics
-- Studying politics $\rightarrow$ identify and explain scientifically the outcome regularities
+$\implies$ reaching our goals may require influencing others or escaping their influence
 
 ---
 
-## What is Science? 
+## What is Politics?
 
-Scientific method: 
+These social interactions and many "real politics" settings have the **same nature**
 
-- Question: why do we observe X?
-- Theory/model: a simplifying map of the world with logical connections
-- Implications/hypotheses: deduce implications from the model
-- Observations: test the hypotheses 
-- Evaluation: rejection or provisional corroboration of the theory
+<div style="height: 1em;"></div>
+
+1. Organize house cleaning between roommates
+$\Rightarrow$ Participate in a protest
+
+2. Allocate faculty offices in a new campus
+$\Rightarrow$ Allocate a budget to different ministries
+
+3. Vote someone for students representative
+$\Rightarrow$ Vote someone for the Parliament
+
+<div style="height: 1em;"></div>
+
+. . .
+
+Studying politics $\rightarrow$ identify [commonalities]{.alert} and derive [explanations]{.alert} 
+
+---
+
+## Why Science? 
+
+We interpret politics using the [scientific method]{.alert}
+
+<div style="height: 1em;"></div>
+
+- **Question**: why do we observe X?
+- **Theory/model**: a <u>simplifying</u> map of the world with logical connections
+- **Implications**: if the model is true, then A $\implies$ B
+- **Observations**: test the hypotheses 
+- **Evaluation**: rejection or provisional corroboration of the theory
 
 ---
 
 ## Why Comparative?
 
-- Questions arise from comparisons
-- Theories are falsifiable finding an likely case that contradicts the theory
-- Theories are causal (*ceteris paribus*). To understand the effect of X we compare two cases almost identical in everything except X
+:::: {.columns}
 
+::: {.column width="60%"}
+- Questions arise from comparisons
+    - E.g., why do two bordering towns look so different?
+- Theories are causal (*ceteris paribus*). To understand the effect of X we compare two cases equal in everything except X
+    - E.g., Nogales $\rightarrow$ same geography, different political institutions
+- Theories are falsifiable $\rightarrow$ likely case that contradicts the theory
+    - E.g., Abu Dhabi or Singapore $\rightarrow$ also different institutions than the US. Do they look better or worse?
+:::
+
+::: {.column width="40%"}
+![The two Nogales (Acemoglu & Robinson 2012)](figures/nogales.png)
+:::
+
+::::
 ---
 
 ## Comparative Questions
 
-**Q**: why do Parliaments have different numbers of parties?
+**Q**: Why do Parliaments have different numbers of parties?
 
 :::: {.columns}
 
@@ -177,7 +247,7 @@ Scientific method:
 ::::
 
 - [Effective Number of Parties]{.alert} (a measure of Parliament fragmentation): US, UK $\approx$ 2; Netherlands $\approx$ 8
-- Why? And does it matter?
+- Are voters or parties different? Or do the vote rules matter?
 
 
 ---
@@ -223,6 +293,27 @@ Scientific method:
 - Kenya: prob. that two people vote the same party $\uparrow$ 40pp if they are coethnics
 - Tanzania: almost same prob. between coethnics and non-coethnics
 - Why do we see ethnic *cleavages* in some countries and not others?
+
+---
+
+## Our Plan for the Course
+
+::: {.nonincremental}
+- Methods: Causal Inference
+- The State
+- Democracy and Dictatorship: Economic Causes
+- Democratic Transitions
+- Varieties of Dictatorship
+- Parliamentary and Presidential Systems
+- Electoral Systems
+- Cleavages and Party Systems
+- Veto Players
+- Effects of Institutions
+:::
+
+---
+
+## Questions?
 
 ---
 
