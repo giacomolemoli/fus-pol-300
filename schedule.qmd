@@ -23,7 +23,7 @@ title: "Course Schedule"
 |  |  Mon, October 12| **Midterm Review** | | |
 |  |  Thu, October 15| **<u>Midterm Exam</u>** | | |
 |  |  | **Academic travel** | | |
-|  |  Mon, Novmber 2| **November break** | | |
+|  |  Mon, November 2| **November break** | | |
 | 8 |  Thu, November 5| Electoral Systems | FCP ch.11 | |
 | 8 |  Mon, November 9| *Discussion Session* | | |
 | 9 |  Thu, November 12| Cleavages and Party Systems | FCP ch.12 | |
