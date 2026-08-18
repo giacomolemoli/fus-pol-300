@@ -16,6 +16,8 @@ website:
   page-footer:
     center: "Giacomo Lemoli · [giacomolemoli.github.io](https://giacomolemoli.github.io)"
 
+bibliography: references.bib
+
 format:
   html:
     theme: cosmo

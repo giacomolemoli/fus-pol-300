@@ -67,19 +67,9 @@ A guide to a satisfactory, professional presentation will be provided.
 **Class participation**.
 
 Active participation is an important requisite of this course. You are expected to actively participate in the many discussions and group activities that we will have during the course. The participation grade crucially depends on your preparation for the class, especially the readings, and the quality of your contributions to the discussion.
-Participation is distinct from attendance. Importantly, the assessment of students’ participation in discussion of political topics will be based on the quality of the students’ contributions to the class, their curiosity and critical thinking. The assessment will never be based on the level of agreement between a student and the instructor, or between a student and other students. The following grading rubric will be used.
+Participation is distinct from attendance. Importantly, the assessment of students’ participation in discussion of political topics will be based on the quality of the students’ contributions to the class, their curiosity and critical thinking. The assessment will never be based on the level of agreement between a student and the instructor, or between a student and other students. 
 
-- A = speaks often in class, asks thoughtful questions, clearly engaged, always
-prepared
-- B = occasionally contributes to class discussion, not clear that the student has done
-all of the readings, may appear attentive in class
-- C = only participates in class discussions a few times during the semester, does not
-appear to be prepared, does not exhibit interest in the material
-- D = rarely attends class, seems not to be prepared or engaged in the material, does
-not ask questions or provide comments
-- F = never attends class
-
-A guide to satisfactory class participation will be provided.
+See the Course Engagement rubric for evaluation criteria.
 
 ## Grading Policies and Expectations
 Examinations are given letter grades according to the following numerical scale:
@@ -131,6 +121,32 @@ Students with excessive absences may be reported to the Associate Dean for Stude
 Medical notes are only accepted where a student may miss an in-class evaluation (test, quiz, presentation etc.) and/or an assignment, or in cases of prolonged absence for documented medical reasons. Medical notes must relate to the specific date(s) of the absence. 
 
 Students are also directed to the Catalog policy on Administrative Course Withdrawals.
+
+### Course Engagement
+Engagement includes active participation in and contribution to the course (not simply physical presence in the classroom), task completion, and overall approach to the course.
+
+See the [Class Related Behavior Policy](https://fus.smartcatalogiq.com/current/academic-catalog/graduate-academic-policies-and-procedures/masters-level-academic-policies-and-procedures/classroom-behaviour-policy).
+
+Student actively contribute to the course through:
+
+- completing assigned tasks
+- adhering to deadlines 
+- posing relevant questions, either orally or in writing
+- employing concrete examples, 
+- integrating previous material, 
+- providing thoughtful insights.
+
+
+Course Engagement Rubric 
+
+| **Grade** | **Course Engagement** |
+|-----------|----------------------|
+| A | Demonstrates consistent and constructive engagement (e.g. in-class activities, class discussions, collaborative work, responding to questions, online forums, and/or written responses). Contributions are thoughtful and well-prepared, pose relevant questions, employ concrete examples, integrate previous material, and provide meaningful insights while respecting others and not monopolizing discussion. |
+| B | Demonstrates regular constructive (e.g. in-class activities, class discussions, collaborative work, responding to questions, online forums, and/or written responses). Contributions are generally relevant and prepared, refer to course readings where appropriate, and show developing insight, though they may be less detailed, less consistent, or more spontaneous than at the highest level. |
+| C | Demonstrates some engagement (e.g. in-class activities, class discussions, collaborative work, responding to questions, online forums, and/or written responses) and/or often contributes only when prompted. Contributions tend to be brief, show minimal connection to course readings or course material, and may lack depth. May occasionally interrupt others or struggle to engage constructively. |
+| D | Demonstrates little meaningful engagement (e.g. in-class activities, class discussions, collaborative work, responding to questions, online forums, and/or written responses). Contributions, when present, lack relevance and/or demonstrate little to no preparation. Behavior may be disruptive or disrespectful of others. |
+| F | Demonstrates no meaningful engagement (e.g. in-class activities, class discussions, collaborative work, responding to questions, online forums, and/or written responses). Contributions, when present, demonstrate a lack of preparation, and behavior may be disruptive or disrespectful of others. |
+
 
 
 ## Diversity, Equity, & Inclusion in Our Classroom
