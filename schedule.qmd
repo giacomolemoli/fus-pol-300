@@ -7,7 +7,7 @@ title: "Course Schedule"
 | Week | Date | Topic | Readings | Slides |
 |------|------|-------|----------|--------|
 | 1 | Mon, August 24| Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
-| 2 | Thu, August 27| Methods in Comparative Politics: Causal Inference | |[Week 2](slides/week02.qmd){target="_blank"} |
+| 2 | Thu, August 27| Methods: Causal Inference | |[Week 2](slides/week02.qmd){target="_blank"} |
 | 2 |  Mon, August 31| *Discussion Session* | | |
 |  |  Thu, September 3| **No class (APSA Conference)** | | |
 | 3 |  Mon, September 7| The State | FCP ch.4 | [Week 3](slides/week03.qmd){target="_blank"} | 

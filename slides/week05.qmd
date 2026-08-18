@@ -8,5 +8,5 @@ format: revealjs
 ## 
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 70vh; font-size: 2.5em; font-weight: bold; color: Black;"}
-Thank you for your attention!
+Thank you!
 :::

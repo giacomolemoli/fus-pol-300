@@ -494,7 +494,7 @@ $\implies$ knowing the commitment problem, the burgeoisie escapes taxation
 ## Third Step: Institutions
 
 
-::: {.columns}
+:::: {.columns}
 
 ::: {.column width="40%"}
 
@@ -516,9 +516,9 @@ The early English Parliament is a famous example (North & Weingast 1989)
 
 :::
 
-:::
+::::
 
-# When Modernization Theory Fails {.section}
+# When Modernization Fails {.section}
 
 ## Our Argument So Far
 
@@ -715,5 +715,5 @@ What is missing: **Mass participation** (next week)
 ## 
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 70vh; font-size: 2.5em; font-weight: bold; color: Black;"}
-Thank you for your attention!
+Thank you!
 :::

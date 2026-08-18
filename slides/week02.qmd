@@ -1,11 +1,1078 @@
 ---
-title: "2. Methods"
+title: "2. Methods: Causal Inference"
 subtitle: "Comparative Politics"
 format: revealjs
 ---
 
-## 
+## Back to Nogales
+
+We want to test our theory of development: $X \Rightarrow Y$ 
+
+![](figures/nogales.png){width="50%" fig-align="center"}
+
+
+::: {.fragment .fade-in}
+This requires a though experiment: without some factor ($X$), N (US) would have been like N (MX)
+:::
+
+::: {.fragment .fade-in}
+Central to the though experiment is the [counterfactual]{.alert} (what if...)
+:::
+
+
+## Testing Theories in Comparative Politics
+
+Comparativists formulate and test theories of politics
+
+- Theories typically contain causal statements: $X \Rightarrow Y$
+    - "Changing $X$ causes a change in $Y$"
+- Test a causal theory $\rightarrow$ "does the relationship hold in the data?"
+- Key issue: when $X$ changes also $Z$ changes. Which one caused $Y$?
+- Without *holding* $Z$ *constant* we cannot know if $X \Rightarrow Y$
+
+. . . 
+
+Causal inference is the main methodology
+
+- Traditionally there were other tools (case study, controlled comparison)
+- Today statistical methods are mainstream $\rightarrow$ [control]{.alert} for several $Z$
+
+---
+
+## Our Plan for Today
+
+The basics of causal inference
+
+- What is causality
+- What is a counterfactual
+- What is a causal effect (individual, average)
+
+. . . 
+
+Estimate causal effects
+
+- Experiments
+- Natural experiments
+- Common research designs
+
+
+
+# Basics of Causal Inference {.section}
+
+## Causal Research Questions
+
+We start by formulating a hypothesis, derived from a theory 
+
+<div style="height: 1em;"></div>
+
+::: {style="text-align: center"}
+Majoritarian electoral systems reduce taxation
+:::
+
+
+<div style="height: 1em;"></div>
+
+
+::: {.fragment .fade-in}
+This hypothesis is causal. It says that MAJ cause the level of taxation.
+:::
+
+::: {.fragment .fade-in}
+It implies two [counterfactual]{.alert} states of the world
+
+- Countries with MAJ would have lower tax rate if they did not have MAJ
+- Countries without MAJ would have higher tax rate if they had MAJ
+::: 
+
+
+
+
+## Causal Effects
+
+Consider a country under two different counterfactual conditions:
+
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9
+#| fig-height: 4.6
+#| out-width: "620px"
+#| out-height: "290px"
+
+library(grid)
+
+grid.newpage()
+
+# Create viewport
+pushViewport(viewport(width = 1, height = 1))
+
+# Left square - Untreated state
+grid.rect(x = 0.25, y = 0.55, width = 0.35, height = 0.5, 
+          gp = gpar(fill = "gray90", col = "black", lwd = 4))
+grid.text("Country\n(Untreated)", x = 0.25, y = 0.2, 
+          gp = gpar(fontsize = 28))
+
+# Right square - Treated state  
+grid.rect(x = 0.75, y = 0.55, width = 0.35, height = 0.5, 
+          gp = gpar(fill = "gray90", col = "black", lwd = 4))
+grid.text("Country\n(Treated)", x = 0.75, y = 0.2, 
+          gp = gpar(fontsize = 28))
+
+# Stylized ballot box in the treated state (Majoritarian System)
+# Ballot box body
+grid.rect(x = 0.75, y = 0.48, width = 0.16, height = 0.20, 
+          gp = gpar(fill = "lightblue", col = "black", lwd = 3))
+# Ballot box lid
+grid.rect(x = 0.75, y = 0.585, width = 0.18, height = 0.03, 
+          gp = gpar(fill = "skyblue3", col = "black", lwd = 2.5))
+# Slot on lid
+grid.rect(x = 0.75, y = 0.585, width = 0.08, height = 0.008, 
+          gp = gpar(fill = "black"))
+# Ballot paper inserted into slot
+grid.rect(x = 0.75, y = 0.65, width = 0.09, height = 0.11, 
+          gp = gpar(fill = "white", col = "black", lwd = 2))
+# Checkmark on ballot
+grid.lines(x = c(0.725, 0.745, 0.775), y = c(0.65, 0.63, 0.68), 
+           gp = gpar(col = "darkgreen", lwd = 3.5, lineend = "round"))
+# "MAJ" label on ballot box
+grid.text("MAJ", x = 0.75, y = 0.47, 
+          gp = gpar(fontsize = 20, fontface = "bold", col = "navy"))
+
+# Label for counterfactual states
+grid.text("Two Counterfactual States", x = 0.5, y = 0.05, 
+          gp = gpar(fontsize = 30, fontface = "bold"))
+
+popViewport()
+```
+
+
+:::{.fragment}
+The **only difference** between the two conditions is the **treatment** (MAJ or not), everything else is the same
+:::
+
+
+## Causal Effects
+
+Consider a country under two different counterfactual conditions:
+
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9
+#| fig-height: 4.6
+#| out-width: "620px"
+#| out-height: "290px"
+
+library(grid)
+
+grid.newpage()
+
+# Create viewport
+pushViewport(viewport(width = 1, height = 1))
+
+# Left square - Untreated state
+grid.rect(x = 0.25, y = 0.55, width = 0.35, height = 0.5, 
+          gp = gpar(fill = "gray90", col = "black", lwd = 4))
+grid.text("Country\n(Untreated)", x = 0.25, y = 0.2, 
+          gp = gpar(fontsize = 28))
+
+# Right square - Treated state  
+grid.rect(x = 0.75, y = 0.55, width = 0.35, height = 0.5, 
+          gp = gpar(fill = "gray90", col = "black", lwd = 4))
+grid.text("Country\n(Treated)", x = 0.75, y = 0.2, 
+          gp = gpar(fontsize = 28))
+
+# Stylized ballot box in the treated state (Majoritarian System)
+# Ballot box body
+grid.rect(x = 0.75, y = 0.48, width = 0.16, height = 0.20, 
+          gp = gpar(fill = "lightblue", col = "black", lwd = 3))
+# Ballot box lid
+grid.rect(x = 0.75, y = 0.585, width = 0.18, height = 0.03, 
+          gp = gpar(fill = "skyblue3", col = "black", lwd = 2.5))
+# Slot on lid
+grid.rect(x = 0.75, y = 0.585, width = 0.08, height = 0.008, 
+          gp = gpar(fill = "black"))
+# Ballot paper inserted into slot
+grid.rect(x = 0.75, y = 0.65, width = 0.09, height = 0.11, 
+          gp = gpar(fill = "white", col = "black", lwd = 2))
+# Checkmark on ballot
+grid.lines(x = c(0.725, 0.745, 0.775), y = c(0.65, 0.63, 0.68), 
+           gp = gpar(col = "darkgreen", lwd = 3.5, lineend = "round"))
+# "MAJ" label on ballot box
+grid.text("MAJ", x = 0.75, y = 0.47, 
+          gp = gpar(fontsize = 20, fontface = "bold", col = "navy"))
+
+# Label for counterfactual states
+grid.text("Two Counterfactual States", x = 0.5, y = 0.05, 
+          gp = gpar(fontsize = 30, fontface = "bold"))
+
+popViewport()
+```
+
+$Y$ is the outcome variable (e.g., tax rate, tax revenue as % of GDP)
+
+
+::: {.fragment}
+[Unit treatment effect]{.alert} (UTE) = difference in country's $Y$ between the two conditions 
+
+[Average treatment effect]{.alert} (ATE) = average of the UTE for all countries
+:::
+
+
+
+## Causality and Counterfactuals
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9
+#| fig-height: 4.6
+#| out-width: "620px"
+#| out-height: "290px"
+
+library(grid)
+
+grid.newpage()
+
+# Create viewport
+pushViewport(viewport(width = 1, height = 1))
+
+# Left square - Untreated state (DASHED - unobserved)
+grid.text("UNOBSERVED", x = 0.25, y = 0.88, 
+          gp = gpar(fontsize = 20, col = "red", fontface = "italic"))
+grid.rect(x = 0.25, y = 0.55, width = 0.35, height = 0.5, 
+          gp = gpar(fill = "gray90", col = "black", lwd = 4, lty = "dashed"))
+grid.text("Country\n(Untreated)", x = 0.25, y = 0.2, 
+          gp = gpar(fontsize = 28))
+
+# Right square - Treated state (SOLID - observed)
+grid.text("OBSERVED", x = 0.75, y = 0.88, 
+          gp = gpar(fontsize = 20, col = "darkgreen", fontface = "italic"))
+grid.rect(x = 0.75, y = 0.55, width = 0.35, height = 0.5, 
+          gp = gpar(fill = "gray90", col = "black", lwd = 4))
+grid.text("Country\n(Treated)", x = 0.75, y = 0.2, 
+          gp = gpar(fontsize = 28))
+
+# Stylized ballot box in the treated state (Majoritarian System)
+# Ballot box body
+grid.rect(x = 0.75, y = 0.48, width = 0.16, height = 0.20, 
+          gp = gpar(fill = "lightblue", col = "black", lwd = 3))
+# Ballot box lid
+grid.rect(x = 0.75, y = 0.585, width = 0.18, height = 0.03, 
+          gp = gpar(fill = "skyblue3", col = "black", lwd = 2.5))
+# Slot on lid
+grid.rect(x = 0.75, y = 0.585, width = 0.08, height = 0.008, 
+          gp = gpar(fill = "black"))
+# Ballot paper inserted into slot
+grid.rect(x = 0.75, y = 0.65, width = 0.09, height = 0.11, 
+          gp = gpar(fill = "white", col = "black", lwd = 2))
+# Checkmark on ballot
+grid.lines(x = c(0.725, 0.745, 0.775), y = c(0.65, 0.63, 0.68), 
+           gp = gpar(col = "darkgreen", lwd = 3.5, lineend = "round"))
+# "MAJ" label on ballot box
+grid.text("MAJ", x = 0.75, y = 0.47, 
+          gp = gpar(fontsize = 20, fontface = "bold", col = "navy"))
+
+# Label for counterfactual states
+grid.text("Two Counterfactual States", x = 0.5, y = 0.05, 
+          gp = gpar(fontsize = 30, fontface = "bold"))
+
+popViewport()
+```
+
+The problem is that a country either has an ES or it has another. It can't have both together. This is the [fundamental problem of causal inference]{.alert}
+
+. . . 
+
+::: {.callout-important title="The Fundamental Problem of Causal Inference"}
+We cannot observe the same unit under two conditions, so the unit treatment effect cannot be observed
+:::
+
+
+
+## Average Treatment Effects
+
+Suppose electoral systems (treatment) are allocated **randomly** to countries
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 10
+#| fig-height: 4.8
+#| out-width: "650px"
+#| out-height: "290px"
+
+library(grid)
+
+grid.newpage()
+
+# Create viewport
+pushViewport(viewport(width = 1, height = 1))
+
+# Define positions for 4 countries (2x2 grid)
+positions <- data.frame(
+  x = c(0.25, 0.75, 0.25, 0.75),
+  y = c(0.65, 0.65, 0.35, 0.35),
+  treated = c(FALSE, TRUE, TRUE, FALSE)  # Countries 2 and 3 are treated
+)
+
+# Draw all 4 countries
+for (i in 1:4) {
+  # Draw rectangle (all solid borders)
+  grid.rect(x = positions$x[i], y = positions$y[i], 
+            width = 0.3, height = 0.22, 
+            gp = gpar(fill = "gray90", col = "black", lwd = 3))
+  
+  # Add stylized ballot box for treated countries (Majoritarian System)
+  if (positions$treated[i]) {
+    # Ballot box body
+    grid.rect(x = positions$x[i], y = positions$y[i] - 0.02, 
+              width = 0.09, height = 0.10, 
+              gp = gpar(fill = "lightblue", col = "black", lwd = 2))
+    # Ballot box lid
+    grid.rect(x = positions$x[i], y = positions$y[i] + 0.035, 
+              width = 0.10, height = 0.016, 
+              gp = gpar(fill = "skyblue3", col = "black", lwd = 1.5))
+    # Slot on lid
+    grid.rect(x = positions$x[i], y = positions$y[i] + 0.035, 
+              width = 0.045, height = 0.004, 
+              gp = gpar(fill = "black"))
+    # Ballot paper inserted into slot
+    grid.rect(x = positions$x[i], y = positions$y[i] + 0.065, 
+              width = 0.05, height = 0.055, 
+              gp = gpar(fill = "white", col = "black", lwd = 1.2))
+    # Checkmark on ballot
+    grid.lines(x = c(positions$x[i] - 0.012, positions$x[i] - 0.002, positions$x[i] + 0.014), 
+               y = c(positions$y[i] + 0.065, positions$y[i] + 0.055, positions$y[i] + 0.08), 
+               gp = gpar(col = "darkgreen", lwd = 2, lineend = "round"))
+    # "MAJ" label on ballot box
+    grid.text("MAJ", x = positions$x[i], y = positions$y[i] - 0.025, 
+              gp = gpar(fontsize = 11, fontface = "bold", col = "navy"))
+  }
+}
+
+# Label at bottom
+grid.text("Sample of Countries with Majoritarian System Allocated", 
+          x = 0.5, y = 0.05, 
+          gp = gpar(fontsize = 24, fontface = "bold"))
+
+popViewport()
+```
+
+- Countries with MAJ $\rightarrow$ treatment group
+- Countries without MAJ $\rightarrow$ control group
+
+::: {.fragment}
+$\implies$ Random assignment allows to identify the ATE 
+:::
+
+## The Benefits of Randomization
+
+$\implies$ Random assignment allows to identify the ATE 
+
+
+::: {.fragment}
+Key intuition: random assignment is "blind" to any differences between units. *On average*, the control group is very similar to the treated group if it were not treated
+:::
+
+<div style="height: 0.5em;"></div>
+
+- Example 1: students' height 
+- Example 2: testing drug pill in hospital 
+
+<div style="height: 1em;"></div>
+
+::: {.fragment}
+$\implies$ In causal inference, we typically focus on the ATE.
+:::
+
+
+
+## Estimate an Effect Under Random Assignment
+
+If electoral systems were randomized across countries, we could simply compare the average $Y$ between the treated and control group.
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 3
+#| out-height: "200px"    # <--- Forces display size
+#| out-width: "auto"      # <--- Maintains aspect ratio
+#| 
+library(ggdag)
+library(ggplot2)
+
+# Create a simple DAG without confounding
+dag <- dagify(
+  Y ~ D,
+  coords = list(x = c(D = 1, Y = 3),
+                y = c(D = 1, Y = 1))
+)
+
+ggdag(dag) +
+  theme_dag_blank() +
+  labs(title = "Causal effect: D → Y") +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+:::
+::: {.column widt="50%}
+We can do this with a *linear regression*.
+
+
+$Y = \alpha + \beta D + \varepsilon$
+
+- $Y$ = taxation outcome (e.g., tax rate)
+- $D$ = variable that indicates whether a country has MAJ (1=yes, 0=no)
+- $\beta$ = estimate of the ATE
+
+:::
+::::
+
+## When We Can't Run an Experiment
+
+To estimate the ATE of $X$ on $Y$ we need to randomly change $X$ 
+
+- Scientists conduct [randomized experiments]{.alert} 
+- In political science, randomization often unfeasible or unethical
+- In these cases, we look at events that have already happened 
+    - Use observational data and look for [natural experiments]{.alert}
+
+. . . 
+
+We then need [identification assumptions]{.alert} about the "randomness"
+
+- E.g., assume the electoral system was somehow chosen by chance
+- We can do causal inference only if these assumptions are very plausible
+- This depends on our *knowledge* of the assignment process 
+
+
+## The Problem of Endogeneity
+
+Imagine that countries adopt electoral institutions based on economic conditions: richer countries are more likely to adopt MAJ
+
+. . . 
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 4
+#| out-height: "400px"    # <--- Forces display size
+#| out-width: "auto"      # <--- Maintains aspect ratio
+
+library(ggdag)
+library(ggplot2)
+
+# Create a DAG with confounding
+dag_confounded <- dagify(
+  Y ~ D + Income,
+  D ~ Income,
+  coords = list(x = c(Income = 2, D = 1, Y = 3),
+                y = c(Income = 2, D = 1, Y = 1))
+)
+
+ggdag(dag_confounded, node_size = 20) +
+  theme_dag_blank() +
+  labs(title = "Income (confounder) affects both D and Y") +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+:::
+
+::: {.column width="50%"}
+
+If we simply compare treated and non-treated countries as before, and run $Y = \alpha + \beta D + \varepsilon$, we will get:
+
+$$\beta= \text{ATE}$$
+$$+ \underbrace{\text{prior income differences}}_{\text{bias}}$$
+
+:::
+
+::::
+
+. . . 
+
+We call this [selection]{.alert} or [endogeneity]{.alert} or [confounding]{.alert} or [omitted variable]{.alert}.
+
+. . . 
+
+$\implies$ "correlation is not causation"
+
+
+## Address Endogeneity
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 4
+#| out-height: "400px"    
+#| out-width: "auto"      
+
+library(ggdag)
+library(ggplot2)
+
+# Create a DAG with confounding
+dag_confounded <- dagify(
+  Y ~ D + Income,
+  D ~ Income,
+  coords = list(x = c(Income = 2, D = 1, Y = 3),
+                y = c(Income = 2, D = 1, Y = 1))
+)
+
+ggdag(dag_confounded, node_size = 20) +
+  theme_dag_blank() +
+  labs(title = "Income affects both D and Y") +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+:::
+
+::: {.column width="50%"}
+If we include income in a multivariate regression, we "keep it constant" and compare units with the same income
+
+$Y = \alpha + \beta D + \gamma \text{Income} + \varepsilon$
+
+and now 
+
+$\beta=\text{ATE}$
+
+:::
+
+::::
+
+## Common Forms of Endogeneity
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r}
+#| echo: false
+#| fig-width: 5.5
+#| fig-height: 4
+#| out-height: "380px"
+#| out-width: "auto"
+
+library(ggdag)
+library(ggplot2)
+
+# DAG 1: Confounding with generic confounder
+dag_confounding <- dagify(
+  Y ~ D + C,
+  D ~ C,
+  coords = list(x = c(C = 2, D = 1, Y = 3),
+                y = c(C = 2, D = 1, Y = 1))
+)
+
+ggdag(dag_confounding, node_size = 20) +
+  theme_dag_blank() +
+  labs(title = "Common Cause") +
+  theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"))
+```
+
+:::
+
+::: {.column width="50%"}
+
+```{r}
+#| echo: false
+#| fig-width: 5.5
+#| fig-height: 4
+#| out-height: "380px"
+#| out-width: "auto"
+
+library(ggdag)
+library(ggplot2)
+
+# DAG 2: Reverse causality
+dag_reverse <- dagify(
+  D ~ Y,
+  coords = list(x = c(D = 1, Y = 3),
+                y = c(D = 1, Y = 1))
+)
+
+ggdag(dag_reverse, node_size = 20) +
+  theme_dag_blank() +
+  labs(title = "Reverse Causality") +
+  theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"))
+```
+
+:::
+
+::::
+
+
+
+## We Need a Causal Research Design
+
+To recap: we want to test a theory that says $X \Rightarrow Y$
+
+- Find a setting where $X$ can be thought of as random 
+- Background knowledge on how $X$ was determined
+- If not random, we need to remove the source of endogeneity 
+- Use statistical methods to estimate ATE
+
+<div style="height: 1em;"></div>
+
+. . . 
+
+[Causal Research Design]{.alert} $\rightarrow$ select units, comparisons, methods to estimate ATE in a credible way
+
+
+## From Between-Country to Within-Country
+
+Common solution: using within-country units reduces endogeneity issues
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 10.5
+#| fig-height: 4.6
+#| out-width: "680px"
+#| out-height: "290px"
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+# Helper function to draw a mini ballot box
+draw_ballot_box <- function(xc, yc) {
+  # Body
+  grid.rect(x = xc, y = yc - 0.015, width = 0.05, height = 0.055, 
+            gp = gpar(fill = "lightblue", col = "black", lwd = 1.2))
+  # Lid
+  grid.rect(x = xc, y = yc + 0.015, width = 0.058, height = 0.01, 
+            gp = gpar(fill = "skyblue3", col = "black", lwd = 1))
+  # Slot
+  grid.rect(x = xc, y = yc + 0.015, width = 0.025, height = 0.003, 
+            gp = gpar(fill = "black"))
+  # Ballot paper
+  grid.rect(x = xc, y = yc + 0.033, width = 0.028, height = 0.032, 
+            gp = gpar(fill = "white", col = "black", lwd = 0.8))
+  # Checkmark
+  grid.lines(x = c(xc - 0.007, xc - 0.001, xc + 0.008), 
+             y = c(yc + 0.033, yc + 0.027, yc + 0.042), 
+             gp = gpar(col = "darkgreen", lwd = 1.5, lineend = "round"))
+  # Text
+  grid.text("MAJ", x = xc, y = yc - 0.018, 
+            gp = gpar(fontsize = 7, fontface = "bold", col = "navy"))
+}
+
+# ================= LEFT: Between-Country Comparison =================
+grid.text("Between-Country Comparison", x = 0.24, y = 0.92, 
+          gp = gpar(fontsize = 18, fontface = "bold"))
+
+# Positions for 4 countries
+cntry_pos <- data.frame(
+  x = c(0.14, 0.34, 0.14, 0.34),
+  y = c(0.68, 0.68, 0.40, 0.40),
+  treated = c(FALSE, TRUE, TRUE, FALSE),
+  label = c("Country A", "Country B", "Country C", "Country D")
+)
+
+for (i in 1:4) {
+  grid.rect(x = cntry_pos$x[i], y = cntry_pos$y[i], width = 0.16, height = 0.20, 
+            gp = gpar(fill = "gray90", col = "black", lwd = 2))
+  grid.text(cntry_pos$label[i], x = cntry_pos$x[i], y = cntry_pos$y[i] - 0.07, 
+            gp = gpar(fontsize = 10, fontface = "bold"))
+  if (cntry_pos$treated[i]) {
+    draw_ballot_box(cntry_pos$x[i], cntry_pos$y[i] + 0.02)
+  }
+}
+
+grid.text("Cross-national confounders\n(different institutions, history, culture)", 
+          x = 0.24, y = 0.18, 
+          gp = gpar(fontsize = 12, fontface = "italic", col = "firebrick"))
+
+# ================= CENTER: Arrow =================
+grid.lines(x = c(0.44, 0.51), y = c(0.54, 0.54), 
+           arrow = arrow(length = unit(0.35, "cm"), type = "closed"), 
+           gp = gpar(fill = "navy", col = "navy", lwd = 3))
+grid.text("Hold national\nfactors constant", x = 0.475, y = 0.63, 
+          gp = gpar(fontsize = 10, fontface = "bold", col = "navy"))
+
+# ================= RIGHT: Within-Country Comparison =================
+grid.text("Within-Country Comparison", x = 0.76, y = 0.92, 
+          gp = gpar(fontsize = 18, fontface = "bold"))
+
+# Outer Country Box
+grid.rect(x = 0.76, y = 0.54, width = 0.42, height = 0.54, 
+          gp = gpar(fill = "aliceblue", col = "royalblue4", lwd = 3))
+grid.text("Same Outer Country (National context held constant)", 
+          x = 0.76, y = 0.77, 
+          gp = gpar(fontsize = 12, fontface = "bold", col = "royalblue4"))
+
+# Positions for 4 municipalities inside the outer country
+muni_pos <- data.frame(
+  x = c(0.66, 0.86, 0.66, 0.86),
+  y = c(0.62, 0.62, 0.40, 0.40),
+  treated = c(FALSE, TRUE, TRUE, FALSE),
+  label = c("Municipality 1", "Municipality 2", "Municipality 3", "Municipality 4")
+)
+
+for (i in 1:4) {
+  grid.rect(x = muni_pos$x[i], y = muni_pos$y[i], width = 0.15, height = 0.17, 
+            gp = gpar(fill = "gray92", col = "black", lwd = 1.5))
+  grid.text(muni_pos$label[i], x = muni_pos$x[i], y = muni_pos$y[i] - 0.058, 
+            gp = gpar(fontsize = 9, fontface = "bold"))
+  if (muni_pos$treated[i]) {
+    draw_ballot_box(muni_pos$x[i], muni_pos$y[i] + 0.02)
+  }
+}
+
+grid.text("Higher internal validity\n(shared national institutions & context)", 
+          x = 0.76, y = 0.18, 
+          gp = gpar(fontsize = 12, fontface = "italic", col = "darkgreen"))
+
+# Bottom Title
+grid.text("Comparing subnational units within the same country improves internal validity", 
+          x = 0.5, y = 0.05, 
+          gp = gpar(fontsize = 15, fontface = "bold"))
+
+popViewport()
+```
+
+. . .
+
+However, this may change the scope of the theory or the relevance
+
+- Civil wars are by definition country-specific
+- Within country we can compare specific elements of the same war
+
+# Causal Research Designs {.section}
+
+## Randomized Experiments
+
+The "gold standard" of causal inference
+
+- **Field experiments**. Treatment administration and outcome measurement in the real world.
+    - Widely used in political science and economics
+    - E.g., randomize vote encouragement letters to study the effects on turnout
+
+- **Survey experiments**. Treatment administration and outcome measurement within a survey.
+    - Longer tradition in political science to study public opinion
+    - E.g., randomize how information is presented to study the effects on voters' opinion  
+    - Measures psychological mechanisms rather than real-world effects
+
+
+## Control Variables
+
+Endogeneity is due to known variables in the data
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 4
+#| out-height: "400px"    
+#| out-width: "auto"      
+#| 
+library(ggdag)
+library(ggplot2)
+
+# Create a DAG with confounding
+dag_confounded <- dagify(
+  Y ~ D + C,
+  D ~ C,
+  coords = list(x = c(C = 2, D = 1, Y = 3),
+                y = c(C = 2, D = 1, Y = 1))
+)
+
+ggdag(dag_confounded, node_size = 20) +
+  theme_dag_blank() +
+  labs(title = "C causes D and Y") +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+:::
+
+::: {.column width="50%"}
+
+Run multivariate regression that includes the confounder as a control variables
+
+$Y = \alpha + \beta D + \gamma \text{(control variables)} + \varepsilon$
+
+:::
+
+::::
+
+## Instrumental Variables
+
+Endogeneity is due to unobserved variables (we cannot control), but "part" of the treatment is caused by a random variable
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 3
+#| out-height: "300px"    
+#| out-width: "auto"      
+#| 
+library(ggdag)
+library(ggplot2)
+
+# Create an IV DAG
+dag_iv <- dagify(
+  Y ~ D + C,
+  D ~ Z + C,
+  coords = list(x = c(Z = 1, C = 2.5, D = 2, Y = 4),
+                y = c(Z = 2, C = 3, D = 1, Y = 1))
+)
+
+ggdag(dag_iv) +
+  theme_dag_blank() +
+  labs(title = "Z causes D, D causes Y, but Z does not directly cause Y") +
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
+```
+
+The [instrumental variable]{.alert} $\rightarrow$ exogenous/random and has a causal effect on the treatment ($\approx$ a random "push" to accept)
+
+
+## Instrumental Variables
+
+Endogeneity is due to unobserved variables (we cannot control), but "part" of the treatment is caused by a random variable
+
+:::: {.columns}
+
+
+::: {.column width = "50%"}
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 3
+#| out-height: "400px"    
+#| out-width: "auto"      
+#| 
+library(ggdag)
+library(ggplot2)
+
+# Create an IV DAG
+dag_iv <- dagify(
+  Y ~ D + C,
+  D ~ Z + C,
+  coords = list(x = c(Z = 1, C = 2.5, D = 2, Y = 4),
+                y = c(Z = 2, C = 3, D = 1, Y = 1))
+)
+
+ggdag(dag_iv) +
+  theme_dag_blank() +
+  labs(title = "Z causes D, D causes Y, but Z does not directly cause Y") +
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
+```
+
+:::
+
+::: {.column width="50%"}
+
+First stage: $D = \delta + \theta Z + u$
+
+Second stage: $Y = \alpha + \beta D + \varepsilon$
+
+:::
+
+::::
+
+The statistical model estimates the "first stage", then predicts the values of $D$ and replaces $D$ wiht them in the "second stage"
+
+::: {.fragment}
+$\implies$ same as controlling for the "endogenous part" of $D$ 
+:::
+
+
+
+## Difference-in-Differences
+
+Treatment happens in time only for some units
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9
+#| fig-height: 4.2
+#| out-width: "750px"
+#| out-height: "350px"
+
+library(ggplot2)
+
+did_data <- data.frame(
+  group = factor(rep(c("Control", "Treated"), each = 2), levels = c("Control", "Treated")),
+  time = factor(rep(c("Before", "After"), 2), levels = c("Before", "After")),
+  outcome = c(4.0, 5.5, 5.0, 8.5)
+)
+
+counterfactual_data <- data.frame(
+  group = "Treated (Counterfactual)",
+  time = factor(c("Before", "After"), levels = c("Before", "After")),
+  outcome = c(5.0, 6.5)
+)
+
+y_treated_post <- 8.5
+y_cf_post <- 6.5
+
+ggplot() +
+  # Vertical treatment timing line
+  geom_vline(xintercept = 1.5, linetype = "dotted", color = "grey50", linewidth = 0.8) +
+  annotate("text", x = 1.5, y = 9.2, label = "Treatment Intervention", 
+           color = "grey40", size = 3.8, fontface = "italic") +
+  # Counterfactual line & points
+  geom_line(data = counterfactual_data, aes(x = as.numeric(time), y = outcome), 
+            linetype = "dashed", color = "#4A5568", linewidth = 1.1) +
+  geom_point(data = counterfactual_data, aes(x = as.numeric(time), y = outcome), 
+             color = "#4A5568", size = 3, shape = 21, fill = "white", stroke = 1.5) +
+  # Observed lines & points
+  geom_line(data = did_data, aes(x = as.numeric(time), y = outcome, color = group), 
+            linewidth = 1.3) +
+  geom_point(data = did_data, aes(x = as.numeric(time), y = outcome, color = group), 
+             size = 4) +
+  # Bracket for ATT
+  geom_segment(aes(x = 2.08, xend = 2.08, y = y_cf_post, yend = y_treated_post), 
+               color = "#C53030", linewidth = 1.2) +
+  geom_segment(aes(x = 2.04, xend = 2.08, y = y_cf_post, yend = y_cf_post), 
+               color = "#C53030", linewidth = 1.2) +
+  geom_segment(aes(x = 2.04, xend = 2.08, y = y_treated_post, yend = y_treated_post), 
+               color = "#C53030", linewidth = 1.2) +
+  annotate("text", x = 2.12, y = (y_cf_post + y_treated_post) / 2, 
+           label = "Treatment Effect\n(ATE [ATT])", color = "#C53030", size = 4.2, 
+           fontface = "bold", hjust = 0, lineheight = 0.95) +
+  # Annotations for parallel counterfactual
+  annotate("text", x = 2.05, y = y_cf_post - 0.35, label = "Counterfactual\n(Parallel Trend)", 
+           color = "#4A5568", size = 3.3, fontface = "italic", hjust = 0, lineheight = 0.9) +
+  scale_x_continuous(breaks = c(1, 2), labels = c("Before", "After"), limits = c(0.8, 2.5)) +
+  scale_color_manual(values = c("Control" = "#718096", "Treated" = "#2B6CB0")) +
+  labs(x = "Time Period", y = "Outcome (Y)", color = "Group") +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "bottom",
+    panel.grid.minor = element_blank(),
+    plot.margin = margin(10, 20, 10, 20)
+  )
+```
+
+. . . 
+
+We compare changes between treated units and untreated units
+
+. . .
+
+The assumption is [parallel trends]{.alert} in absence of treatment
+
+
+## Regression Discontinuity Design 
+
+Treatment is applied only/more to units on one side of a cutoff value
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9
+#| fig-height: 4.2
+#| out-width: "750px"
+#| out-height: "350px"
+
+library(ggplot2)
+
+set.seed(42)
+n_pts <- 120
+x_vals <- runif(n_pts, -3, 3)
+
+# Outcome with a jump at x = 0
+y_vals <- ifelse(
+  x_vals < 0,
+  3.0 + 0.6 * x_vals + rnorm(n_pts, mean = 0, sd = 0.45),
+  5.8 + 0.6 * x_vals + rnorm(n_pts, mean = 0, sd = 0.45)
+)
+
+rdd_df <- data.frame(
+  x = x_vals,
+  y = y_vals,
+  group = ifelse(x_vals < 0, "Control (Below Cutoff)", "Treated (Above Cutoff)")
+)
+
+bandwidth <- 1.2
+y_control_cutoff <- 3.0
+y_treated_cutoff <- 5.8
+
+ggplot(rdd_df, aes(x = x, y = y, color = group)) +
+  # Bandwidth shaded window
+  annotate("rect", xmin = -bandwidth, xmax = bandwidth, ymin = -Inf, ymax = Inf, 
+           fill = "grey85", alpha = 0.35) +
+  # Bandwidth boundary lines
+  geom_vline(xintercept = c(-bandwidth, bandwidth), linetype = "dashed", 
+             color = "#4A5568", linewidth = 0.7) +
+  annotate("text", x = -bandwidth, y = 7.6, label = "- Bandwidth (h)", 
+             color = "#4A5568", size = 3.3, fontface = "italic", hjust = 1.05) +
+  annotate("text", x = bandwidth, y = 7.6, label = "+ Bandwidth (h)", 
+             color = "#4A5568", size = 3.3, fontface = "italic", hjust = -0.05) +
+  # Cutoff line
+  geom_vline(xintercept = 0, linetype = "solid", color = "black", linewidth = 0.9) +
+  annotate("text", x = 0, y = 8.0, label = "Cutoff (c = 0)", 
+           color = "black", size = 3.8, fontface = "bold", vjust = -0.3) +
+  # Scatter points (data points showing the discontinuity)
+  geom_point(alpha = 0.75, size = 2.5) +
+  # Discontinuity Jump Bracket at Cutoff
+  geom_segment(aes(x = 0.08, xend = 0.08, y = y_control_cutoff, yend = y_treated_cutoff), 
+               color = "#C53030", linewidth = 1.2, inherit.aes = FALSE) +
+  geom_segment(aes(x = 0.02, xend = 0.08, y = y_control_cutoff, yend = y_control_cutoff), 
+               color = "#C53030", linewidth = 1.2, inherit.aes = FALSE) +
+  geom_segment(aes(x = 0.02, xend = 0.08, y = y_treated_cutoff, yend = y_treated_cutoff), 
+               color = "#C53030", linewidth = 1.2, inherit.aes = FALSE) +
+  annotate("text", x = 0.15, y = (y_control_cutoff + y_treated_cutoff) / 2, 
+           label = "Causal Jump\n(Local Effect / LATE)", color = "#C53030", size = 4.0, 
+           fontface = "bold", hjust = 0, lineheight = 0.95) +
+  scale_color_manual(values = c("Control (Below Cutoff)" = "#718096", 
+                                "Treated (Above Cutoff)" = "#2B6CB0")) +
+  scale_x_continuous(limits = c(-3.2, 3.2), breaks = seq(-3, 3, by = 1)) +
+  labs(
+    x = "Running Variable (Distance to Cutoff)",
+    y = "Outcome (Y)",
+    color = "Status"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "bottom",
+    panel.grid.minor = element_blank(),
+    plot.margin = margin(10, 20, 10, 20)
+  )
+```
+
+. . .
+
+We compare units very close to the cutoff, that are arguably very similar
+
+. . . 
+
+The assumption is that they cannot alter their score to be on the other side
+
+
+# Summing up {.section}
+
+## What We Learned Today
+
+- Testing theories means testing causal relationships
+- The Fundamental Problem of Causal Inference is the key problem
+- Randomization partially solves it $\rightarrow$ average effects
+- Ideally we would always run randomized experiments
+- Hardly feasible in political science
+- We want to study real-world (observational) data with a causal research design
+- We must understand the process of treatment assignment
+- Different designs estimate effects under some assumptions
+
+##
+
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 70vh; font-size: 2.5em; font-weight: bold; color: Black;"}
-Thank you for your attention!
+Thank you!
 :::
