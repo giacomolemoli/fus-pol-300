@@ -15,33 +15,48 @@ format: revealjs
 
 ## Varieties of States
 
-::::{.columns}
+:::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="33%"}
 
-![Swiss federal palace in Bern](https://prod-aboutswch-hcms-sdweb.imgix.net/dam/en/sd-web/1JMHPoagqsPZ/politisches-system-uebersicht.jpg?auto=format&w=2048){width="60%"}
+![Swiss federal palace in Bern](https://prod-aboutswch-hcms-sdweb.imgix.net/dam/en/sd-web/1JMHPoagqsPZ/politisches-system-uebersicht.jpg?auto=format&w=2048)
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="33%"}
 
-![Somali civil war (Source: Wikimedia commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Map_of_the_Somali_Civil_War.svg/960px-Map_of_the_Somali_Civil_War.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width="50%"}
+![Somali civil war (Source: Wikimedia commons)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Map_of_the_Somali_Civil_War.svg/960px-Map_of_the_Somali_Civil_War.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width="75%"}
+
+:::
+
+::: {.column width="33%"}
+
+![Source: US Holocaust Memorial Museum](https://encyclopedia.ushmm.org/images/large/25454adb-d3f8-453f-aec8-374485b94418.jpeg)
 
 :::
 
 ::::
 
-- Some states provide public services, guarantee safety and protection (e.g., Switzerland)
-- Others do not have full authority over their territory (e.g., Somalia)
-- Others have authority but exercise unchecked violence on their populations (e.g., European fascism, Rwanda 1994)
+
+- Some states provide public services, guarantee safety and protection 
+- Others do not have full authority over their territory 
+- Others have authority but exercise unchecked violence on their populations
+
+
 
 ---
 
 ## Questions
 
 - What is a state and what does it do? 
-- Why do states exist and how did they evolve to the current configuration?
-- Why these differences in states' governance and outcomes?
+
+<div style="height: 1em;"></div>
+
+- How did they states evolve to their current configuration?
+
+<div style="height: 1em;"></div>
+
+- Why these differences in states' power and outcomes?
 
 ---
 
@@ -50,11 +65,29 @@ format: revealjs
 
 Two views of the state:
 
-- The [Social Contract View]{.alert} $\rightarrow$ external protection to permit social cooperation
-    - Solve the problem of "horizontal" violence 
-- The [Predatory View]{.alert} $\rightarrow$ entrenches power of few over many
-    - Create a problem of "vertical" violence
+. . . 
 
+<div style="height: 0.5em;"></div>
+
+The [Social Contract View]{.alert} 
+
+- External protection to permit social cooperation
+- Solve a problem of "horizontal" violence 
+
+. . . 
+
+<div style="height: 0.5em;"></div>
+
+The [Predatory View]{.alert} 
+
+- Pursuit of power of few over many
+- Create a problem of "vertical" violence
+
+<div style="height: 0.5em;"></div>
+
+:::{.fragment}
+Origins of the modern state (a predatory view)
+:::
 
 # What is the State? {.section}
 
@@ -65,9 +98,9 @@ Two views of the state:
 > Max Weber (1918)
 
 - **Territory**:  a state is delimited by space (unlike nations)
-- **Physical force**: the state exerts (implicit) violence
+- **Physical force**: the state can exert violence
 - **Legitimate**: state's authority is willingly accepted by people
-- **Monopoly**: the state is the sole provider of force
+- **Monopoly**: the state is the sole provider of violence
 
 ---
 
@@ -78,8 +111,23 @@ Two views of the state:
 ::: {.column width="60%"}
 
 - **Territory** and **Physical force** $\rightarrow$ universally accepted
-
 - The other concepts are more contested
+
+:::
+
+::: {.column width="40%"}
+
+![What happens if you don't pay taxes?](figures/irs.png){fig-align="center"}
+
+:::
+
+::::
+
+. . . 
+
+:::: {.columns}
+
+::: {.column width="60%"}
 
 - **Legitimacy** $\rightarrow$ is it objective or immutable?
 
@@ -89,19 +137,18 @@ Two views of the state:
 
 ::: {.column width="40%"}
 
-![](figures/irs.png){fig-align="center" width="5cm"}
-
-
-
-![](figures/police-repress.png){fig-align="center" width="5cm"}
+![](figures/police-repress.png){fig-align="center" width="7cm"}
 
 :::
 
 ::::
 
+
+
+
 ---
 
-## Other Definitions
+## Alternative Definitions
 
 > [States are] relatively centralized, differentiated organizations, the officials of which, more or less, successfully **claim control** over the chief concentrated means of violence within a population inhabiting a large contiguous territory.
 >
@@ -111,23 +158,37 @@ Two views of the state:
 >
 > Douglass North (1981)
 
-. . .
 
-$\implies$ what is new here?
+::: {.fragment}
+What is new here?
+:::
+
 
 ---
 
-## Other Definitions
+## Alternative Definitions
 
 - **Territory** and **force** are maintained
-- **Legitimacy** and **monopoly** are abandoned $\rightarrow$ weaker conditions
+
+<div style="height: 0.5em;"></div>
+
+- **Legitimacy** and **monopoly** $\rightarrow$ replaced with weaker conditions
+
+<div style="height: 0.5em;"></div>
+
 - Violence is easier for the state and difficult to challenge
+
+<div style="height: 0.5em;"></div>
+
 - But the state does not have a perfect monopoly
 
 ---
 
 ## A Continuum of Stateness
 
+![Fragile States Index](figures/Dashboard_%20World%20Map.png)
+
+It makes sense to separate what a state is from its relative success
 
 ---
 
@@ -136,8 +197,7 @@ $\implies$ what is new here?
 ![](https://media.gettyimages.com/id/1152427249/nl/vector/leviathan-van-hobbes-na-zegel-van-17de-eeuw.jpg?s=612x612&w=0&k=20&c=dtR_91E0xKylIoWiDZWUEbPUXBaYfGg5p3OhKeP24F8=){fig-align="center"}
 
 
-- We have defined what the state is
-- Now: Why do states exist? 
+- Why should someone claim or control the means of violence?
 - What explains patterns of state formation in the world?
 
 
@@ -151,25 +211,173 @@ $\implies$ what is new here?
 
 ## The Foundations
 
-[hobbes, locke, rousseau tba]
+- Originates from the work of Hobbes, Locke, Rousseau
+- They ask "how would a world without the state be like"
 
-[add illustration of the theory]
+. . . 
+
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 10
+#| fig-height: 4.8
+#| out-width: "720px"
+#| out-height: "340px"
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+# Helper to draw a stylized person
+draw_person <- function(x, y, label, col = "#2B6CB0", fill = "#EBF8FF") {
+  # Person card
+  grid.roundrect(x = x, y = y, width = 0.18, height = 0.28, r = unit(0.02, "npc"),
+                 gp = gpar(fill = fill, col = col, lwd = 2))
+  # Head
+  grid.circle(x = x, y = y + 0.055, r = 0.035, 
+              gp = gpar(fill = "navajowhite", col = "black", lwd = 1.5))
+  # Body / Shoulders
+  grid.polygon(x = c(x - 0.045, x + 0.045, x + 0.035, x - 0.035),
+               y = c(y - 0.045, y - 0.045, y + 0.015, y + 0.015),
+               gp = gpar(fill = col, col = "black", lwd = 1.2))
+  # Label
+  grid.text(label, x = x, y = y - 0.09, 
+            gp = gpar(fontsize = 12, fontface = "bold", col = "black"))
+}
+
+# 1. CITIZENS (Bottom Left and Right)
+draw_person(0.22, 0.24, "Person A")
+draw_person(0.78, 0.24, "Person B")
+
+# 2. INTERPERSONAL VIOLENCE (Between Person A and Person B)
+# Bi-directional violence arrow
+grid.lines(x = c(0.33, 0.67), y = c(0.24, 0.24),
+           arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "closed"),
+           gp = gpar(fill = "#C53030", col = "#C53030", lwd = 3, lty = "solid"))
+
+# "State of Nature" label under the red arrow
+grid.text("State of Nature", x = 0.5, y = 0.16, 
+          gp = gpar(fontsize = 12, fontface = "bold", col = "#C53030"))
+
+popViewport()
+```
+
+---
+
+## The Foundations
+
+:::{.nonincremental}
+- Originates from the work of Hobbes, Locke, Rousseau
+- They ask "how would a world without the state be like"
+:::
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 10
+#| fig-height: 4.8
+#| out-width: "720px"
+#| out-height: "340px"
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+# Helper to draw a stylized person
+draw_person <- function(x, y, label, col = "#2B6CB0", fill = "#EBF8FF") {
+  # Person card
+  grid.roundrect(x = x, y = y, width = 0.18, height = 0.28, r = unit(0.02, "npc"),
+                 gp = gpar(fill = fill, col = col, lwd = 2))
+  # Head
+  grid.circle(x = x, y = y + 0.055, r = 0.035, 
+              gp = gpar(fill = "navajowhite", col = "black", lwd = 1.5))
+  # Body / Shoulders
+  grid.polygon(x = c(x - 0.045, x + 0.045, x + 0.035, x - 0.035),
+               y = c(y - 0.045, y - 0.045, y + 0.015, y + 0.015),
+               gp = gpar(fill = col, col = "black", lwd = 1.2))
+  # Label
+  grid.text(label, x = x, y = y - 0.09, 
+            gp = gpar(fontsize = 12, fontface = "bold", col = "black"))
+}
+
+# 1. THE STATE SYMBOL (Top Center)
+# Pediment roof
+grid.polygon(x = c(0.40, 0.50, 0.60), y = c(0.85, 0.92, 0.85),
+             gp = gpar(fill = "#2B6CB0", col = "black", lwd = 1.5))
+# Pediment base
+grid.rect(x = 0.5, y = 0.84, width = 0.22, height = 0.015,
+          gp = gpar(fill = "#2B6CB0", col = "black", lwd = 1))
+# 4 Pillars
+for (px in c(0.425, 0.475, 0.525, 0.575)) {
+  grid.rect(x = px, y = 0.77, width = 0.022, height = 0.12,
+            gp = gpar(fill = "#CBD5E0", col = "black", lwd = 1.2))
+}
+# Temple base
+grid.rect(x = 0.5, y = 0.70, width = 0.24, height = 0.02,
+          gp = gpar(fill = "#2B6CB0", col = "black", lwd = 1))
+# State Title
+grid.text("THE STATE", x = 0.5, y = 0.65, 
+          gp = gpar(fontsize = 14, fontface = "bold", col = "#2B6CB0"))
+
+# 2. CITIZENS (Bottom Left and Right)
+draw_person(0.22, 0.24, "Person A")
+draw_person(0.78, 0.24, "Person B")
+
+# 3. INTERPERSONAL VIOLENCE (Between Person A and Person B)
+# Bi-directional violence arrow
+grid.lines(x = c(0.33, 0.67), y = c(0.24, 0.24),
+           arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "closed"),
+           gp = gpar(fill = "#C53030", col = "#C53030", lwd = 3, lty = "solid"))
+
+# "State of Nature" label under the red arrow
+grid.text("State of Nature", x = 0.5, y = 0.16, 
+          gp = gpar(fontsize = 12, fontface = "bold", col = "#C53030"))
+
+# Black Cross (X) over the violence arrow in the center
+grid.lines(x = c(0.47, 0.53), y = c(0.28, 0.20), gp = gpar(col = "black", lwd = 4, lineend = "round"))
+grid.lines(x = c(0.47, 0.53), y = c(0.20, 0.28), gp = gpar(col = "black", lwd = 4, lineend = "round"))
+
+# 4. YELLOW ARROW FROM THE STATE (Neutralizing Violence)
+grid.lines(x = c(0.5, 0.5), y = c(0.61, 0.31),
+           arrow = arrow(length = unit(0.35, "cm"), type = "closed"),
+           gp = gpar(fill = "#D69E2E", col = "#D69E2E", lwd = 3.5))
+
+# 5. CONNECTING ARROWS (State <-> Citizens)
+# Arrow State <-> Person A
+grid.lines(x = c(0.40, 0.24), y = c(0.64, 0.40),
+           arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "closed"),
+           gp = gpar(fill = "#2B6CB0", col = "#2B6CB0", lwd = 2, lty = "dashed"))
+
+# Arrow State <-> Person B
+grid.lines(x = c(0.60, 0.76), y = c(0.64, 0.40),
+           arrow = arrow(length = unit(0.3, "cm"), ends = "both", type = "closed"),
+           gp = gpar(fill = "#2B6CB0", col = "#2B6CB0", lwd = 2, lty = "dashed"))
+
+popViewport()
+```
+
+. . . 
+
+People willingly subject themselves to authority for security
 
 ---
 
 ## The State of Nature
 
-Imagine an (idealized) "state of nature" with equal men
+Imagine two men in the "state of nature" 
 
 - Men can [steal]{.alert} from their neighbor or [refrain]{.alert}
-- Imagine the problem two men would face in this world
+- How does their decision problem look like?
 
 . . . 
 
 |                    | **Refrain** | **Steal** |
 |:-------------------|:-------------:|:----------:|
-| **Refrain**      |   -1, -1      |  -10, 0    |
-| **Steal**          |    0, -10     |  -5, -5    |
+| **Refrain**        |     3, 3      |    0, 5    |
+| **Steal**          |     5, 0      |    1, 1    |
 
 . . . 
 
@@ -187,13 +395,13 @@ What would the men do?
   </tr>
   <tr>
     <td style="text-align: center; font-weight: bold; padding: 10px;">Refrain</td>
-    <td style="text-align: center; padding: 15px; background-color: #90EE90; border: 3px solid #228B22;">-1, -1</td>
-    <td style="text-align: center; padding: 15px;">-10, 0</td>
+    <td style="text-align: center; padding: 15px; background-color: #90EE90; border: 3px solid #228B22;">3, 3</td>
+    <td style="text-align: center; padding: 15px;">0, 5</td>
   </tr>
   <tr>
     <td style="text-align: center; font-weight: bold; padding: 10px;">Steal</td>
-    <td style="text-align: center; padding: 15px;">0, -10</td>
-    <td style="text-align: center; padding: 15px; background-color: #FFB6C1; border: 3px solid #DC143C;">-5, -5</td>
+    <td style="text-align: center; padding: 15px;">5, 0</td>
+    <td style="text-align: center; padding: 15px; background-color: #FFB6C1; border: 3px solid #DC143C;">1, 1</td>
   </tr>
 </table>
 
@@ -206,17 +414,13 @@ What would the men do?
 
 . . . 
 
-$\implies$ in the anarchic state of nature men turn against each other
+$\implies$ violence impedes development
 
 ---
 
 ## The Social Contract
 
-What is the role of the state here?
-
-. . .
-
-$\implies$ the state of nature is undesirable
+The state of nature is undesirable
 
 ::: {.nonincremental}
 
@@ -228,20 +432,61 @@ $\implies$ the state of nature is undesirable
 
 . . . 
 
-$\implies$ an authority punishing "steal" benefits everyone 
+<div style="height: 0.5em;"></div>
+
+$\implies$ an authority punishing "stealing" benefits everyone 
 
 ---
 
 ## The Social Contract
 
-[modified game tba]
-
+- Suppose an authority imposes a punishment ($p = 3$) for stealing
+- In exchange, everyone pays a tax ($t = 1$)
 
 . . . 
 
+|                    | **Refrain** | **Steal** |
+|:-------------------|:-------------:|:----------:|
+| **Refrain**        |     2, 2      |   -1, 1    |
+| **Steal**          |     1, -1     |   -3, -3   |
 
-- Lower the benefit of stealing until no longer appealing
-- The collectively optimal outcome is reached
+. . . 
+
+What would the men do now?
+
+---
+
+## The Social Contract
+
+:::{.nonincremental}
+- Suppose an authority imposes a punishment ($p = 3$) for stealing
+- In exchange, everyone pays a tax ($t = 1$)
+:::
+
+<table style="margin: auto; font-size: 1.2em;">
+  <tr>
+    <td></td>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Refrain</td>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Steal</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Refrain</td>
+    <td style="text-align: center; padding: 15px; background-color: #90EE90; border: 3px solid #228B22;">2, 2</td>
+    <td style="text-align: center; padding: 15px;">-1, 1</td>
+  </tr>
+  <tr>
+    <td style="text-align: center; font-weight: bold; padding: 10px;">Steal</td>
+    <td style="text-align: center; padding: 15px;">1, -1</td>
+    <td style="text-align: center; padding: 15px;">-3, -3</td>
+  </tr>
+</table>
+
+<br>
+
+::: {.nonincremental}
+- [**Nash Equilibrium & Pareto Optimal:**]{style="color: #228B22; font-weight: bold;"} (Refrain, Refrain) $\rightarrow (2, 2)$
+:::
+
 
 ---
 
@@ -249,13 +494,16 @@ $\implies$ an authority punishing "steal" benefits everyone
 
 Why "social contract"?
 
+<div style="height: 1em;"></div>
+
+
 - People give up their "natural" rights $\rightarrow$ [freedom]{.alert}
 - In exchange, they receive "civil" rights $\rightarrow$ [laws]{.alert}
 - People "fund" the sovereign $\rightarrow$ [tax]{.alert}
 
 ---
 
-## Problems with the Social Contract View
+## Problems of the Social Contract View
 
 - It is [normative]{.alert} rather than [positive]{.alert}
 - Single mechanism $\rightarrow$ hard to explain variation in state outcomes
@@ -305,7 +553,72 @@ In the predatory view, the state is analogous to the **Mafias**
 
 ::: {.column width = "50%"}
 
-[add illustration of the theory]
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 6.5
+#| fig-height: 5.5
+#| out-width: "100%"
+#| out-height: "380px"
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+# Helper to draw a stylized person
+draw_person <- function(x, y, label, col = "#2B6CB0", fill = "#EBF8FF") {
+  # Person card
+  grid.roundrect(x = x, y = y, width = 0.24, height = 0.26, r = unit(0.02, "npc"),
+                 gp = gpar(fill = fill, col = col, lwd = 1.8))
+  # Head
+  grid.circle(x = x, y = y + 0.05, r = 0.032, 
+              gp = gpar(fill = "navajowhite", col = "black", lwd = 1.2))
+  # Body / Shoulders
+  grid.polygon(x = c(x - 0.045, x + 0.045, x + 0.035, x - 0.035),
+               y = c(y - 0.04, y - 0.04, y + 0.015, y + 0.015),
+               gp = gpar(fill = col, col = "black", lwd = 1))
+  # Label
+  grid.text(label, x = x, y = y - 0.085, 
+            gp = gpar(fontsize = 11, fontface = "bold", col = "black"))
+}
+
+# 1. THE STATE SYMBOL (Top Center)
+# Pediment roof
+grid.polygon(x = c(0.35, 0.50, 0.65), y = c(0.85, 0.93, 0.85),
+             gp = gpar(fill = "#C53030", col = "black", lwd = 1.5))
+# Pediment base
+grid.rect(x = 0.5, y = 0.84, width = 0.32, height = 0.015,
+          gp = gpar(fill = "#C53030", col = "black", lwd = 1))
+# 4 Pillars
+for (px in c(0.39, 0.46, 0.54, 0.61)) {
+  grid.rect(x = px, y = 0.765, width = 0.03, height = 0.13,
+            gp = gpar(fill = "#CBD5E0", col = "black", lwd = 1.2))
+}
+# Temple base
+grid.rect(x = 0.5, y = 0.69, width = 0.35, height = 0.02,
+          gp = gpar(fill = "#C53030", col = "black", lwd = 1))
+# State Title
+grid.text("THE STATE", x = 0.5, y = 0.63, 
+          gp = gpar(fontsize = 13, fontface = "bold", col = "#C53030"))
+
+# 2. CITIZENS (Bottom Left and Right)
+draw_person(0.24, 0.22, "Person A")
+draw_person(0.76, 0.22, "Person B")
+
+# 3. RED ARROWS FROM STATE TO CITIZENS (State exerts violence on citizens)
+# Arrow State -> Person A
+grid.lines(x = c(0.39, 0.26), y = c(0.60, 0.36),
+           arrow = arrow(length = unit(0.35, "cm"), type = "closed"),
+           gp = gpar(fill = "#C53030", col = "#C53030", lwd = 3.2))
+
+# Arrow State -> Person B
+grid.lines(x = c(0.61, 0.74), y = c(0.60, 0.36),
+           arrow = arrow(length = unit(0.35, "cm"), type = "closed"),
+           gp = gpar(fill = "#C53030", col = "#C53030", lwd = 3.2))
+
+popViewport()
+```
 
 :::
 
@@ -313,7 +626,7 @@ In the predatory view, the state is analogous to the **Mafias**
 
 . . . 
 
-$\implies$ the state emerges a consequence of power consolidation
+$\implies$ The state emerges a consequence of power consolidation
 
 ---
 
@@ -384,10 +697,10 @@ $\implies$ suggests causal link between agriculture and states
 ::: {.column width="50%"}
 
 - **Population control**: control/block mobility to preserve food production
-  - Forced resettlement, slavery, etc.
+  - Forced resettlement, slavery...
 
 - **Information**: know who lives where and what is produced
-  - Writing, maps, censuses, registries
+  - Maps, censuses, registries...
 
 :::
 
@@ -411,14 +724,14 @@ Dissolution of the Roman Empire $\rightarrow$ fragmented political authority
 
 . . . 
 
-$\implies$ does the predation view explain state centralization?
+$\implies$ Does the predation view explain state centralization?
 
 
 ---
 
 ## War and States
 
-> War made the state, and the state made war (Tilly 1990)
+> War made the state, and the state made war. (Tilly 1990)
 
 . . . 
 
@@ -432,7 +745,7 @@ Two key forces:
 
 . . . 
 
-$\implies$ External **wars** and internal **state building**
+$\implies$ External **wars** $\Leftrightarrow$ **state building**
 
 ---
 
@@ -440,24 +753,25 @@ $\implies$ External **wars** and internal **state building**
 
 > War made the state, and the state made war (Tilly 1990)
 
+<div style="height: 1em;"></div>
 
-[diagram tba]
+Modern states emerged from the interaction of these elements:
 
+:::{.nonincremental}
+- War (and defense from war) requires capital to fund armies
+- Rulers need regular access to capital $\rightarrow$ fiscal extraction 
+- Create taxation systems and state infrastructure 
+:::
 
-3 key elements: war-making, extraction, capital accumulation
+<div style="height: 1em;"></div>
 
-- war (and defense from war) requires capital to fund armies
-- taxation systems created and infrastructure created to manage them
-- regular access to capital needed $\rightarrow$ regular extraction needed 
+. . . 
 
----
+:::{.nonincremental}
+- European states were not created by bargaining or ideological projects
+- Rather, by the interaction of war making and accumulation
+:::
 
-## War and States
-
-The consolidation of European states:
-
-- Was not the result of bargaining or ideological projects
-- It was the result of the interaction of the forces of war making and accumulation
 
 ---
 
@@ -467,20 +781,77 @@ Does the model account for non-European experiences?
 
 In Africa: different structural conditions $\implies$ different outcomes (Herbst 2000)
 
+. . . 
+
 :::: {.columns}
 
-::: {.column  width="60%"}
+::: {.column  width="55%"}
 
-- Land abundance + population scarcity (opposite of Europe)
+- Land abundance and pop. scarcity (unlike Europe)
 - Colonialism + international system enforces state boundaries
 - $\implies$ less incentives for external expansion and internal state building
 - "Absence" of the state in remote territories
 
 :::
 
-::: {.column  width="40%"}
+::: {.column  width="45%"}
 
-[diagram of capital + buffer]
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 5.5
+#| fig-height: 5.5
+#| out-width: "100%"
+#| out-height: "380px"
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+# Outer Boundary
+grid.rect(x = 0.5, y = 0.5, width = 0.92, height = 0.92, 
+          gp = gpar(fill = "#F7FAFC", col = "grey40", lwd = 2, lty = "dashed"))
+
+# Concentric Authority Rings Radiating from Capital
+# Outer Ring
+grid.circle(x = 0.5, y = 0.5, r = 0.38, 
+            gp = gpar(fill = "#EBF8FF", col = "#90CDF4", lwd = 1.5, lty = "dotted"))
+
+# Middle Ring
+grid.circle(x = 0.5, y = 0.5, r = 0.24, 
+            gp = gpar(fill = "#BEE3F8", col = "#63B3ED", lwd = 1.8))
+
+# Inner Ring (Core)
+grid.circle(x = 0.5, y = 0.5, r = 0.11, 
+            gp = gpar(fill = "#2B6CB0", col = "#1A365D", lwd = 2))
+
+# Radiating Arrows
+for (angle in c(0, 45, 90, 135, 180, 225, 270, 315)) {
+  rad <- angle * pi / 180
+  x1 <- 0.5 + 0.12 * cos(rad)
+  y1 <- 0.5 + 0.12 * sin(rad)
+  x2 <- 0.5 + 0.36 * cos(rad)
+  y2 <- 0.5 + 0.36 * sin(rad)
+  grid.lines(x = c(x1, x2), y = c(y1, y2),
+             arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
+             gp = gpar(fill = "#2B6CB0", col = "#2B6CB0", lwd = 1.5, alpha = 0.6))
+}
+
+# Capital City Marker in Center
+grid.points(x = 0.5, y = 0.5, pch = 18, size = unit(12, "points"), 
+            gp = gpar(col = "gold", fill = "gold"))
+grid.text("Capital", x = 0.5, y = 0.5, 
+          gp = gpar(fontsize = 10, fontface = "bold", col = "white"))
+
+# Zone Labels
+grid.text("Core", x = 0.5, y = 0.34, 
+          gp = gpar(fontsize = 9.5, fontface = "bold", col = "#1A365D"))
+grid.text("Periphery", x = 0.5, y = 0.18, 
+          gp = gpar(fontsize = 9.5, fontface = "bold", col = "#2B6CB0"))
+
+popViewport()
+```
 
 :::
 
@@ -493,22 +864,30 @@ In Africa: different structural conditions $\implies$ different outcomes (Herbst
 
 ## What We Learned 
 
-- The state is an institution that exercise power through violence
-- To perform its functions the state extracts resources $\rightarrow$ taxation
-- To work well the state needs [legibility]{.alert} $\rightarrow$ know its people
+- The state is an institution that claims a monopoly over the means of violence
+- To function it extracts resources $\rightarrow$ taxation
+- Extraction requires [legibility]{.alert} $\rightarrow$ know its people
+- But states also allow to [govern]{.alert} (e.g., provide rule of law)
+- Despite predation, coercive power can be valuable for cooperation 
 
 ---
 
 ## Is There a Correct View?
 
-- Both views of the state highlight powerful forces
-- The [predatory view]{.alert} emphasizes violence and coercion
-  - The pursuit of power is what drives state expansion
-  - Better at explaining the range of observed outcomes
-- But the [social contract view]{.alert} also emphasizes an important force
-  - External authority may be important for cooperation
-  - A consent component is always present $\rightarrow$ e.g., migration
+- Both views reflect aspects of the nature of the state
+- The [predatory view]{.alert} emphasizes coercive nature
+  - People pursue power through the state
+  - Better theory for explaining the range of observed outcomes
+- But the [social contract view]{.alert} also emphasizes an important aspect
+  - There is demand for many state functions
+  - A component of [consent]{.alert} is always present
 
+. . . 
+
+How can people "enforce" the contract and limit state's power?
+
+We need to introduce power-sharing political institutions (next week)
+  
 
 ---
 
