@@ -49,8 +49,8 @@ In the review and discussion sessions, we will discuss scientific articles in co
 
 | **Assignment**                     | **Date Due** | **Midterm Weight** | **Final Weight** |
 |------------------------------------|--------------|--------------------|------------------|
-| Midterm exam (covering part I)     |              |        60%         |       30%        |
-| Final Exam (covering part II)      |              |         0%         |       30%        |
+| Midterm exam (covering part I)     |    October 15          |        60%         |       30%        |
+| Final Exam (covering part II)      |    December 7          |         0%         |       30%        |
 | Paper presentation                 |              |         0%         |       20%        |
 | Class participation                |              |        40%         |       20%        |
 
