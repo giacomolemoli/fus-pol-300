@@ -56,7 +56,7 @@ For each of you, I would like to know:
 - Why are you taking this course and what do you expect to get from it?
 
 
-# What to Expect during the Course {.section}
+# What to Expect in the Course {.section}
 
 
 ## Required Text and Materials
@@ -81,7 +81,7 @@ Scientific articles for the review and discussion sessions
 | **Assignment** | **Midterm Weight** | **Final Weight** |
 |-----------------|--------------------|-------------------|
 | Midterm exam (covering part I) | 60% | 30% |
-| Final Exam (covering part II) | 0% | 30% |
+| Final exam (covering part II) | 0% | 30% |
 | Paper presentation | 0% | 20% |
 | Class participation | 40% | 20% |
 
@@ -96,7 +96,7 @@ Scientific articles for the review and discussion sessions
     - <u>Review</u> of concepts of the week
     - In-class <u>discussions</u> (two-sided)
     - Examples, exercises $\approx$ exam questions
-    - Students' paper <u>presentations</u> + <u>discussion</u>
+    - Paper <u>presentations</u> + <u>discussion</u>
 
 
 ---
@@ -114,7 +114,7 @@ Scientific articles for the review and discussion sessions
 ## Presentations
 
 - We will have presentations of academic articles during the discussion sessions
-- <u>You have to choose a paper on Moodle by the end of the week</u>
+- <u>You have to choose a paper on Moodle by the end of this week</u>
 - First presentation on <u>September 10</u>
 - The articles will be about the topic of the week
     - Empirical application or new perspective

@@ -50,7 +50,7 @@ In the review and discussion sessions, we will discuss scientific articles in co
 | **Assignment**                     | **Date Due** | **Midterm Weight** | **Final Weight** |
 |------------------------------------|--------------|--------------------|------------------|
 | Midterm exam (covering part I)     |    October 15          |        60%         |       30%        |
-| Final Exam (covering part II)      |    December 7          |         0%         |       30%        |
+| Final exam (covering part II)      |    December 7          |         0%         |       30%        |
 | Paper presentation                 |              |         0%         |       20%        |
 | Class participation                |              |        40%         |       20%        |
 
@@ -120,7 +120,7 @@ Students with excessive absences may be reported to the Associate Dean for Stude
 
 Medical notes are only accepted where a student may miss an in-class evaluation (test, quiz, presentation etc.) and/or an assignment, or in cases of prolonged absence for documented medical reasons. Medical notes must relate to the specific date(s) of the absence. 
 
-Students are also directed to the Catalog policy on Administrative Course Withdrawals.
+Students are also directed to the Catalog policy on [Administrative Course Withdrawals](https://fus.smartcatalogiq.com/current/academic-catalog/undergraduate-academic-policies-and-procedures/withdrawal-and-leave-policies/administrative-course-withdrawal).
 
 ### Course Engagement
 Engagement includes active participation in and contribution to the course (not simply physical presence in the classroom), task completion, and overall approach to the course.
