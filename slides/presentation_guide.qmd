@@ -1,0 +1,213 @@
+---
+title: "Presentation Guide"
+subtitle: "Comparative Politics"
+format: revealjs
+---
+
+# General Instructions {.section}
+
+## Presentation and Discussion
+
+During the second half of our discussion sessions ($\approx$ 30-35 minutes)
+
+<div style="height: 1em;"></div>
+
+- Presentation length: 15 minutes
+    - Any slide format (PPT, Beamer, Revealjs, etc) $\rightarrow$ upload on Moodle any time before the presentation
+
+<div style="height: 1em;"></div>
+
+- During presentation: no interruptions from the audience
+
+<div style="height: 1em;"></div>
+
+- After presentation: questions and discussion from the audience
+
+
+## Expectations
+
+- **Everyone** (presenter and class) has read the paper and is prepared with questions
+
+<div style="height: 1em;"></div>
+
+- The discussion emerges spontaneously from the class
+
+<div style="height: 1em;"></div>
+
+- I will provide hints and inputs for discussion if/when needed
+
+
+## Goals
+
+- Engage with concepts seen in lectures outside of the textbook context
+
+- Learn how concepts and theories in CP are used by comparitivists in research
+
+- Learn to read and interpret empirical results
+
+- Use theories to assess the soundness of research design
+
+- Engage critically with theories based on empirical evidence
+
+- The goal is not to disprove the presenter (presenter is not the author)
+
+
+# Guidelines for Presentation {.section}
+
+## What the Presentation Should Do
+
+Presentation $\rightarrow$ paper summary + critical assessment
+
+Focus on the following questions:
+
+- What is the research question?
+- Why is the research questions relevant according to the authors? 
+- What is the research design employed? What assumptions are necessary to give a causal interpretation of the results?
+- What are the main results? 
+    - If there are many supplementary results, which ones are most relevant?
+- What are the implications of the results for what we have seen in class?
+    - E.g., empirical test? Highlight specific conditions/exceptions? Provide a new perspective?
+
+## What the Presentation Should Do
+
+Discuss the strengths/weaknesses of the study
+
+- Is the study overall convincing?
+
+- What are the strengths?
+    - e.g., Theoretical work, important real-world case, practical implications
+
+- What are the wekanesses/limitations?
+    - e.g., skeptical of the assumptions, limited applicability
+
+
+## What the Presentation Should Do
+
+Note: questions from the class can cover also methodological aspects of the paper
+
+<div style="height: 1em;"></div>
+
+- The presenter is not expected to delve into mathematical/statistical details beyond what seen in class
+
+<div style="height: 1em;"></div>
+
+- I will provide clarifications if necessary
+
+
+## A Non-Satisfactory Presentation: General
+
+- Just a lame summary of the paper
+
+- Shows little understanding/engagement
+
+- Misinterprets the paper 
+
+- No effort to connect with the class material
+
+- No effort to reason through implications 
+
+
+## A Non-Satisfactory Presentation: Style
+
+- Too short (not taking the most out of the time)
+
+- Too long (goes after time)
+    - Too many slides (e.g., more than 1 per minute)
+
+- Slides too dense (e.g., "Wall of text")
+    - BP take multiple lines
+    - Dozens of BP
+    - BP are full sentences
+    - Entire paragraphs on slide
+
+
+## A Non-Satisfactory Presentation: Style
+
+- Nice appearance but little substance
+    - BP cannot be understood
+    - Visualizations without text
+    - Too many visualization in one slide
+
+- Unedited LLM output
+    - Fine to use LLMs but you have to show you "own" the content
+
+
+## A Non-Satisfactory Presentation: Delivery
+
+- Talking a lot without following the slide $\rightarrow$ audience gets confused
+
+- Improvising
+
+- Reading a presentation script 
+
+- Skipping slides without reason
+
+
+## A Satisfactory Presentation
+
+- Addresses all the necessary points
+
+- Highlights new aspects/perspectives
+
+- Draws connection with the class material and contributes to the discussion on these topics
+
+- Has the right number of slides (typically 1 per minute or less)
+
+- Has the right balance of text and visualizations
+
+
+# On AI use {.section}
+
+## My General View on AI
+
+- AI is a [great]{.alert}
+
+- We will use it more and more
+
+- You will use it in your future job
+
+- You need to know how to use it well 
+
+- Telling you not to use would be 
+    - Ridicolous
+    - Not a service to you
+
+- However, AI is double-faced
+
+::: {.fragment}
+> AI accelerates [execution]{.alert} but can seriously hamper [learning]{.alert}
+:::
+
+
+## Learning with AI
+
+- The best use of AI is to enhance your learning
+    - E.g., apply and expand boundaries of what you learned
+
+- The worst use of AI is to pretend you have learned
+    - E.g., "here is the essay title, can you write it for me"
+
+- Whether you use one strategy or another, *it shows*
+
+- I can see it (easily), your future employers will see it 
+
+
+## Learning with AI
+
+- The best choice would be to avoid the second strategy
+
+- However, the temptation to use it as a shortcut is just too large $\rightarrow$ [Commitment problem]{.alert} 
+    - Key problem in politics: we will study it
+
+- So we have to force strategy 1
+
+. . . 
+
+What does this mean in practice
+
+- All the grades for this course are earned in class
+
+- You can use AI to enhance your learning (e.g., make a nice figure for my slide)
+
+- But what matters is whether you "own" the output and can defend it
+

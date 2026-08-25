@@ -9,7 +9,7 @@ bibliography: references.bib
 |------|------|-------|----------|--------|
 | 1 | Mon, August 24 | Introduction | FCP ch.2-3 | [Week 1](slides/week01.qmd){target="_blank"} |
 | 2 | Thu, August 27 | Methods: Causal Inference | @keele2015 <br> @dunning2008 | [Week 2](slides/week02.qmd){target="_blank"} |
-| 2 | Mon, August 31 | *Discussion Session* | | |
+| 2 | Mon, August 31 | *Discussion Session* | | [Presentation guide](slides/presentation_guide.qmd){target="_blank"}
 | | Thu, September 3 | **No class (APSA Conference)** | | |
 | 3 | Mon, September 7 | The State | FCP ch.4 | [Week 3](slides/week03.qmd){target="_blank"} | 
 | 3 | Thu, September 10 | *Discussion Session* | @lee2017legibility | |
