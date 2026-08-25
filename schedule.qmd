@@ -17,7 +17,7 @@ bibliography: references.bib
 | 4 | Thu, September 17 | *Discussion Session* | @dasgupta2018technological | |
 | 5 | Mon, September 21 | Democratic Transitions | FCP ch.7 | |
 | 5 | Thu, September 24 | *Discussion Session* | @basu2026democratizing | |
-| 6 | Mon, September 28 | Varieties of Dictatorship | FCP ch.8 | |
+| 6 | Mon, September 28 | Varieties of Dictatorship | FCP ch.8 <br> @guriev2019informational| |
 | 6 | Thu, October 1 | *Discussion Session* | @rozenas2019autocrats | |
 | 7 | Mon, October 5 | Parliamentary and Presidential Systems | FCP ch.10 | |
 | 7 | Thu, October 8 | *Discussion Session* | @cervellati2024random | |
