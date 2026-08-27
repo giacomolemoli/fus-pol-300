@@ -12,7 +12,7 @@ We want to test our theory of development: $X \Rightarrow Y$
 
 
 ::: {.fragment .fade-in}
-This requires a though experiment: without some factor ($X$), N (US) would have been like N (MX)
+This requires a thought experiment: without some factor ($X$), N (US) would have been like N (MX)
 :::
 
 ::: {.fragment .fade-in}
@@ -74,7 +74,7 @@ Majoritarian electoral systems reduce taxation
 
 
 ::: {.fragment .fade-in}
-This hypothesis is causal. It says that MAJ cause the level of taxation.
+This hypothesis is causal. It says that MAJ cause the level of taxation
 :::
 
 ::: {.fragment .fade-in}
