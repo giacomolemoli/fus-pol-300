@@ -80,8 +80,8 @@ This hypothesis is causal. It says that MAJ cause the level of taxation.
 ::: {.fragment .fade-in}
 It implies two [counterfactual]{.alert} states of the world
 
-- Countries with MAJ would have lower tax rate if they did not have MAJ
-- Countries without MAJ would have higher tax rate if they had MAJ
+- Countries with MAJ would have higher tax rate if they did not have MAJ
+- Countries without MAJ would have lower tax rate if they had MAJ
 ::: 
 
 
