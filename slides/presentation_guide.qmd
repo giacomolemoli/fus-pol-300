@@ -207,7 +207,7 @@ What does this mean in practice
 
 - All the grades for this course are earned in class
 
-- You can use AI to enhance your learning (e.g., make a nice figure for my slide)
+- Use AI to enhance learning or communication (e.g., make a nice figure for my slide)
 
 - But what matters is whether you "own" the output and can defend it
 
