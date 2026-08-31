@@ -52,7 +52,7 @@ format: revealjs
 
 <div style="height: 1em;"></div>
 
-- How did they states evolve to their current configuration?
+- How did these states evolve to their current configuration?
 
 <div style="height: 1em;"></div>
 
@@ -626,7 +626,7 @@ popViewport()
 
 . . . 
 
-$\implies$ The state emerges a consequence of power consolidation
+$\implies$ The state emerges as a consequence of power consolidation
 
 ---
 
@@ -649,7 +649,7 @@ Key moment $\implies$ [Neolithic Revolution]{.alert}
 
 :::
 
-::: {.colum width="40%"}
+::: {.column width="40%"}
 ![Source: GFDL/Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fertile_crescent_Neolithic_B_circa_7500_BC.jpg/960px-Fertile_crescent_Neolithic_B_circa_7500_BC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width="45%" fig-align="center"}
 :::
 

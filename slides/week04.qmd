@@ -73,7 +73,7 @@ $\implies$ It depends
 - But is there a **dynamic**: development $\implies$ democracy?
     - Even intuitively, much less obvious
 - A scientific approach to the question: isolate core mechanisms
-    - Do development alter state-society relationships?
+    - Does development alter state-society relationships?
     - If yes, how can this lead to democracy?
 
 ---
@@ -366,7 +366,7 @@ What is the problem?
 
 ::: {.nonincremental}
 - Then the government can renege on past promises and expropriate
-    - After all, it control the means of violence
+    - After all, it controls the means of violence
 :::
 
 $\implies$ the threat to the ruler must be **constant** for the bargain to work
@@ -470,7 +470,7 @@ ggplot() +
 
 . . . 
 
-$\implies$ knowing the commitment problem, the burgeoisie escapes taxation 
+$\implies$ knowing the commitment problem, the bourgeoisie escapes taxation 
 
 ---
 

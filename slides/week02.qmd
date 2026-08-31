@@ -16,7 +16,7 @@ This requires a thought experiment: without some factor ($X$), N (US) would have
 :::
 
 ::: {.fragment .fade-in}
-Central to the though experiment is the [counterfactual]{.alert} (what if...)
+Central to the thought experiment is the [counterfactual]{.alert} (what if...)
 :::
 
 
@@ -420,7 +420,7 @@ ggdag(dag) +
 ```
 
 :::
-::: {.column widt="50%}
+::: {.column width="50%"}
 We can do this with a *linear regression*.
 
 
@@ -801,7 +801,7 @@ ggdag(dag_confounded, node_size = 20) +
 
 ::: {.column width="50%"}
 
-Run multivariate regression that includes the confounder as a control variables
+Run multivariate regression that includes the confounder as a control variable
 
 $Y = \alpha + \beta D + \gamma \text{(control variables)} + \varepsilon$
 
@@ -885,7 +885,7 @@ Second stage: $Y = \alpha + \beta D + \varepsilon$
 
 ::::
 
-The statistical model estimates the "first stage", then predicts the values of $D$ and replaces $D$ wiht them in the "second stage"
+The statistical model estimates the "first stage", then predicts the values of $D$ and replaces $D$ with them in the "second stage"
 
 ::: {.fragment}
 $\implies$ same as controlling for the "endogenous part" of $D$ 
