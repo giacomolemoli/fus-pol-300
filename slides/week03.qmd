@@ -52,7 +52,7 @@ format: revealjs
 
 <div style="height: 1em;"></div>
 
-- How did these states evolve to their current configuration?
+- How did states evolve to their current configuration?
 
 <div style="height: 1em;"></div>
 
@@ -441,7 +441,7 @@ $\implies$ an authority punishing "stealing" benefits everyone
 ## The Social Contract
 
 - Suppose an authority imposes a punishment ($p = 3$) for stealing
-- In exchange, everyone pays a tax ($t = 1$)
+- In exchange, everyone always pays a tax ($t = 1$)
 
 . . . 
 
@@ -484,7 +484,7 @@ What would the men do now?
 <br>
 
 ::: {.nonincremental}
-- [**Nash Equilibrium & Pareto Optimal:**]{style="color: #228B22; font-weight: bold;"} (Refrain, Refrain) $\rightarrow (2, 2)$
+- [**Nash Equilibrium & Pareto Optimal:**]{style="color: #228B22; font-weight: bold;"} (Refrain, Refrain) 
 :::
 
 
@@ -546,7 +546,7 @@ In the predatory view, the state is analogous to the **Mafias**
 ::: {.column width="50%"}
 
 - Powerful men use violence to increase their power over others
-- Protection is **extorted** rather than **sought** 
+- Protection is **extorted** rather than sought
 - Protectors want to expand their area of operations 
 
 ::: 
@@ -636,7 +636,6 @@ Key moment $\implies$ [Neolithic Revolution]{.alert}
 
 8000-6000 BCE $\rightarrow$ emergence of agriculture in highly fertile lands 
 
-. . .
 
 :::: {.columns}
 
@@ -663,7 +662,6 @@ The earliest states were all "grain states" (Scott 2017)
 
 $\implies$ suggests causal link between agriculture and states
 
-. . . 
 
 :::: {.columns}
 
@@ -712,7 +710,7 @@ $\implies$ suggests causal link between agriculture and states
 
 . . . 
 
-$\implies$ States make their territory [legible]{.alert}
+$\implies$ States make their territory [legible]{.alert} (easy to extract information)
 
 ---
 
@@ -745,7 +743,7 @@ Two key forces:
 
 . . . 
 
-$\implies$ External **wars** $\Leftrightarrow$ **state building**
+$\implies$ External [wars]{.alert} $\Leftrightarrow$ [state building]{.alert}
 
 ---
 
@@ -768,8 +766,8 @@ Modern states emerged from the interaction of these elements:
 . . . 
 
 :::{.nonincremental}
-- European states were not created by bargaining or ideological projects
-- Rather, by the interaction of war making and accumulation
+- Interaction of war making and accumulation $\rightarrow$ European states
+- Bargaining and ideological projects are less important
 :::
 
 
