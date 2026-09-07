@@ -5,6 +5,882 @@ format: revealjs
 ---
 
 
+## From the Last Class
+
+:::{.nonincremental}
+- We have seen what a [democracy]{.alert} (early or modern) is
+
+- We have seen how [development]{.alert} may lead to democratic reforms
+:::
+
+. . . 
+
+A few issues still remain
+
+- Modern democracy is about [mass]{.alert} participation
+
+- We have assumed that
+    - People automatically respond to changing conditions
+    - People automatically "act as one" (or coordinate)
+
+- In practice, this may be difficult to achieve
+
+
+## Our Plan for Today
+
+We will study democratic transitions as [decision-making]{.alert} problems
+
+. . . 
+
+Bottom-up transitions $\rightarrow$ people mobilize for democracy
+
+- Key challenge: mobilizing is risky and people need to do it together
+
+- Two models: [collective action]{.alert} theory and [tipping]{.alert} models
+
+- Explain why revolts are rare and why they surprisingly occur
+
+. . . 
+
+Top-down transitions $\rightarrow$ regime concedes reforms
+
+- Question: why should the regime take the risk?
+
+- Information problems and divisions inside the regime
+
+
+# Our Case {.section}
+
+[Eastern Europe and the Warsaw Pact]
+
+
+# Bottom-Up Transitions {.section}
+
+## East Germany 1989
+
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%; border-top: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; border-bottom: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%; border-top: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; border-bottom: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #90EE90; font-weight: bold;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%; border-top: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; border-bottom: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%; border-top: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #90EE90; font-weight: bold;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; border-bottom: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%; border-top: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; border-bottom: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%; border-top: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #FFF5F5;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; border-bottom: 3.5px solid #DC143C; border-left: 3.5px solid #DC143C; border-right: 3.5px solid #DC143C; background-color: #90EE90; font-weight: bold;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Collective Action Theory
+
+<table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th style="padding: 12px 10px; width: 22%;"></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 1<br><span style="font-size: 0.85em; font-weight: normal;">Fewer than $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 2<br><span style="font-size: 0.85em; font-weight: normal;">Exactly $K-1$ participate</span></th>
+      <th style="padding: 12px 10px; width: 26%;">Scenario 3<br><span style="font-size: 0.85em; font-weight: normal;">$K$ or more participate</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Participate</td>
+      <td style="padding: 16px 10px;">Pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Pay cost; receive benefit</td>
+      <td style="padding: 16px 10px;">Pay cost; receive benefit</td>
+    </tr>
+    <tr>
+      <td style="padding: 16px 10px; font-weight: bold; text-align: right;">Don't participate</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px;">Don't pay cost; don't receive benefit</td>
+      <td style="padding: 16px 10px; background-color: #90EE90; font-weight: bold;">Don't pay cost; receive benefit</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+## Tipping Models: Society A
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+library(grid)
+
+draw_tipping_society <- function(thresholds, revolting_indices = c()) {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  n <- length(thresholds)
+  xs <- seq(0.07, 0.93, length.out = n)
+  
+  for (i in 1:n) {
+    x <- xs[i]
+    y_card <- 0.44
+    t_val <- thresholds[i]
+    is_revolting <- i %in% revolting_indices
+    
+    # Colors (Color-blind friendly: unfilled white vs vibrant green fill)
+    if (is_revolting) {
+      card_fill  <- "#C8E6C9"    # light green fill
+      card_col   <- "#1B5E20"    # dark green stroke
+      badge_fill <- "#2E7D32"    # green filled circle
+      badge_text <- "white"
+      badge_col  <- "#1B5E20"
+      torso_col  <- "#1B5E20"
+      card_lwd   <- 2.5
+    } else {
+      card_fill  <- "white"      # unfilled white
+      card_col   <- "#718096"    # neutral outline
+      badge_fill <- "white"      # unfilled circle
+      badge_text <- "black"
+      badge_col  <- "#4A5568"
+      torso_col  <- "#A0AEC0"
+      card_lwd   <- 1.5
+    }
+    
+    # 1. Threshold circle above individual
+    grid.circle(x = x, y = 0.77, r = 0.034, 
+                gp = gpar(fill = badge_fill, col = badge_col, lwd = 1.6))
+    grid.text(as.character(t_val), x = x, y = 0.77, 
+              gp = gpar(fontsize = 13, fontface = "bold", col = badge_text))
+    
+    # 2. Person Card
+    grid.roundrect(x = x, y = y_card, width = 0.075, height = 0.32, r = unit(0.015, "npc"),
+                   gp = gpar(fill = card_fill, col = card_col, lwd = card_lwd))
+    
+    # 3. Person Icon
+    # Head
+    grid.circle(x = x, y = y_card + 0.075, r = 0.022, 
+                gp = gpar(fill = "navajowhite", col = "black", lwd = 1.2))
+    # Torso / Body
+    grid.polygon(x = c(x - 0.026, x + 0.026, x + 0.020, x - 0.020),
+                 y = c(y_card - 0.065, y_card - 0.065, y_card + 0.045, y_card + 0.045),
+                 gp = gpar(fill = torso_col, col = "black", lwd = 1.2))
+    
+    # 4. Person Label (Index)
+    grid.text(paste0("P", i), x = x, y = y_card - 0.11, 
+              gp = gpar(fontsize = 10, fontface = "bold", col = "black"))
+    
+    # 5. Status indicator below card
+    if (is_revolting) {
+      grid.text("Revolts!", x = x, y = 0.16, 
+                gp = gpar(fontsize = 10.5, fontface = "bold", col = "#1B5E20"))
+    }
+  }
+  
+  popViewport()
+}
+
+draw_tipping_society(c(0, 2, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
+```
+
+---
+
+## Tipping Models: Society A
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 2, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
+```
+
+
+- **Person 1** ($T = 0$) protests alone $\rightarrow$ protest size is **1**
+- **Persons 2 & 3** require at least 2 people protesting $\implies$ they stay home
+- **Result:** The cascade fails to start $\rightarrow$ only **1** person revolts!
+
+---
+
+## Tipping Models: Society A'
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
+```
+
+---
+
+## Tipping Models: Society A'
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = 1:9)
+```
+
+
+- **Person 1** ($T = 0$) revolts $\rightarrow$ **Person 2** ($T = 1$) joins $\rightarrow$ **Person 3** ($T = 2$) joins $\dots$
+- A complete **revolutionary cascade** is triggered!
+- **Result:** **9** out of 10 people revolt (only loyalist $P_{10}$ stays home)
+- $\implies$ A shift in just **one** person's threshold ($P_2: 2 \rightarrow 1$) causes massive change!
+
+---
+
+## Tipping Models: Society B
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 2, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
+```
+
+---
+
+## Tipping Models: Society B
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 2, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
+```
+
+
+- **Person 1** ($T = 0$) revolts alone $\rightarrow$ protest size is **1**
+- **Person 2** ($T = 2$) requires at least 2 people $\implies$ stays home
+- **Result:** No cascade $\rightarrow$ only **1** person revolts
+
+---
+
+## Tipping Models: Society B'
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 1, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
+```
+
+---
+
+## Tipping Models: Society B'
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 1, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1, 2))
+```
+
+
+- **Person 1** ($T = 0$) revolts $\rightarrow$ **Person 2** ($T = 1$) joins $\rightarrow$ protest size is **2**
+- **Persons 3 & 4** require at least 3 people $\implies$ they stay home
+- **Result:** Cascade is blocked by the gap at $T = 2 \rightarrow$ only **2** people revolt!
+
+---
+
+## Tipping Models: Society C
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c())
+```
+
+---
+
+## Tipping Models: Society C
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c(1))
+```
+
+
+- Almost everyone is very willing to revolt ($T = 2$ for 8 out of 10 people)
+- But **Person 1** ($T = 0$) protests alone $\rightarrow$ protest size is only **1**
+- Without a critical bridge ($T = 1$), none of the $T = 2$ individuals join!
+- **Result:** Highly discontented society, yet only **1** person revolts!
+
+---
+
+## Tipping Models: Society C'
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c())
+```
+
+---
+
+## Tipping Models: Society C'
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.4
+#| out-width: "950px"
+#| out-height: "360px"
+
+draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = 1:9)
+```
+
+
+- **Person 1** ($T = 0$) and **Person 2** ($T = 0$) both revolt $\rightarrow$ protest size is **2**
+- All 7 individuals with $T = 2$ ($P_3 \dots P_9$) see their threshold met and join **simultaneously**!
+- **Result:** Sudden, explosive cascade $\rightarrow$ **9** out of 10 people revolt!
+- $\implies$ A shift in just one person's threshold ($P_2: 2 \rightarrow 0$) instantly tips the entire society!
+
+
+# Top-Down Transitions {.section}
+
+
+## Transition Game: Soft-Liners vs. Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+library(grid)
+
+draw_transition_game_tree <- function(hl_branches = c(), hl_outcome = NULL, 
+                                       branch_hl_col = "#DC143C", outcome_hl_col = "#DC143C") {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+
+  # Helper: Draw a decision node
+  draw_node <- function(x, y, player) {
+    grid.circle(x = x, y = y, r = 0.018, gp = gpar(fill = "black", col = "black"))
+    grid.text(player, x = x, y = y + 0.065, gp = gpar(fontsize = 13, fontface = "bold", col = "black"))
+  }
+
+  # Helper: Draw an outcome box
+  draw_outcome <- function(x, y, title, subtitle = NULL, is_hl = FALSE) {
+    w <- 0.22
+    h <- ifelse(is.null(subtitle), 0.085, 0.105)
+    border_col <- ifelse(is_hl, outcome_hl_col, "black")
+    fill_col   <- ifelse(is_hl, if (outcome_hl_col == "#DC143C") "#FFF5F5" else "#F1F8E9", "white")
+    text_col   <- ifelse(is_hl, outcome_hl_col, "black")
+    lwd_val    <- ifelse(is_hl, 3, 1.8)
+    
+    grid.roundrect(x = x + w/2 + 0.01, y = y, width = w, height = h, r = unit(0.015, "npc"),
+                   gp = gpar(fill = fill_col, col = border_col, lwd = lwd_val))
+    if (is.null(subtitle)) {
+      grid.text(title, x = x + w/2 + 0.01, y = y, 
+                gp = gpar(fontsize = 10.5, fontface = "bold", col = text_col))
+    } else {
+      grid.text(title, x = x + w/2 + 0.01, y = y + 0.020, 
+                gp = gpar(fontsize = 10.5, fontface = "bold", col = text_col))
+      grid.text(subtitle, x = x + w/2 + 0.01, y = y - 0.020, 
+                gp = gpar(fontsize = 9, fontface = "italic", col = text_col))
+    }
+  }
+
+  # Helper: Draw branch line + text
+  draw_branch <- function(x1, y1, x2, y2, label, lx, ly, branch_id) {
+    is_hl <- branch_id %in% hl_branches
+    col_val <- ifelse(is_hl, branch_hl_col, "black")
+    lwd_val <- ifelse(is_hl, 3.5, 2)
+    grid.lines(x = c(x1, x2), y = c(y1, y2), gp = gpar(col = col_val, lwd = lwd_val))
+    grid.text(label, x = lx, y = ly, gp = gpar(fontsize = 11.5, fontface = "bold", col = col_val))
+  }
+
+  # 1. ROOT (Stage 1: Soft-Liners)
+  draw_branch(0.10, 0.55, 0.32, 0.80, "Do nothing", 0.17, 0.72, "do_nothing")
+  draw_outcome(0.32, 0.80, "Status Quo", is_hl = (identical(hl_outcome, "status_quo")))
+
+  draw_branch(0.10, 0.55, 0.35, 0.35, "Open", 0.20, 0.42, "open")
+  draw_node(0.10, 0.55, "Soft-Liners")
+
+  # 2. STAGE 2 (Opposition)
+  draw_branch(0.35, 0.35, 0.58, 0.58, "Enter", 0.43, 0.51, "enter")
+  draw_outcome(0.58, 0.58, "Broadened Dictatorship", is_hl = (identical(hl_outcome, "broadened_dictatorship")))
+
+  draw_branch(0.35, 0.35, 0.60, 0.18, "Organize", 0.43, 0.23, "organize")
+  draw_node(0.35, 0.35, "Opposition")
+
+  # 3. STAGE 3 (Soft-Liners)
+  draw_branch(0.60, 0.18, 0.76, 0.34, "Repress", 0.66, 0.30, "repress")
+  draw_outcome(0.76, 0.34, "Narrow Dictatorship", "or Insurgency", is_hl = (identical(hl_outcome, "narrow_dictatorship")))
+
+  draw_branch(0.60, 0.18, 0.76, 0.05, "Democratize", 0.66, 0.08, "democratize")
+  draw_outcome(0.76, 0.05, "Democratic Transition", is_hl = (identical(hl_outcome, "democratic_transition")))
+  draw_node(0.60, 0.18, "Soft-Liners")
+
+  popViewport()
+}
+
+draw_transition_game_tree()
+```
+
+---
+
+## Transition Game: Weak Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("repress"))
+```
+
+::: {.nonincremental}
+- **Stage 3 (Soft-Liners):** Facing a weak opposition, soft-liners prefer to [**Repress**]{style="color: #DC143C; font-weight: bold;"} rather than democratize
+:::
+
+---
+
+## Transition Game: Weak Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("repress", "enter"))
+```
+
+::: {.nonincremental}
+- **Stage 3 (Soft-Liners):** Soft-liners will **Repress**
+- **Stage 2 (Opposition):** Anticipating repression, the opposition decides to [**Enter**]{style="color: #DC143C; font-weight: bold;"} rather than organize
+:::
+
+---
+
+## Transition Game: Weak Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("repress", "enter", "open"))
+```
+
+::: {.nonincremental}
+- **Stage 3 (Soft-Liners):** Soft-liners will **Repress**
+- **Stage 2 (Opposition):** Opposition will **Enter**
+- **Stage 1 (Soft-Liners):** Knowing the opposition will enter, soft-liners choose to [**Open**]{style="color: #DC143C; font-weight: bold;"}
+:::
+
+---
+
+## Transition Game: Weak Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("repress", "enter", "open"), hl_outcome = "broadened_dictatorship")
+```
+
+::: {.nonincremental}
+- **Equilibrium Path:** Soft-Liners **Open** $\rightarrow$ Opposition **Enters**
+- **Outcome:** [**Broadened Dictatorship**]{style="color: #DC143C; font-weight: bold;"} (liberalization without democratization!)
+:::
+
+---
+
+## Transition Game: Strong Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("democratize"))
+```
+
+::: {.nonincremental}
+- **Stage 3 (Soft-Liners):** Repression fails against strong opposition $\implies$ soft-liners must [**Democratize**]{style="color: #DC143C; font-weight: bold;"}
+:::
+
+---
+
+## Transition Game: Strong Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("democratize", "organize"))
+```
+
+::: {.nonincremental}
+- **Stage 3 (Soft-Liners):** Soft-liners will **Democratize**
+- **Stage 2 (Opposition):** Anticipating democratization, the opposition chooses to [**Organize**]{style="color: #DC143C; font-weight: bold;"}
+:::
+
+---
+
+## Transition Game: Strong Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("democratize", "organize", "do_nothing"))
+```
+
+::: {.nonincremental}
+- **Stage 3 (Soft-Liners):** Soft-liners will **Democratize**
+- **Stage 2 (Opposition):** Opposition will **Organize**
+- **Stage 1 (Soft-Liners):** Knowing opening triggers democratization, soft-liners choose to [**Do nothing**]{style="color: #DC143C; font-weight: bold;"}
+:::
+
+---
+
+## Transition Game: Strong Opposition
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("democratize", "organize", "do_nothing"), hl_outcome = "status_quo")
+```
+
+::: {.nonincremental}
+- **Equilibrium Path:** Soft-Liners **Do nothing**
+- **Outcome:** [**Status Quo**]{style="color: #DC143C; font-weight: bold;"} (under full information, democratization never happens!)
+:::
+
+---
+
+## Democratic Transition by Mistake
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("open"), branch_hl_col = "#2E7D32")
+```
+
+::: {.nonincremental}
+- **Belief:** Soft-liners mistakenly believe the opposition is **weak** (expecting them to *Enter*)
+- **Stage 1 (Soft-Liners):** Based on this miscalculation, soft-liners choose to [**Open**]{style="color: #2E7D32; font-weight: bold;"}
+:::
+
+---
+
+## Democratic Transition by Mistake
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("open", "organize"), branch_hl_col = "#2E7D32")
+```
+
+::: {.nonincremental}
+- **Stage 1:** Soft-liners **Open** (expecting opposition to enter)
+- **Stage 2 (Opposition):** But the opposition is actually **strong** and chooses to [**Organize**]{style="color: #2E7D32; font-weight: bold;"}!
+:::
+
+---
+
+## Democratic Transition by Mistake
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 11
+#| fig-height: 4.2
+#| out-width: "900px"
+#| out-height: "320px"
+
+draw_transition_game_tree(hl_branches = c("open", "organize", "democratize"), 
+                          hl_outcome = "democratic_transition",
+                          branch_hl_col = "#2E7D32", outcome_hl_col = "#DC143C")
+```
+
+::: {.nonincremental}
+- **Stage 1:** Soft-liners **Open** (mistaken belief that opposition is weak)
+- **Stage 2:** Opposition **Organizes** (revealing true strength)
+- **Stage 3 (Soft-Liners):** Mistake realized — repression would fail $\implies$ soft-liners must [**Democratize**]{style="color: #2E7D32; font-weight: bold;"}
+- **Outcome:** [**Democratic Transition**]{style="color: #DC143C; font-weight: bold;"} occurs **by mistake** (miscalculation / incomplete information)!
+:::
+
+# Summing Up {.section}
+
 ## 
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 70vh; font-size: 2.5em; font-weight: bold; color: Black;"}
