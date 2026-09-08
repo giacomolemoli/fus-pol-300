@@ -8,7 +8,7 @@ format: revealjs
 ## From the Last Class
 
 :::{.nonincremental}
-- We have seen what a [democracy]{.alert} (early or modern) is
+- We have seen what a [democracy]{.alert} (early and modern) is
 
 - We have seen how [development]{.alert} may lead to democratic reforms
 :::
@@ -19,22 +19,30 @@ A few issues still remain
 
 - Modern democracy is about [mass]{.alert} participation
 
-- We have assumed that
+- So far, we have assumed that
     - People automatically respond to changing conditions
     - People automatically "act as one" (or coordinate)
 
-- In practice, this may be difficult to achieve
+
+- When the "masses" are large, this is not so easy to achieve
+
+- We need to understand the forces that bring people together for democracy
 
 
 ## Our Plan for Today
 
 We will study democratic transitions as [decision-making]{.alert} problems
 
+Analyze the forces that lead people to obtain democratic transitions
+
 . . . 
 
-Bottom-up transitions $\rightarrow$ people mobilize for democracy
+<div style="height: 0.3em;"></div>
 
-- Key challenge: mobilizing is risky and people need to do it together
+
+**Bottom-up** transitions $\rightarrow$ people mobilize for democracy
+
+- Key problem: citizens' coordination under risk of repression
 
 - Two models: [collective action]{.alert} theory and [tipping]{.alert} models
 
@@ -42,24 +50,125 @@ Bottom-up transitions $\rightarrow$ people mobilize for democracy
 
 . . . 
 
-Top-down transitions $\rightarrow$ regime concedes reforms
+**Top-down** transitions $\rightarrow$ regime concedes reforms
 
-- Question: why should the regime take the risk?
+- Key problem: the regime wants to concede but not democratize
 
-- Information problems and divisions inside the regime
+- Regime divisions and [information]{.alert} are crucial
+
+- Explain why transitions may start from the regime itself
 
 
 # Our Case {.section}
 
-[Eastern Europe and the Warsaw Pact]
+## Post-War Europe and the Warsaw Pact
+
+![Source: Sémhur/Wikimedia Commons](figures/Iron_Curtain_map.svg)
+
+
+## The Unexpected Fall of Communism in 1989
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Source: RIA Novosti Archive](figures/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+:::{.nonincremental}
+- Economic and political crises in the USSR in the 1980s
+- Liberalization reforms by Gorbachev $\rightarrow$ *perestroika*, *glasnost*
+- Fuels opposition groups in Eastern Europe
+- Sudden fall of Communist regimes and wave of transitions
+:::
+:::
+
+::::
+
+::: {.fragment}
+Communist regimes looked solid but crumbled very fast $\rightarrow$ a [surprise]{.alert}
+
+We want to explain why such epochal events can be surprising
+:::
+
+
+
+
 
 
 # Bottom-Up Transitions {.section}
 
 ## East Germany 1989
 
+:::: {.columns}
+
+::: {.column width="50%"}
+![Source: WikiNight/Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/3/34/Deutschland_Bundeslaender_1949.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+:::
+
+::: {.column width="50%"}
+- August 1989: Hungary opens border with Austria $\rightarrow$ 13,000 East Germans flee to West
+
+- Mass demonstrations of citizens seeking escape or reform
+
+- Regime crackdown fails, no military help from USSR
+
+- November 1989: Travel restrictions lifted, people breach the Berlin wall
+
+- October 1990: German reunification
+:::
+::::
+
+
+## The Puzzle of Mass Protests
+
+- East Germany had a "bottom-up" democratic transition
+
+- The "Puzzle" for us is why stable regimes end in sudden revolutions
+
+- Why didn't people revolt earlier if they disapproved of the regime?
+
+- Why did the regime look so stable despite worsening economic conditions?
+
+- Why are mass revolutions of this type so rare?
+
+
+::: {.fragment}
+
+$\implies$ we need to understand the problems of [collective action]{.alert}
+
+:::
+
+ 
+## Collective Action Theory
+
+Remember the example in our first class: organizing housecleaning
+
+- Roommates need to do their part, but would let the other work
+
+. . . 
+
+The core of this problem is the same as that of protesting
+
+- Democracy can be reached only if many people protest
+
+- Protesting is risky (repression)
+
+- Once democracy is reached, everyone can enjoy it $\rightarrow$ [public good]{.alert}
+
+- The best thing is to stay home $\rightarrow$ [free-ride]{.alert}
+  - If the protest fails, you don't risk anything
+  - If the protest succeeds you enjoy the benefits
+
 
 ## Collective Action Theory
+
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
+. . . 
+
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
@@ -90,6 +199,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 
 ## Collective Action Theory
 
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
+
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
     <tr style="border-bottom: 2px solid #ccc;">
@@ -118,6 +232,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 ---
 
 ## Collective Action Theory
+
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
@@ -148,6 +267,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 
 ## Collective Action Theory
 
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
+
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
     <tr style="border-bottom: 2px solid #ccc;">
@@ -176,6 +300,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 ---
 
 ## Collective Action Theory
+
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
@@ -206,6 +335,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 
 ## Collective Action Theory
 
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
+
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
     <tr style="border-bottom: 2px solid #ccc;">
@@ -234,6 +368,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 ---
 
 ## Collective Action Theory
+
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
@@ -264,6 +403,11 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 
 ## Collective Action Theory
 
+**N** East Germans, **K** of them need to protest to obtain democracy
+
+Would you participate or not?
+
+
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
   <thead>
     <tr style="border-bottom: 2px solid #ccc;">
@@ -290,6 +434,27 @@ Top-down transitions $\rightarrow$ regime concedes reforms
 </table>
 
 
+## Take-Aways and Implications
+
+A few take-aways:
+
+- The lower **K** is relative to **N** the higher the incentive to free-ride
+
+- In general larger **N** $\implies$ free-rider problem
+
+- Small groups are often more successful at collective action
+  - Think of lobbies vs large groups of voters
+
+. . . 
+
+An implication:
+
+- Absence of protest does not mean support
+- The conditions for expressing discontent may not be there
+
+. . . 
+
+$\implies$ But what are these conditions?
 
 ## Tipping Models: Society A
 
