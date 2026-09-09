@@ -52,7 +52,7 @@ Analyze the forces that lead people to obtain democratic transitions
 
 **Top-down** transitions $\rightarrow$ regime concedes reforms
 
-- Key problem: the regime wants to concede but not democratize
+- Key problem: the regime wants to reform but not democratize
 
 - Regime divisions and [information]{.alert} are crucial
 
@@ -120,7 +120,7 @@ We want to explain why such epochal events can be surprising
 ::::
 
 
-## The Puzzle of Mass Protests
+## The Puzzle of Revolutions
 
 - East Germany had a "bottom-up" democratic transition
 
@@ -135,12 +135,12 @@ We want to explain why such epochal events can be surprising
 
 ::: {.fragment}
 
-$\implies$ we need to understand the problems of [collective action]{.alert}
+$\implies$ This has to do with the nature of [collective action]{.alert}
 
 :::
 
  
-## Collective Action Theory
+## Collective Action Theory: Foundations and Logic
 
 Remember the example in our first class: organizing housecleaning
 
@@ -434,29 +434,114 @@ Would you participate or not?
 </table>
 
 
-## Take-Aways and Implications
+## Implications of the Theory
 
-A few take-aways:
+Direct implications:
 
-- The lower **K** is relative to **N** the higher the incentive to free-ride
-
-- In general larger **N** $\implies$ free-rider problem
+- Larger **N** (relative to **K**) $\implies$ greater free-rider problem
+  - Less likely that you are decisive
+  - More difficult to monitor participants
 
 - Small groups are often more successful at collective action
   - Think of lobbies vs large groups of voters
 
 . . . 
 
-An implication:
+Subtler implications:
 
-- Absence of protest does not mean support
+- The absence of protest does not mean that most people support the regime
+
 - The conditions for expressing discontent may not be there
 
 . . . 
 
 $\implies$ But what are these conditions?
 
-## Tipping Models: Society A
+
+## Tipping Models: Foundations and Logic
+
+Tipping models $\rightarrow$ how people can suddenly overcome collective action problems
+
+Relative to Collective Action Theory, we introduce some elements
+
+- People have different personal motivations to protest
+  - Some (e.g., "rebels") would always protest, others (e.g., "loyalists") would never protest
+
+. . . 
+
+Key idea: in a dictatorship people [conceal]{.alert} their real support for the government
+
+- So people don't know how many others want to protest
+- Making a few people willing to protest can motivate others $\implies$ [revolutionary cascade]{.alert}
+
+## Tipping Models
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+How can we formalize this intuition?
+
+- People have their own propensity to protest **T** ("revolutionary threshold")
+- Different people may have different **T** 
+  - **Q**: **T**=how many people need to protest for me to join them
+  - **Q**: Lower **T** $\implies$ more or less support?
+  - How can we interpret **T**?
+
+
+:::
+
+::: {.column width="35%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 3.5
+#| fig-height: 5.0
+#| out-width: "280px"
+
+library(grid)
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+x <- 0.5
+y_card <- 0.42
+
+# 1. Threshold circle above individual
+grid.circle(x = x, y = 0.78, r = 0.10, 
+            gp = gpar(fill = "white", col = "#4A5568", lwd = 2.2))
+grid.text(expression(bold(T[i])), x = x, y = 0.78, 
+          gp = gpar(fontsize = 22, col = "black"))
+
+# 2. Person Card
+grid.roundrect(x = x, y = y_card, width = 0.44, height = 0.40, r = unit(0.035, "npc"),
+               gp = gpar(fill = "white", col = "#718096", lwd = 2.2))
+
+# 3. Person Icon
+# Head
+grid.circle(x = x, y = y_card + 0.095, r = 0.058, 
+            gp = gpar(fill = "navajowhite", col = "black", lwd = 1.6))
+# Torso / Body
+grid.polygon(x = c(x - 0.07, x + 0.07, x + 0.052, x - 0.052),
+             y = c(y_card - 0.09, y_card - 0.09, y_card + 0.055, y_card + 0.055),
+             gp = gpar(fill = "#A0AEC0", col = "black", lwd = 1.6))
+
+# 4. Person Label (Index)
+grid.text(expression(bold(P[i])), x = x, y = y_card - 0.14, 
+          gp = gpar(fontsize = 16, fontface = "bold", col = "black"))
+
+popViewport()
+```
+
+:::
+
+::::
+
+---
+
+## Tipping Models: An Example
+
+Consider a society with 10 people
 
 ```{r}
 #| echo: false
@@ -536,9 +621,13 @@ draw_tipping_society <- function(thresholds, revolting_indices = c()) {
 draw_tipping_society(c(0, 2, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
 ```
 
+
 ---
 
-## Tipping Models: Society A
+## Tipping Models: An Example
+
+Consider a society with 10 people
+
 
 ```{r}
 #| echo: false
@@ -552,13 +641,15 @@ draw_tipping_society(c(0, 2, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
 ```
 
 
-- **Person 1** ($T = 0$) protests alone $\rightarrow$ protest size is **1**
-- **Persons 2 & 3** require at least 2 people protesting $\implies$ they stay home
-- **Result:** The cascade fails to start $\rightarrow$ only **1** person revolts!
+- Person 1 ($T = 0$) protests alone $\implies$ protest size is 1
+- All the others require at least 2 people protesting $\implies$ they stay home
+- The cascade fails to start $\rightarrow$ only 1 person revolts!
 
 ---
 
-## Tipping Models: Society A'
+## Tipping Models: Changing Thresholds
+
+Now suppose P2's threshold goes down from 2 to 1
 
 ```{r}
 #| echo: false
@@ -573,7 +664,10 @@ draw_tipping_society(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
 
 ---
 
-## Tipping Models: Society A'
+## Tipping Models: Changing Thresholds
+
+Now suppose P2's threshold goes down from 2 to 1
+
 
 ```{r}
 #| echo: false
@@ -587,14 +681,15 @@ draw_tipping_society(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = 1:9)
 ```
 
 
-- **Person 1** ($T = 0$) revolts $\rightarrow$ **Person 2** ($T = 1$) joins $\rightarrow$ **Person 3** ($T = 2$) joins $\dots$
-- A complete **revolutionary cascade** is triggered!
-- **Result:** **9** out of 10 people revolt (only loyalist $P_{10}$ stays home)
-- $\implies$ A shift in just **one** person's threshold ($P_2: 2 \rightarrow 1$) causes massive change!
+- Person 1 ($T = 0$) revolts $\rightarrow$ Person 2 ($T = 1$) joins $\rightarrow$ Person 3 ($T = 2$) joins $\dots$
+- 9/10 people revolt (except the loyalist)
+- A revolutionary cascade is triggered
 
 ---
 
-## Tipping Models: Society B
+## Tipping Models: Another Example
+
+Consider a different society
 
 ```{r}
 #| echo: false
@@ -609,7 +704,9 @@ draw_tipping_society(c(0, 2, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
 
 ---
 
-## Tipping Models: Society B
+## Tipping Models: Another Example
+
+Consider a different society
 
 ```{r}
 #| echo: false
@@ -623,13 +720,15 @@ draw_tipping_society(c(0, 2, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
 ```
 
 
-- **Person 1** ($T = 0$) revolts alone $\rightarrow$ protest size is **1**
-- **Person 2** ($T = 2$) requires at least 2 people $\implies$ stays home
-- **Result:** No cascade $\rightarrow$ only **1** person revolts
+- Person 1 ($T = 0$) revolts alone $\implies$ protest size is 1
+- Person 2 ($T = 2$) requires at least 2 people $\implies$ stays home
+- No cascade $\rightarrow$ only 1 person revolts
 
 ---
 
-## Tipping Models: Society B'
+## Tipping Models: Another example
+
+Now let's change P2 from 2 to 1 as before
 
 ```{r}
 #| echo: false
@@ -644,7 +743,10 @@ draw_tipping_society(c(0, 1, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c())
 
 ---
 
-## Tipping Models: Society B'
+## Tipping Models: Another Example
+
+Now let's change P2 from 2 to 1 as before
+
 
 ```{r}
 #| echo: false
@@ -658,13 +760,15 @@ draw_tipping_society(c(0, 1, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1, 
 ```
 
 
-- **Person 1** ($T = 0$) revolts $\rightarrow$ **Person 2** ($T = 1$) joins $\rightarrow$ protest size is **2**
-- **Persons 3 & 4** require at least 3 people $\implies$ they stay home
-- **Result:** Cascade is blocked by the gap at $T = 2 \rightarrow$ only **2** people revolt!
+- Person 1 ($T = 0$) revolts $\rightarrow$ Person 2 ($T = 1$) joins $\implies$ protest size is 2
+- The others require at least 3 people $\implies$ they stay home
+- Cascade is blocked by the "gap" at $T = 2$ $\rightarrow$ only 2 people revolt
 
 ---
 
-## Tipping Models: Society C
+## Tipping Models: "Boiling Point"
+
+A final example
 
 ```{r}
 #| echo: false
@@ -679,7 +783,9 @@ draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c())
 
 ---
 
-## Tipping Models: Society C
+## Tipping Models: "Boiling Point"
+
+A final example
 
 ```{r}
 #| echo: false
@@ -694,13 +800,15 @@ draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c(1))
 
 
 - Almost everyone is very willing to revolt ($T = 2$ for 8 out of 10 people)
-- But **Person 1** ($T = 0$) protests alone $\rightarrow$ protest size is only **1**
-- Without a critical bridge ($T = 1$), none of the $T = 2$ individuals join!
-- **Result:** Highly discontented society, yet only **1** person revolts!
+- But Person 1 ($T = 0$) protests alone $\rightarrow$ protest size is only 1
+- Without a critical bridge ($T = 1$), no one else joins
+- Highly discontented society, yet only 1 person revolts
 
 ---
 
-## Tipping Models: Society C'
+## Tipping Models: "Boiling Point"
+
+Now let's make one person willing to protest
 
 ```{r}
 #| echo: false
@@ -715,7 +823,10 @@ draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c())
 
 ---
 
-## Tipping Models: Society C'
+## Tipping Models: "Boiling Point"
+
+Now let's make one person willing to protest
+
 
 ```{r}
 #| echo: false
@@ -729,16 +840,73 @@ draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = 1:9)
 ```
 
 
-- **Person 1** ($T = 0$) and **Person 2** ($T = 0$) both revolt $\rightarrow$ protest size is **2**
-- All 7 individuals with $T = 2$ ($P_3 \dots P_9$) see their threshold met and join **simultaneously**!
-- **Result:** Sudden, explosive cascade $\rightarrow$ **9** out of 10 people revolt!
-- $\implies$ A shift in just one person's threshold ($P_2: 2 \rightarrow 0$) instantly tips the entire society!
+- Person 1 ($T = 0$) and Person 2 ($T = 0$) both revolt $\rightarrow$ protest size is 2
+- All 7 individuals with $T = 2$ see their threshold met and join simultaneously
+- 9/10 people revolt $\rightarrow$ Revolutionary cascade
+
+
+
+## Implications of the Theory
+
+::::{.columns}
+::: {.column width="60%"}
+:::{.nonincremental}
+- Discontent can be widespread, yet revolutions do not happen
+
+- Catalyzing events can make people more willing to protest triggering a cascade
+
+- East Germany: USSR position likely signalled violent repression was less likely
+
+- Arab Spring: A street vendor's self-immolation started the revolts
+:::
+:::
+
+:::{.column width="40%"}
+![Mohamed Bouazizi's suicide in 2010 catalyzed the Arab Spring](https://upload.wikimedia.org/wikipedia/en/d/de/Mohamed_Bouazizi_2.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20171130060350)
+:::
+::::
 
 
 # Top-Down Transitions {.section}
 
+## Poland 1989
 
-## Transition Game: Soft-Liners vs. Opposition
+:::: {.columns}
+::: {.column width="60%"}
+
+- Economic crisis leads to demand for "liberal" reforms
+
+- 1980: Polish Communist Party allows the formation of independent trade union Solidarity
+
+- Solidarity gains 10 million members in a few months
+
+- Initial wave of repression but protests continue
+
+- 1989: Government seeks compromise with Solidarity, grants first elections
+
+- Solidarity wins all "contestable" seats, first non-Communist Prime Minister appointed
+
+:::
+
+::: {.column width="40%"}
+![Lech Wałęsa (Giedymin Jabłoński/Wikimedia Commons)](figures/walesa.jpg)
+::::
+::::
+
+## A Strategic Theory of Transition: Foundations and Logic
+
+Top-down transition $\rightarrow$ democratic reforms lead to democratization
+
+. . . 
+
+Key idea: the government does **not** want to democratize
+
+- Moderate factions ("[soft-liners]{.alert}") $\rightarrow$ support liberal reforms (e.g., freedom of expression) to "co-opt" the opposition
+- [Opposition]{.alert} $\rightarrow$ wants to use the reforms to further challenge the government's power
+- Knowing this, soft-liners are reluctant to do any reform
+- Democratization is the result of [miscalculation]{.alert} of the government
+
+## Transition Game
 
 ```{r}
 #| echo: false
@@ -820,6 +988,14 @@ draw_transition_game_tree <- function(hl_branches = c(), hl_outcome = NULL,
 draw_transition_game_tree()
 ```
 
+
+Strategic interaction: [anticipate]{.alert} the future actions of the opponent
+
+We analyze what happens in two cases: 
+
+1. Weak opposition (does not have support)
+2. Strong opposition (has mass support)
+
 ---
 
 ## Transition Game: Weak Opposition
@@ -897,7 +1073,7 @@ draw_transition_game_tree(hl_branches = c("repress", "enter", "open"), hl_outcom
 
 ::: {.nonincremental}
 - **Equilibrium Path:** Soft-Liners **Open** $\rightarrow$ Opposition **Enters**
-- **Outcome:** [**Broadened Dictatorship**]{style="color: #DC143C; font-weight: bold;"} (liberalization without democratization!)
+- **Outcome:** [**Broadened Dictatorship**]{style="color: #DC143C; font-weight: bold;"} (liberalization without democratization)
 :::
 
 ---
@@ -977,7 +1153,7 @@ draw_transition_game_tree(hl_branches = c("democratize", "organize", "do_nothing
 
 ::: {.nonincremental}
 - **Equilibrium Path:** Soft-Liners **Do nothing**
-- **Outcome:** [**Status Quo**]{style="color: #DC143C; font-weight: bold;"} (under full information, democratization never happens!)
+- **Outcome:** [**Status Quo**]{style="color: #DC143C; font-weight: bold;"} (democratization never happens)
 :::
 
 ---
@@ -996,7 +1172,7 @@ draw_transition_game_tree(hl_branches = c("open"), branch_hl_col = "#2E7D32")
 ```
 
 ::: {.nonincremental}
-- **Belief:** Soft-liners mistakenly believe the opposition is **weak** (expecting them to *Enter*)
+- Soft-liners mistakenly believe the opposition is **weak** (expecting them to *Enter*)
 - **Stage 1 (Soft-Liners):** Based on this miscalculation, soft-liners choose to [**Open**]{style="color: #2E7D32; font-weight: bold;"}
 :::
 
@@ -1017,7 +1193,7 @@ draw_transition_game_tree(hl_branches = c("open", "organize"), branch_hl_col = "
 
 ::: {.nonincremental}
 - **Stage 1:** Soft-liners **Open** (expecting opposition to enter)
-- **Stage 2 (Opposition):** But the opposition is actually **strong** and chooses to [**Organize**]{style="color: #2E7D32; font-weight: bold;"}!
+- **Stage 2 (Opposition):** But the opposition is actually **strong** and chooses to [**Organize**]{style="color: #2E7D32; font-weight: bold;"}
 :::
 
 ---
@@ -1041,10 +1217,67 @@ draw_transition_game_tree(hl_branches = c("open", "organize", "democratize"),
 - **Stage 1:** Soft-liners **Open** (mistaken belief that opposition is weak)
 - **Stage 2:** Opposition **Organizes** (revealing true strength)
 - **Stage 3 (Soft-Liners):** Mistake realized — repression would fail $\implies$ soft-liners must [**Democratize**]{style="color: #2E7D32; font-weight: bold;"}
-- **Outcome:** [**Democratic Transition**]{style="color: #DC143C; font-weight: bold;"} occurs **by mistake** (miscalculation / incomplete information)!
+- **Outcome:** [**Democratic Transition**]{style="color: #DC143C; font-weight: bold;"} occurs by mistake
 :::
 
+
+## Explaining Poland's Transition
+
+
+::: {.nonincremental}
+
+- Polish Communist Party underestimated Solidarity's support
+
+- People were reluctant to share their true opinions 
+
+- Government hoped to incorporate Solidarity in the puppet opposition
+
+- Solidarity pushed for democratization backed by the masses
+
+- The USSR's no-interference position strengthened the opposition vis-a-vis the government
+
+:::
+
+
+
 # Summing Up {.section}
+
+
+## What We Learned
+
+- Democratic transition requires many decisions
+
+- Decisions are taken under fundamental [uncertainty]{.alert}
+  - People aspire to democracy but are uncertain about others' resolve
+  - Authoritarian regimes want to keep power but are uncertain about the opposition's strength
+
+- These problems are exacerbated by people hiding their opinions
+
+- This may lead to [errors]{.alert} of judgement
+  - Protests don't happen even though discontent is large
+  - Regimes liberalize to co-opt opposition and end up emboldening it 
+
+- Regime transitions can happen suddenly and unexpectedly
+
+
+## Discussion
+
+These theories are not perfect
+
+- Remember the analogy between maps and models 
+
+- They isolate important mechanisms (coordination/concession)
+  - Emphasize agency of the people vs the government
+
+- Transitions have both "top-down" and "bottom-up" components
+  - See the paper discussed this week
+
+. . . 
+
+Implications for how dictatorships work
+
+- "Democratic" reforms can actually strengthen a regime
+- Next week we will see why
 
 ## 
 
