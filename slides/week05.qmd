@@ -643,7 +643,6 @@ draw_tipping_society(c(0, 2, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
 
 - Person 1 ($T = 0$) protests alone $\implies$ protest size is 1
 - All the others require at least 2 people protesting $\implies$ they stay home
-- The cascade fails to start $\rightarrow$ only 1 person revolts!
 
 ---
 
@@ -682,8 +681,7 @@ draw_tipping_society(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = 1:9)
 
 
 - Person 1 ($T = 0$) revolts $\rightarrow$ Person 2 ($T = 1$) joins $\rightarrow$ Person 3 ($T = 2$) joins $\dots$
-- 9/10 people revolt (except the loyalist)
-- A revolutionary cascade is triggered
+- 9/10 people revolt $\rightarrow$ revolutionary cascade 
 
 ---
 
@@ -721,8 +719,7 @@ draw_tipping_society(c(0, 2, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
 
 
 - Person 1 ($T = 0$) revolts alone $\implies$ protest size is 1
-- Person 2 ($T = 2$) requires at least 2 people $\implies$ stays home
-- No cascade $\rightarrow$ only 1 person revolts
+- Others require at least 2 people $\implies$ Stay home
 
 ---
 
@@ -762,7 +759,6 @@ draw_tipping_society(c(0, 1, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1, 
 
 - Person 1 ($T = 0$) revolts $\rightarrow$ Person 2 ($T = 1$) joins $\implies$ protest size is 2
 - The others require at least 3 people $\implies$ they stay home
-- Cascade is blocked by the "gap" at $T = 2$ $\rightarrow$ only 2 people revolt
 
 ---
 
@@ -799,10 +795,8 @@ draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c(1))
 ```
 
 
-- Almost everyone is very willing to revolt ($T = 2$ for 8 out of 10 people)
-- But Person 1 ($T = 0$) protests alone $\rightarrow$ protest size is only 1
-- Without a critical bridge ($T = 1$), no one else joins
-- Highly discontented society, yet only 1 person revolts
+- Almost everyone is very willing to revolt, but Person 1 ($T = 0$) protests alone 
+- Highly discontented society, yet only 1 person protests
 
 ---
 
@@ -840,8 +834,8 @@ draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = 1:9)
 ```
 
 
-- Person 1 ($T = 0$) and Person 2 ($T = 0$) both revolt $\rightarrow$ protest size is 2
-- All 7 individuals with $T = 2$ see their threshold met and join simultaneously
+- Person 1 ($T = 0$) and Person 2 ($T = 0$) both protest
+- All 7 individuals with $T = 2$ see their threshold met and join
 - 9/10 people revolt $\rightarrow$ Revolutionary cascade
 
 
@@ -1172,8 +1166,8 @@ draw_transition_game_tree(hl_branches = c("open"), branch_hl_col = "#2E7D32")
 ```
 
 ::: {.nonincremental}
-- Soft-liners mistakenly believe the opposition is **weak** (expecting them to *Enter*)
-- **Stage 1 (Soft-Liners):** Based on this miscalculation, soft-liners choose to [**Open**]{style="color: #2E7D32; font-weight: bold;"}
+- Soft-liners mistakenly believe the opposition is **weak** (and will *Enter*)
+- **Stage 1 (Soft-Liners):** Based on miscalculation, soft-liners [**Open**]{style="color: #2E7D32; font-weight: bold;"}
 :::
 
 ---
@@ -1216,7 +1210,7 @@ draw_transition_game_tree(hl_branches = c("open", "organize", "democratize"),
 ::: {.nonincremental}
 - **Stage 1:** Soft-liners **Open** (mistaken belief that opposition is weak)
 - **Stage 2:** Opposition **Organizes** (revealing true strength)
-- **Stage 3 (Soft-Liners):** Mistake realized — repression would fail $\implies$ soft-liners must [**Democratize**]{style="color: #2E7D32; font-weight: bold;"}
+- **Stage 3 (Soft-Liners):** Realize mistake, forced to [**Democratize**]{style="color: #2E7D32; font-weight: bold;"}
 - **Outcome:** [**Democratic Transition**]{style="color: #DC143C; font-weight: bold;"} occurs by mistake
 :::
 
