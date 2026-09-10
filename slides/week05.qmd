@@ -165,7 +165,7 @@ The core of this problem is the same as that of protesting
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 . . . 
 
@@ -201,7 +201,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -235,7 +235,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -269,7 +269,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -303,7 +303,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -337,7 +337,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -371,7 +371,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -405,7 +405,7 @@ Would you participate or not?
 
 **N** East Germans, **K** of them need to protest to obtain democracy
 
-Would you participate or not?
+Personal cost for participation, public good in case of success
 
 
 <table style="margin: 25px auto; font-size: 0.85em; border-collapse: collapse; text-align: center; width: 95%;">
@@ -472,7 +472,7 @@ Relative to Collective Action Theory, we introduce some elements
 Key idea: in a dictatorship people [conceal]{.alert} their real support for the government
 
 - So people don't know how many others want to protest
-- Making a few people willing to protest can motivate others $\implies$ [revolutionary cascade]{.alert}
+- A few people protesting can motivate others $\implies$ [revolutionary cascade]{.alert}
 
 ## Tipping Models
 
@@ -640,9 +640,12 @@ Consider a society with 10 people
 draw_tipping_society(c(0, 2, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
 ```
 
-
-- Person 1 ($T = 0$) protests alone $\implies$ protest size is 1
-- All the others require at least 2 people protesting $\implies$ they stay home
+:::{.fragment}
+:::{.nonincremental}
+- Person 1 ($T = 0$) protests, the others require at least 2
+- Protest size is 1
+:::
+:::
 
 ---
 
@@ -679,9 +682,12 @@ Now suppose P2's threshold goes down from 2 to 1
 draw_tipping_society(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 10), revolting_indices = 1:9)
 ```
 
-
-- Person 1 ($T = 0$) revolts $\rightarrow$ Person 2 ($T = 1$) joins $\rightarrow$ Person 3 ($T = 2$) joins $\dots$
-- 9/10 people revolt $\rightarrow$ revolutionary cascade 
+:::{.fragment}
+:::{.nonincremental}
+- Person 1 ($T = 0$) protests $\rightarrow$ Person 2 ($T = 1$) joins $\rightarrow$ Person 3 $\dots$
+- 9/10 people protest $\rightarrow$ revolutionary cascade 
+:::
+:::
 
 ---
 
@@ -717,13 +723,16 @@ Consider a different society
 draw_tipping_society(c(0, 2, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1))
 ```
 
-
-- Person 1 ($T = 0$) revolts alone $\implies$ protest size is 1
-- Others require at least 2 people $\implies$ Stay home
+:::{.fragment}
+:::{.nonincremental}
+- Person 1 ($T = 0$) revolts alone, others require at least 2 people
+- Protest size is 1
+:::
+:::
 
 ---
 
-## Tipping Models: Another example
+## Tipping Models: Another Example
 
 Now let's change P2 from 2 to 1 as before
 
@@ -756,9 +765,12 @@ Now let's change P2 from 2 to 1 as before
 draw_tipping_society(c(0, 1, 3, 3, 4, 5, 6, 7, 8, 10), revolting_indices = c(1, 2))
 ```
 
-
-- Person 1 ($T = 0$) revolts $\rightarrow$ Person 2 ($T = 1$) joins $\implies$ protest size is 2
-- The others require at least 3 people $\implies$ they stay home
+:::{.fragment}
+:::{.nonincremental}
+- Person 1 ($T = 0$) and Person 2 ($T = 1$) protest, others need at least 3
+- The protest size is 2
+:::
+:::
 
 ---
 
@@ -794,9 +806,12 @@ A final example
 draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c(1))
 ```
 
-
+:::{.fragment}
+:::{.nonincremental}
 - Almost everyone is very willing to revolt, but Person 1 ($T = 0$) protests alone 
 - Highly discontented society, yet only 1 person protests
+:::
+:::
 
 ---
 
@@ -833,11 +848,12 @@ Now let's make one person willing to protest
 draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = 1:9)
 ```
 
-
-- Person 1 ($T = 0$) and Person 2 ($T = 0$) both protest
-- All 7 individuals with $T = 2$ see their threshold met and join
+:::{.fragment}
+:::{.nonincremental}
+- Person 1 ($T = 0$) and Person 2 ($T = 0$) both protest, other 7 join
 - 9/10 people revolt $\rightarrow$ Revolutionary cascade
-
+:::
+:::
 
 
 ## Implications of the Theory
