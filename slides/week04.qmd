@@ -200,7 +200,7 @@ Societies become increasingly large and complex
 
 - [Power alternation]{.alert} $\rightarrow$ today's losers can still win tomorrow
 - Losing power is no longer an existential threat
-- Pushes winners to moderation and losers to democratic commitment
+- Push winners to moderation and losers to democratic commitment
 
 :::
 
@@ -217,8 +217,8 @@ Societies become increasingly large and complex
 ::: {.column width="70%"}
 
 - [Accountability]{.alert} of rulers $\rightarrow$ future power depends on performance
-- Rulers anticipate the future evaluation of voters
-- Pushes policies to (perceived) will of the people
+- Rulers anticipate the future evaluation by voters
+- Push policies to (perceived) will of the people
 
 :::
 
@@ -369,7 +369,7 @@ What is the problem?
     - After all, it controls the means of violence
 :::
 
-$\implies$ the threat to the ruler must be **constant** for the bargain to work
+$\implies$ The threat to the ruler must be **constant** for the bargain to work
 
 :::
 
@@ -470,7 +470,7 @@ ggplot() +
 
 . . . 
 
-$\implies$ knowing the commitment problem, the bourgeoisie escapes taxation 
+$\implies$ Knowing the commitment problem, the bourgeoisie escapes taxation 
 
 ---
 
@@ -486,12 +486,12 @@ $\implies$ knowing the commitment problem, the bourgeoisie escapes taxation
 - **Repeated interactions** $\rightarrow$ develop reputation for reliability
     - But the government needs resources now, doesn't think about the future
 - **<u>Transfer power to the people</u>** $\rightarrow$ removes temptation to renege by force
-    - The ruler will **always** need consent in the future
+    - The ruler will always need consent in the future
 
 
 ---
 
-## Third Step: Institutions
+## Third Step: Democratic Institutions
 
 
 :::: {.columns}
@@ -508,10 +508,9 @@ An [assembly]{.alert} forces the ruler to rule by consent, solving the commitmen
 
 The early English Parliament is a famous example (North & Weingast 1989)
 
-- Parliament $\rightarrow$ control over [taxation]{.alert} and royal spending
+- Parliament $\rightarrow$ control over taxation and royal spending
 - Parliament $\rightarrow$ a [veto player]{.alert} against expropriation
 - Commitment to repay debts becomes credible
-- Investors and merchants now willing to lend and invest
 
 
 :::
@@ -699,7 +698,7 @@ An assembly of representatives is only part of modern democracy
 This is a congregation of barons, not a popular empowerment tool
 
 ::: {.fragment .fade-in}
-$\implies$ a precondition, not a guarantee
+More a precondition than a guarantee
 :::
 
 ::: {.fragment .fade-in}
