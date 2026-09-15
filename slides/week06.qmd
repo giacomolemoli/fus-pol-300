@@ -1,0 +1,641 @@
+---
+title: "6. Varieties of Dictatorship"
+subtitle: "Comparative Politics"
+format: revealjs
+---
+
+
+## Some Myths about Dictators
+
+- We tend to imagine dictators as omnipotent individuals
+
+- They actually govern through complex institutions
+
+## Our Plan for Today
+
+Types of dictatorship
+
+- Does it matter if the dictator is a king or a general?
+
+. . . 
+
+How Dictators rule
+
+:::{.nonincremental}
+- Why do dictatorship have parties and elections?
+- Media and propaganda
+- Violence and repression
+:::
+
+. . . 
+
+Explaining dictators' economic performance
+
+:::{.nonincremental}
+- [Selectorate]{.alert} theory
+:::
+
+
+# Types of Dictatorship {.section}
+
+
+## Monarchic Dictatorships
+
+[Figure TBA]
+
+- The dictator is a king
+- Key power roles are held within the royal family
+- Succession happens within the royal family
+
+Tend to be more stable than other regimes. Why?
+
+## Monarchic Dictatorships
+
+Tend to be more stable than other regimes. Why?
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 5.5
+#| fig-height: 5.2
+#| out-width: "100%"
+
+library(grid)
+
+draw_monarchic_network <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # 7 Nodes (King is node 1: embedded in the network, not the sole center)
+  nodes <- data.frame(
+    id = 1:7,
+    x = c(0.72, 0.36, 0.16, 0.28, 0.62, 0.85, 0.48),
+    y = c(0.70, 0.80, 0.50, 0.24, 0.20, 0.45, 0.50),
+    is_king = c(TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE)
+  )
+  
+  # Dense kinship and power-sharing ties
+  edges <- matrix(c(
+    1, 2,  1, 6,  1, 7,  1, 5,
+    2, 3,  2, 7,  2, 4,
+    3, 4,  3, 7,
+    4, 5,  4, 7,
+    5, 6,  5, 7,
+    6, 7
+  ), ncol = 2, byrow = TRUE)
+  
+  # 1. Background boundary indicating the "Ruling Family"
+  hull_idx <- c(3, 2, 1, 6, 5, 4)
+  hx <- nodes$x[hull_idx]
+  hy <- nodes$y[hull_idx]
+  cx <- mean(nodes$x)
+  cy <- mean(nodes$y)
+  hx_exp <- cx + (hx - cx) * 1.30
+  hy_exp <- cy + (hy - cy) * 1.28
+  
+  grid.polygon(hx_exp, hy_exp, 
+               gp = gpar(fill = "#F8FAFC", col = "#CBD5E1", lwd = 1.8, lty = "dashed"))
+  
+  # Title above network
+  grid.text("Royal Family Network", x = 0.50, y = 0.94, 
+            gp = gpar(fontsize = 14, fontface = "bold", col = "#0F172A"))
+  
+  # 2. Draw Edges
+  for (e in 1:nrow(edges)) {
+    n1 <- edges[e, 1]
+    n2 <- edges[e, 2]
+    grid.lines(x = c(nodes$x[n1], nodes$x[n2]), 
+               y = c(nodes$y[n1], nodes$y[n2]), 
+               gp = gpar(col = "#94A3B8", lwd = 2.0))
+  }
+  
+  # Helper for Crown
+  draw_crown <- function(x, y, w, h) {
+    xs <- x + c(-w/2, -w/2, -w/4, 0, w/4, w/2, w/2)
+    ys <- y + c(0, h*0.7, h*0.3, h, h*0.3, h*0.7, 0)
+    grid.polygon(xs, ys, gp = gpar(fill = "#F59E0B", col = "#B45309", lwd = 1.4))
+    
+    # Jewels
+    tip_xs <- x + c(-w/2, 0, w/2)
+    tip_ys <- y + c(h*0.7, h, h*0.7)
+    for (i in 1:3) {
+      grid.circle(tip_xs[i], tip_ys[i] + h*0.09, r = h*0.12, 
+                  gp = gpar(fill = "#EF4444", col = "#991B1B", lwd = 0.8))
+    }
+  }
+  
+  # 3. Draw Nodes
+  r_node <- 0.056
+  for (i in 1:nrow(nodes)) {
+    nx <- nodes$x[i]
+    ny <- nodes$y[i]
+    is_k <- nodes$is_king[i]
+    
+    border_col <- if (is_k) "#D97706" else "#475569"
+    fill_col   <- if (is_k) "#FEF3C7" else "#FFFFFF"
+    lwd_val    <- if (is_k) 2.6 else 1.8
+    
+    grid.circle(nx, ny, r = r_node, 
+                gp = gpar(fill = fill_col, col = border_col, lwd = lwd_val))
+    
+    head_r <- r_node * 0.35
+    head_y <- ny + r_node * 0.16
+    grid.circle(nx, head_y, r = head_r, 
+                gp = gpar(fill = "#FDE68A", col = "#1F2937", lwd = 1.1))
+    
+    torso_col <- if (is_k) "#DC2626" else "#94A3B8"
+    tx <- c(nx - r_node*0.54, nx + r_node*0.54, nx + r_node*0.40, nx - r_node*0.40)
+    ty <- c(ny - r_node*0.82, ny - r_node*0.82, ny - r_node*0.06, ny - r_node*0.06)
+    grid.polygon(tx, ty, gp = gpar(fill = torso_col, col = "#1F2937", lwd = 1.1))
+    
+    if (is_k) {
+      draw_crown(nx, head_y + head_r * 0.82, w = head_r * 2.2, h = head_r * 1.5)
+    }
+  }
+  
+  popViewport()
+}
+
+draw_monarchic_network()
+```
+
+:::
+
+::: {.column width="52%"}
+
+- Everyone has an interest in government stability
+
+- Power sharing and succession encoded in family norms 
+
+- Family members monitor the king $\implies$ [commitment]{.alert}
+
+. . . 
+
+$\implies$ Less incentives from powerful elites to overthrow the king
+
+:::
+
+::::
+
+
+
+## Military Dictatorships
+
+[Figure TBA]
+
+- The dictator is/was a member of the military
+- Often come to power through military coups
+- Motivated by threat of unrest or economic interests
+
+Relatively less stable. Why?
+
+
+## Military Dictatorships
+
+Relatively less stable. Why?
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 5.5
+#| fig-height: 5.2
+#| out-width: "100%"
+
+library(grid)
+
+draw_military_networks <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Title
+  grid.text("Military Junta and Factions", x = 0.50, y = 0.94, 
+            gp = gpar(fontsize = 14, fontface = "bold", col = "#0F172A"))
+  
+  # Helper to draw a military person node
+  draw_military_node <- function(x, y, r = 0.052, torso_col = "#2D5A27", is_junta = FALSE) {
+    fill_col <- if (is_junta) "#F0FDF4" else "#FFFFFF"
+    b_col    <- if (is_junta) "#15803D" else "#475569"
+    lwd_val  <- if (is_junta) 2.4 else 1.8
+    
+    grid.circle(x, y, r = r, 
+                gp = gpar(fill = fill_col, col = b_col, lwd = lwd_val))
+    
+    head_r <- r * 0.35
+    head_y <- y + r * 0.16
+    grid.circle(x, head_y, r = head_r, 
+                gp = gpar(fill = "#FDE68A", col = "#1F2937", lwd = 1.1))
+    
+    tx <- c(x - r*0.54, x + r*0.54, x + r*0.40, x - r*0.40)
+    ty <- c(y - r*0.82, y - r*0.82, y - r*0.06, y - r*0.06)
+    grid.polygon(tx, ty, gp = gpar(fill = torso_col, col = "#1F2937", lwd = 1.1))
+    
+    grid.circle(x, y - r*0.38, r = r*0.10, 
+                gp = gpar(fill = "#F59E0B", col = "#B45309", lwd = 0.7))
+  }
+  
+  # Helper for dashed boundary box
+  draw_cluster_boundary <- function(x, y, w, h, label = NULL, col = "#CBD5E1", fill = "#F8FAFC") {
+    grid.roundrect(x, y, width = w, height = h, r = unit(0.04, "npc"),
+                   gp = gpar(fill = fill, col = col, lwd = 1.6, lty = "dashed"))
+    if (!is.null(label)) {
+      grid.text(label, x = x, y = y + h/2 - 0.042, 
+                gp = gpar(fontsize = 11, fontface = "bold", col = "#1E293B"))
+    }
+  }
+  
+  # 1. CLUSTER BOUNDARIES
+  # A. Military Junta (Top)
+  draw_cluster_boundary(0.50, 0.67, w = 0.76, h = 0.43, 
+                        label = "Military Junta", col = "#86EFAC", fill = "#F0FDF4")
+  
+  # B. Faction A (Bottom Left)
+  draw_cluster_boundary(0.26, 0.22, w = 0.44, h = 0.36, 
+                        label = "Faction A", col = "#CBD5E1", fill = "#F8FAFC")
+  
+  # C. Faction B (Bottom Right)
+  draw_cluster_boundary(0.74, 0.22, w = 0.44, h = 0.36, 
+                        label = "Faction B", col = "#CBD5E1", fill = "#F8FAFC")
+  
+  # 2. EDGES & NODES
+  # Military Junta (4 nodes)
+  j_nodes <- data.frame(
+    x = c(0.34, 0.66, 0.50, 0.50),
+    y = c(0.68, 0.68, 0.77, 0.53)
+  )
+  j_edges <- matrix(c(
+    1, 2,  1, 3,  1, 4,
+    2, 3,  2, 4,
+    3, 4
+  ), ncol = 2, byrow = TRUE)
+  
+  for (e in 1:nrow(j_edges)) {
+    n1 <- j_edges[e, 1]
+    n2 <- j_edges[e, 2]
+    grid.lines(x = c(j_nodes$x[n1], j_nodes$x[n2]), 
+               y = c(j_nodes$y[n1], j_nodes$y[n2]), 
+               gp = gpar(col = "#94A3B8", lwd = 2.0))
+  }
+  for (i in 1:nrow(j_nodes)) {
+    draw_military_node(j_nodes$x[i], j_nodes$y[i], r = 0.052, 
+                       torso_col = "#1E4D2B", is_junta = TRUE)
+  }
+  
+  # Faction A (3 nodes)
+  f1_nodes <- data.frame(
+    x = c(0.18, 0.34, 0.26),
+    y = c(0.24, 0.24, 0.11)
+  )
+  f1_edges <- matrix(c(1, 2, 2, 3, 3, 1), ncol = 2, byrow = TRUE)
+  
+  for (e in 1:nrow(f1_edges)) {
+    n1 <- f1_edges[e, 1]
+    n2 <- f1_edges[e, 2]
+    grid.lines(x = c(f1_nodes$x[n1], f1_nodes$x[n2]), 
+               y = c(f1_nodes$y[n1], f1_nodes$y[n2]), 
+               gp = gpar(col = "#94A3B8", lwd = 2.0))
+  }
+  for (i in 1:nrow(f1_nodes)) {
+    draw_military_node(f1_nodes$x[i], f1_nodes$y[i], r = 0.046, 
+                       torso_col = "#3B6E44", is_junta = FALSE)
+  }
+  
+  # Faction B (2 nodes)
+  f2_nodes <- data.frame(
+    x = c(0.66, 0.82),
+    y = c(0.18, 0.18)
+  )
+  grid.lines(x = c(f2_nodes$x[1], f2_nodes$x[2]), 
+             y = c(f2_nodes$y[1], f2_nodes$y[2]), 
+             gp = gpar(col = "#94A3B8", lwd = 2.0))
+  
+  for (i in 1:nrow(f2_nodes)) {
+    draw_military_node(f2_nodes$x[i], f2_nodes$y[i], r = 0.046, 
+                       torso_col = "#3B6E44", is_junta = FALSE)
+  }
+  
+  popViewport()
+}
+
+draw_military_networks()
+```
+
+:::
+
+::: {.column width="52%"}
+
+- Armed forces easily split into factions
+
+- Disagreement over everyday politics leads to conflict
+
+- Diffused military strength makes balance of power uncertain
+
+- Military may prefer to "allow" democracy rather than maintaining power
+
+:::
+
+::::
+
+
+
+## Civilian Dictatorships
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 5.5
+#| fig-height: 5.2
+#| out-width: "100%"
+
+library(grid)
+
+draw_civilian_dictatorship <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Title
+  grid.text("Civilian Dictatorship", x = 0.50, y = 0.94, 
+            gp = gpar(fontsize = 14, fontface = "bold", col = "#0F172A"))
+  
+  # Helper to draw a stylized civilian node
+  draw_civilian_node <- function(x, y, r = 0.050, torso_col = "#64748B", is_dictator = FALSE) {
+    fill_col <- if (is_dictator) "#EFF6FF" else "#FFFFFF"
+    b_col    <- if (is_dictator) "#1E3A8A" else "#475569"
+    lwd_val  <- if (is_dictator) 2.6 else 1.8
+    
+    # Outer circle
+    grid.circle(x, y, r = r, 
+                gp = gpar(fill = fill_col, col = b_col, lwd = lwd_val))
+    
+    # Head
+    head_r <- r * 0.35
+    head_y <- y + r * 0.16
+    grid.circle(x, head_y, r = head_r, 
+                gp = gpar(fill = "#FDE68A", col = "#1F2937", lwd = 1.1))
+    
+    # Torso (civilian clothing)
+    tx <- c(x - r*0.54, x + r*0.54, x + r*0.40, x - r*0.40)
+    ty <- c(y - r*0.82, y - r*0.82, y - r*0.06, y - r*0.06)
+    grid.polygon(tx, ty, gp = gpar(fill = torso_col, col = "#1F2937", lwd = 1.1))
+    
+    # Dictator detail: dark suit with red necktie
+    if (is_dictator) {
+      grid.polygon(x = c(x, x - r*0.13, x, x + r*0.13),
+                   y = c(y - r*0.06, y - r*0.45, y - r*0.68, y - r*0.45),
+                   gp = gpar(fill = "#DC2626", col = "#991B1B", lwd = 0.8))
+    }
+  }
+  
+  # 1. Dictator at the top
+  x_dict <- 0.50
+  y_dict <- 0.78
+  r_dict <- 0.058
+  
+  # 2. Nodes below
+  # Group 1 (Organized network, e.g. party/institutions): 3 nodes
+  g1_nodes <- data.frame(
+    x = c(0.18, 0.36, 0.27),
+    y = c(0.40, 0.40, 0.22)
+  )
+  g1_edges <- matrix(c(1, 2, 2, 3, 3, 1), ncol = 2, byrow = TRUE)
+  
+  # Group 2 (Organized network, e.g. elites/interest groups): 2 nodes
+  g2_nodes <- data.frame(
+    x = c(0.68, 0.84),
+    y = c(0.38, 0.24)
+  )
+  
+  # Standalone unconnected individuals
+  ind_nodes <- data.frame(
+    x = c(0.50, 0.88, 0.14),
+    y = c(0.18, 0.48, 0.16)
+  )
+  
+  # Internal network edges (grey)
+  for (e in 1:nrow(g1_edges)) {
+    n1 <- g1_edges[e, 1]
+    n2 <- g1_edges[e, 2]
+    grid.lines(x = c(g1_nodes$x[n1], g1_nodes$x[n2]), 
+               y = c(g1_nodes$y[n1], g1_nodes$y[n2]), 
+               gp = gpar(col = "#94A3B8", lwd = 2.0))
+  }
+  
+  grid.lines(x = c(g2_nodes$x[1], g2_nodes$x[2]), 
+             y = c(g2_nodes$y[1], g2_nodes$y[2]), 
+             gp = gpar(col = "#94A3B8", lwd = 2.0))
+  
+  # 3. Two-sided arrows (Dictator <-> Groups & Citizens)
+  # Arrow 1: Dictator <-> Group 1 (left)
+  grid.lines(x = c(x_dict - 0.055, 0.31), 
+             y = c(y_dict - 0.055, 0.46), 
+             arrow = arrow(ends = "both", type = "closed", length = unit(0.024, "npc")),
+             gp = gpar(col = "#2563EB", fill = "#2563EB", lwd = 2.2))
+  
+  # Arrow 2: Dictator <-> Group 2 (right)
+  grid.lines(x = c(x_dict + 0.055, 0.70), 
+             y = c(y_dict - 0.055, 0.45), 
+             arrow = arrow(ends = "both", type = "closed", length = unit(0.024, "npc")),
+             gp = gpar(col = "#2563EB", fill = "#2563EB", lwd = 2.2))
+  
+  # Arrow 3: Dictator <-> Unconnected citizens (center bottom)
+  grid.lines(x = c(x_dict, 0.50), 
+             y = c(y_dict - 0.075, 0.27), 
+             arrow = arrow(ends = "both", type = "closed", length = unit(0.024, "npc")),
+             gp = gpar(col = "#2563EB", fill = "#2563EB", lwd = 2.2))
+  
+  # 4. Draw Nodes
+  for (i in 1:nrow(g1_nodes)) {
+    draw_civilian_node(g1_nodes$x[i], g1_nodes$y[i], r = 0.048, torso_col = "#475569")
+  }
+  for (i in 1:nrow(g2_nodes)) {
+    draw_civilian_node(g2_nodes$x[i], g2_nodes$y[i], r = 0.048, torso_col = "#475569")
+  }
+  for (i in 1:nrow(ind_nodes)) {
+    draw_civilian_node(ind_nodes$x[i], ind_nodes$y[i], r = 0.045, torso_col = "#64748B")
+  }
+  
+  # Dictator node
+  draw_civilian_node(x_dict, y_dict, r = r_dict, torso_col = "#1E3A8A", is_dictator = TRUE)
+  
+  popViewport()
+}
+
+draw_civilian_dictatorship()
+```
+
+:::
+
+::: {.column width="52%"}
+
+- The dictator is a civilian (not a member of the army)
+
+- Needs to build support base out of existing institutions
+
+- Use parties or personality cults
+
+:::
+
+::::
+
+
+## Civilian Dictatorships: Dominant Party
+
+- Parties as tools of social mobilization (rather than representation)
+- Career in the party = career in the regime
+
+## Civilian Dictatorships: Personalist
+
+## Types of Dictatorships in Time
+
+[figure from book]
+
+## Classifying Dictatorships
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 10
+#| fig-height: 5.5
+#| out-width: "950px"
+#| out-height: "520px"
+
+library(grid)
+
+grid.newpage()
+pushViewport(viewport(width = 1, height = 1))
+
+col_line <- "#111827"
+col_text <- "#111827"
+col_source <- "#4B5563"
+lwd_line <- 3.2
+
+# Coordinates
+y_q1 <- 0.94
+y_q2 <- 0.79
+y_b1 <- 0.67       # split 1
+y_yesno1 <- 0.58   # Yes/No 1
+y_monarchy <- 0.44 # MONARCHY
+
+y_q3 <- 0.45       # Q3
+y_b2 <- 0.31       # split 2
+y_yesno2 <- 0.22   # Yes/No 2
+y_mil_civ <- 0.09  # MILITARY / CIVILIAN
+
+x_center <- 0.50
+x_left1 <- 0.28    # Monarchy branch
+x_right1 <- 0.72   # Q3 branch
+
+x_left2 <- 0.56    # Military branch
+x_right2 <- 0.88   # Civilian branch
+
+# 1. Question 1
+grid.text("1. Who is the effective head of government?", 
+          x = x_center, y = y_q1, 
+          gp = gpar(fontsize = 15, fontface = "bold", col = col_text))
+
+# Line Q1 -> Q2
+grid.lines(x = c(x_center, x_center), y = c(y_q1 - 0.032, y_q2 + 0.052), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+
+# 2. Question 2
+grid.text("2. Does the effective head of government bear the title of \"king\"", 
+          x = x_center, y = y_q2 + 0.022, 
+          gp = gpar(fontsize = 14, fontface = "bold", col = col_text))
+grid.text("and have a hereditary successor or predecessor?", 
+          x = x_center, y = y_q2 - 0.022, 
+          gp = gpar(fontsize = 14, fontface = "bold", col = col_text))
+
+# Split 1
+grid.lines(x = c(x_center, x_center), y = c(y_q2 - 0.052, y_b1), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_left1, x_right1), y = c(y_b1, y_b1), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_left1, x_left1), y = c(y_b1, y_yesno1 + 0.03), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_right1, x_right1), y = c(y_b1, y_yesno1 + 0.03), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+
+# Labels (Split 1)
+grid.text("Yes", x = x_left1, y = y_yesno1, 
+          gp = gpar(fontsize = 14, fontface = "plain", col = col_text))
+grid.text("No", x = x_right1, y = y_yesno1, 
+          gp = gpar(fontsize = 14, fontface = "plain", col = col_text))
+
+# Yes -> MONARCHY
+grid.lines(x = c(x_left1, x_left1), y = c(y_yesno1 - 0.03, y_monarchy + 0.04), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.text("MONARCHY", x = x_left1, y = y_monarchy, 
+          gp = gpar(fontsize = 15, fontface = "bold", col = col_text))
+
+# No -> Q3
+grid.lines(x = c(x_right1, x_right1), y = c(y_yesno1 - 0.03, y_q3 + 0.052), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+
+# 3. Question 3
+grid.text("3. Is the effective head of government a current or", 
+          x = x_right1, y = y_q3 + 0.022, 
+          gp = gpar(fontsize = 13.5, fontface = "bold", col = col_text))
+grid.text("past member of the armed forces?", 
+          x = x_right1, y = y_q3 - 0.022, 
+          gp = gpar(fontsize = 13.5, fontface = "bold", col = col_text))
+
+# Split 2
+grid.lines(x = c(x_right1, x_right1), y = c(y_q3 - 0.052, y_b2), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_left2, x_right2), y = c(y_b2, y_b2), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_left2, x_left2), y = c(y_b2, y_yesno2 + 0.03), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_right2, x_right2), y = c(y_b2, y_yesno2 + 0.03), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+
+# Labels (Split 2)
+grid.text("Yes", x = x_left2, y = y_yesno2, 
+          gp = gpar(fontsize = 14, fontface = "plain", col = col_text))
+grid.text("No", x = x_right2, y = y_yesno2, 
+          gp = gpar(fontsize = 14, fontface = "plain", col = col_text))
+
+# Lines to outcomes
+grid.lines(x = c(x_left2, x_left2), y = c(y_yesno2 - 0.03, y_mil_civ + 0.04), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+grid.lines(x = c(x_right2, x_right2), y = c(y_yesno2 - 0.03, y_mil_civ + 0.04), 
+           gp = gpar(col = col_line, lwd = lwd_line, lineend = "square"))
+
+grid.text("MILITARY", x = x_left2, y = y_mil_civ, 
+          gp = gpar(fontsize = 15, fontface = "bold", col = col_text))
+grid.text("CIVILIAN", x = x_right2, y = y_mil_civ, 
+          gp = gpar(fontsize = 15, fontface = "bold", col = col_text))
+
+# Footnote
+grid.text("(Adapted from Cheibub, Gandhi, and Vreeland (2010) and from Clark, Golder, and Golder)", 
+          x = 0.03, y = 0.015, just = "left", 
+          gp = gpar(fontsize = 10, fontface = "italic", col = col_source))
+
+popViewport()
+```
+
+
+
+# Authoritarian Government {.section}
+
+## Competitive Authoritarianism
+
+## Personality Cults
+
+[use to talk about propaganda]
+
+## Spin Dictators
+
+
+# Fundamental Problems of Authoritarian Rule {.section}
