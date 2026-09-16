@@ -5,35 +5,78 @@ format: revealjs
 ---
 
 
-## Some Myths about Dictators
+## Pictures
 
-- We tend to imagine dictators as omnipotent individuals
+::::{.columns}
+:::{.column width="25%"}
+![Adolf Hitler(Germany) (Source: Bundesarchiv)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/960px-Hitler_portrait_crop_%28cropped%29%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+:::
 
-- They actually govern through complex institutions
+:::{.column width="25%"}
+![Mao Zedong (China)](https://upload.wikimedia.org/wikipedia/commons/5/5e/Mao_Zedong_1950_Portrait_%283x4_cropped%29%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+:::
+
+:::{.column width="25%"}
+![Lee Kuan Yew (Singapore)](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor%2C_1975.jpg/960px-Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor%2C_1975.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+:::
+
+:::{.column width="25%"}
+![Paul Kagame (Rwanda) (Source: Saeima)](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Paul_Kagame_2024_%28cropped%29.jpg/960px-Paul_Kagame_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+:::
+::::
+
+- Who looks more like a dictator?
+- What would your grandparents say if you asked them?
+
+
+## Myths and Realities about Dictators
+
+- Our imagination about dictators comes from history's most salient dictatorships
+
+- We tend to imagine them as all-powerful individuals holding absolute power
+
+- In reality, they govern complex systems and need complex institutions
+
+- Their concerns are quite simple
+
+- Need to satisfy allies without giving them too much power
+
+- Don't have democratic competitors but care about citizens' opinion
+
+- In a word, they are still fundamentally politicians
+
+- Understanding their politics is our goal for today
+
 
 ## Our Plan for Today
 
-Types of dictatorship
+Who dictators are
 
-- Does it matter if the dictator is a king or a general?
+- Kings, generals, and their supporters
 
 . . . 
 
-How Dictators rule
+How they rule
 
 :::{.nonincremental}
-- Why do dictatorship have parties and elections?
-- Media and propaganda
+- The surprising (?) prevalence of parties and elections
 - Violence and repression
+- Media and propaganda
+:::
+
+. . . 
+
+Fundamental problems of authoritarian rule 
+
+:::{.nonincremental}
+- [Power-sharing]{.alert} $\rightarrow$ members of the support coalition
+- [Control]{.alert} $\rightarrow$ broader society
 :::
 
 . . . 
 
 Explaining dictators' economic performance
 
-:::{.nonincremental}
-- [Selectorate]{.alert} theory
-:::
 
 
 # Types of Dictatorship {.section}
@@ -41,17 +84,29 @@ Explaining dictators' economic performance
 
 ## Monarchic Dictatorships
 
-[Figure TBA]
+::::{.columns}
 
-- The dictator is a king
+:::{.column width="60%"}
+- The dictator is a [king]{.alert}
 - Key power roles are held within the royal family
-- Succession happens within the royal family
+- [Succession]{.alert} happens within the royal family
 
-Tend to be more stable than other regimes. Why?
+
+::: {.fragment}
+Tend to be more relatively stable. Why?
+:::
+
+:::
+
+:::{.column width="40%"}
+![King Salman (Saudi Arabia)](https://upload.wikimedia.org/wikipedia/commons/0/03/Salman_of_Saudi_Arabia_-_2020_%2849563590728%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+:::
+::::
+
 
 ## Monarchic Dictatorships
 
-Tend to be more stable than other regimes. Why?
+Tend to be more relatively stable. Why?
 
 :::: {.columns}
 
@@ -167,15 +222,14 @@ draw_monarchic_network()
 
 ::: {.column width="52%"}
 
-- Everyone has an interest in government stability
+- Durable access to power through intermarriage 
+
+- Everyone has an interest in government stability $\implies$ Less incentives to overthrow the king
 
 - Power sharing and succession encoded in family norms 
 
-- Family members monitor the king $\implies$ [commitment]{.alert}
+- Family members can monitor the king $\implies$ we will see that this solves [commitment]{.alert} and [collective action]{.alert} problems
 
-. . . 
-
-$\implies$ Less incentives from powerful elites to overthrow the king
 
 :::
 
@@ -185,13 +239,22 @@ $\implies$ Less incentives from powerful elites to overthrow the king
 
 ## Military Dictatorships
 
-[Figure TBA]
+::::{.columns}
 
-- The dictator is/was a member of the military
+:::{.column width="60%"}
+- The dictator is/was a member of the [military]{.alert}
 - Often come to power through military coups
-- Motivated by threat of unrest or economic interests
+- Motivated by threat of social unrest or economic interests
 
+:::{.fragment}
 Relatively less stable. Why?
+:::
+:::
+
+:::{.column width="40%"}
+![Augusto Pinochet (Chile) (Source: Min. Rel. Ext. Chile)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Augusto_Pinochet_official_portrait_%283x4_cropped_b%29.jpg/960px-Augusto_Pinochet_official_portrait_%283x4_cropped_b%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+:::
+::::
 
 
 ## Military Dictatorships
@@ -331,7 +394,7 @@ draw_military_networks()
 
 ::: {.column width="52%"}
 
-- Armed forces easily split into factions
+- Armed forces easily split into [factions]{.alert}
 
 - Disagreement over everyday politics leads to conflict
 
@@ -478,27 +541,23 @@ draw_civilian_dictatorship()
 
 ::: {.column width="52%"}
 
-- The dictator is a civilian (not a member of the army)
+- The dictator is a [civilian]{.alert} (not a member of the army)
 
-- Needs to build support base out of existing institutions
+- Needs to build support base out of existing social groups and institutions
 
-- Use parties or personality cults
+- [Party]{.alert}-centered regimes use party organizations to distribute resources, mobilize the masses, project power
+
+- [Personality]{.alert}-centered regimes are organized around the dictator's figure creating personality cults
 
 :::
 
 ::::
 
 
-## Civilian Dictatorships: Dominant Party
-
-- Parties as tools of social mobilization (rather than representation)
-- Career in the party = career in the regime
-
-## Civilian Dictatorships: Personalist
 
 ## Types of Dictatorships in Time
 
-[figure from book]
+![](figures/dictatorship-types.png){fig-align="center"}
 
 ## Classifying Dictatorships
 
@@ -627,15 +686,617 @@ popViewport()
 
 
 
-# Authoritarian Government {.section}
+# Changing Tools of Authoritarian Government {.section}
 
-## Competitive Authoritarianism
 
-## Personality Cults
+## A Decrease in Arbitrary Violence
 
-[use to talk about propaganda]
+Violence has been the chief tool of dictatorship to quell opposition. Yet it is in decline
 
-## Spin Dictators
+::::{.columns}
+::: {.column width="50%"}
+![](figures/guriev-treisman-fig1.png){fig-align="center"}
+:::
+::: {.column width="50%"}
+![](figures/guriev-treisman-fig2.png)
+:::
+::::
+
+
+## Mimicking Democracy
+
+Rulers increasingly adopt democratic institutions: elections, parliaments
+
+![](figures/guriev-treisman-fig4.png){fig-align="center"}
+
+
+## Why Elections?
+
+Unlike in democracy, authoritarian elections are [non-competitive]{.alert} 
+
+- The system is in fact rigged in favor of the incumbent
+- Opposition parties are intimidated through "legal" means
+  - Made-up accusations, selective arrests, restrictions to party activities
+- Opposition runs but doesn't stand any chance
+
+. . . 
+
+What is the value of elections in such an environment?
+
+- Controlled mobilization of society $\rightarrow$ signals strength
+- [Co-opt]{.alert} opposition $\rightarrow$ has access to benefits and thus a stake in the system
+- Learn about high/low support areas
+- Signal dictator's popularity to the people
+
+
+
+
+## From Ideology to Information Control
+
+Rather than censoring, dictators manipulate ostensibly "reliable" information 
+
+![](figures/guriev-treisman-fig5a.png){fig-align="center"}
+
+The goal is to convince educated citizens that they **govern well**
 
 
 # Fundamental Problems of Authoritarian Rule {.section}
+
+## Authoritarian Power-Sharing
+
+Problems within the ruling elites
+
+- The dictator is initially weak
+- He needs a support coalition to rule $\rightarrow$ power-sharing institutions
+- But the dictator will likely try to consolidate its power over the coalition
+- Example of Stalin: consolidated his power over time by eliminating faction leaders and then purging everybody
+- Fearing this, elites in the support coalitions may stage coups, making the regime unstable
+
+## Problems of Authoritarian Power-Sharing
+
+- [Commitment]{.alert} problem of the dictator $\rightarrow$ a promise to share power today can be reneged on tomorrow
+- [Monitoring]{.alert} problem $\rightarrow$ elites don't know what the dictator is doing/planning
+- [Collective action]{.alert} problem of the elites $\rightarrow$ identify possible successors and share information
+
+Solution: institutions that credibly transfer power to elites (e.g., parliaments, councils, politburos) $\rightarrow$ credibly threaten to punish power grabs of the dictator
+
+Remaining problem: changes in the balance of power can lead to weakening or strengthening of these institutions
+
+(commitment problem may not be fully eliminated)
+
+## Authoritarian Control
+
+Problems between dictator and masses
+
+- Repression $\rightarrow$ trade-off between large-scale repression and empowering the army
+- The dictator may want to maintain the army weak and empower internal security services
+- This may be a risk if social unrest becomes too large to manage (e.g., Arab Spring)
+
+- Co-optation $\rightarrow$ give access to benefits and resources to organized social groups and make them invested in the regime
+- Liberalization without democratization (managed by soft-liners)
+- Institutions (e.g., parties) can also solve a credible commitment problem in the distribution of benefits 
+
+# Economic Performance {.section}
+
+## Economic Performance 
+
+- Why do dictatorships generally have worse economic performance than democracies?
+- Why do we see differences in economic performances between dictatorships?
+- Our scientific approach:
+  - Start from variation in authoritarian institutions (power-sharing)
+  - Study how ruler's incentives to provide economic goods vary with these institutions
+
+- For this, we will use a stylized model of political regimes: [selectorate]{.alert} theory 
+
+## Selectorate Theory
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9.5
+#| fig-height: 5.5
+#| out-width: "900px"
+#| out-height: "520px"
+
+library(grid)
+
+draw_selectorate_figure <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Banner at top: "FIGURE 8.4 ■ The Institutional Environment in Selectorate Theory"
+  banner_y <- 0.93
+  banner_h <- 0.075
+  grid.rect(x = 0.50, y = banner_y, width = 0.94, height = banner_h,
+            gp = gpar(fill = "#1E293B", col = "#1E293B"))
+  
+  grid.text("FIGURE 8.4", x = 0.055, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Small white square separator
+  grid.rect(x = 0.205, y = banner_y, width = 0.012, height = 0.012,
+            gp = gpar(fill = "white", col = "white"))
+  
+  grid.text("The Institutional Environment in Selectorate Theory", 
+            x = 0.23, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Helper for drawing ellipse
+  draw_ellipse <- function(xc, yc, rx, ry, fill = "white", col = "black", lwd = 2.2) {
+    theta <- seq(0, 2 * pi, length.out = 500)
+    x <- xc + rx * cos(theta)
+    y <- yc + ry * sin(theta)
+    grid.polygon(x, y, gp = gpar(fill = fill, col = col, lwd = lwd))
+  }
+  
+  # 1. Outer: Residents (ellipse, light grey fill)
+  draw_ellipse(xc = 0.50, yc = 0.46, rx = 0.43, ry = 0.36,
+               fill = "#E5E7EB", col = "black", lwd = 2.4)
+  
+  # 2. Middle: Selectorate (circle, white fill)
+  draw_ellipse(xc = 0.57, yc = 0.48, rx = 0.28, ry = 0.28,
+               fill = "#FFFFFF", col = "black", lwd = 2.4)
+  
+  # 3. Inner: Winning Coalition (circle, medium grey fill)
+  draw_ellipse(xc = 0.63, yc = 0.405, rx = 0.155, ry = 0.155,
+               fill = "#CBD5E1", col = "black", lwd = 2.4)
+  
+  # LABELS
+  # "Residents"
+  grid.text("Residents", x = 0.23, y = 0.48, 
+            gp = gpar(fontsize = 15, fontface = "plain", col = "black"))
+  
+  # "Selectorate"
+  grid.text("Selectorate", x = 0.58, y = 0.67, 
+            gp = gpar(fontsize = 15, fontface = "plain", col = "black"))
+  
+  # "Winning\ncoalition"
+  grid.text("Winning\ncoalition", x = 0.63, y = 0.405, 
+            gp = gpar(fontsize = 14, fontface = "plain", col = "black", lineheight = 1.15))
+  
+  popViewport()
+}
+
+draw_selectorate_figure()
+```
+
+
+:::{.nonincremental}
+- **Selectorate** ($S$) $\rightarrow$ group who selects the leder
+- **Winning Coalition** ($W$) $\rightarrow$ supporters needed to remain in power
+:::
+
+## Selectorate Theory: Different Regimes
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9.5
+#| fig-height: 5.5
+#| out-width: "900px"
+#| out-height: "520px"
+
+library(grid)
+
+draw_selectorate_locations_figure <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Banner at top: "FIGURE 8.5 ■ Selectorate Theory and Regime-Type Locations"
+  banner_y <- 0.93
+  banner_h <- 0.075
+  grid.rect(x = 0.50, y = banner_y, width = 0.94, height = banner_h,
+            gp = gpar(fill = "#1E293B", col = "#1E293B"))
+  
+  grid.text("FIGURE 8.5", x = 0.055, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Small white square separator
+  grid.rect(x = 0.19, y = banner_y, width = 0.012, height = 0.012,
+            gp = gpar(fill = "white", col = "white"))
+  
+  grid.text("Selectorate Theory and Regime-Type Locations", 
+            x = 0.215, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Axis lines
+  ax_x0 <- 0.15
+  ax_x1 <- 0.95
+  ax_y0 <- 0.12
+  ax_y1 <- 0.85
+  
+  # Y axis & X axis lines
+  grid.lines(x = c(ax_x0, ax_x0), y = c(ax_y0, ax_y1), gp = gpar(lwd = 2.4, col = "#111827"))
+  grid.lines(x = c(ax_x0, ax_x1), y = c(ax_y0, ax_y0), gp = gpar(lwd = 2.4, col = "#111827"))
+  
+  # Y axis tick labels: Large & Small
+  grid.text("Large", x = ax_x0 - 0.025, y = ax_y1 - 0.01, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text("Small", x = ax_x0 - 0.025, y = ax_y0 + 0.02, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Y axis title: Selectorate (S)
+  grid.text(expression(bold("Selectorate (") * bolditalic("S") * bold(")")), 
+            x = ax_x0 - 0.08, y = (ax_y0 + ax_y1) / 2, just = "center", rot = 90,
+            gp = gpar(fontsize = 14, col = "#111827"))
+  
+  # X axis labels: Small, Winning Coalition (W), Large
+  grid.text("Small", x = ax_x0 + 0.12, y = ax_y0 - 0.055, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text(expression(bold("Winning Coalition (") * bolditalic("W") * bold(")")), 
+            x = (ax_x0 + ax_x1) / 2, y = ax_y0 - 0.055, just = "center",
+            gp = gpar(fontsize = 14, col = "#111827"))
+  grid.text("Large", x = ax_x1 - 0.03, y = ax_y0 - 0.055, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Text blocks inside quadrants
+  # 1. Top-left (High S, Small W)
+  grid.text("Other dictatorships\n(Example: Dominant-party and\npersonalist dictatorships)",
+            x = ax_x0 + 0.06, y = ax_y1 - 0.035, just = c("left", "top"),
+            gp = gpar(fontsize = 13.5, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 2. Top-right (High S, Large W)
+  grid.text("Most democracies",
+            x = 0.62, y = ax_y1 - 0.035, just = c("left", "top"),
+            gp = gpar(fontsize = 13.5, fontface = "plain", col = "#111827"))
+  
+  # 3. Bottom-left (Small S, Small W)
+  grid.text("Most monarchies\nand military juntas",
+            x = ax_x0 + 0.06, y = ax_y0 + 0.13, just = c("left", "bottom"),
+            gp = gpar(fontsize = 13.5, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  popViewport()
+}
+
+draw_selectorate_locations_figure()
+```
+
+:::{.nonincremental}
+- Monarchies $\rightarrow$ low $S$, low $W$ (family members in both cases)
+- Democracies $\rightarrow$ high $S$ (enfranchised), high $W$ (majority of voters)
+:::
+
+
+
+## The Loyalty Calculus
+
+- The dictator needs to redistribute resources to $W$ to stay in power
+  - Smaller $W$ $\implies$ individual goods (e.g, public companies' ownership)
+  - Larger $W$ $\implies$ public goods (e.g., growth, infrastructures)
+  - Economic performance becomes more important if $W$ larger
+
+- Members of $W$ choose whether to confirm or withdraw support
+  - Low $W/S$ $\implies$ little chance to be in the next $W$
+  - High $W/S$ $\implies$ high chance to be in the next $W$
+  - $W$ members are more loyal if $W/S$ lower
+
+
+## Selectorate Theory: Government Performance
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9.5
+#| fig-height: 5.5
+#| out-width: "900px"
+#| out-height: "520px"
+
+library(grid)
+
+draw_selectorate_performance_figure <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Banner at top: "FIGURE 8.6 ■ Selectorate Theory and Government Performance"
+  banner_y <- 0.93
+  banner_h <- 0.075
+  grid.rect(x = 0.50, y = banner_y, width = 0.94, height = banner_h,
+            gp = gpar(fill = "#1E293B", col = "#1E293B"))
+  
+  grid.text("FIGURE 8.6", x = 0.055, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Small white square separator
+  grid.rect(x = 0.19, y = banner_y, width = 0.012, height = 0.012,
+            gp = gpar(fill = "white", col = "white"))
+  
+  grid.text("Selectorate Theory and Government Performance", 
+            x = 0.215, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Axis lines
+  ax_x0 <- 0.15
+  ax_x1 <- 0.95
+  ax_y0 <- 0.14
+  ax_y1 <- 0.85
+  
+  # Y axis & X axis lines
+  grid.lines(x = c(ax_x0, ax_x0), y = c(ax_y0, ax_y1), gp = gpar(lwd = 2.4, col = "#111827"))
+  grid.lines(x = c(ax_x0, ax_x1), y = c(ax_y0, ax_y0), gp = gpar(lwd = 2.4, col = "#111827"))
+  
+  # Y axis tick labels: Large & Small
+  grid.text("Large", x = ax_x0 - 0.025, y = ax_y1 - 0.01, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text("Small", x = ax_x0 - 0.025, y = ax_y0 + 0.02, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Y axis title: Selectorate (S)
+  grid.text(expression(bold("Selectorate (") * bolditalic("S") * bold(")")), 
+            x = ax_x0 - 0.08, y = (ax_y0 + ax_y1) / 2, just = "center", rot = 90,
+            gp = gpar(fontsize = 14, col = "#111827"))
+  
+  # X axis labels: Small, Winning Coalition (W), Large
+  grid.text("Small", x = ax_x0 + 0.12, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text(expression(bold("Winning Coalition (") * bolditalic("W") * bold(")")), 
+            x = (ax_x0 + ax_x1) / 2, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 14, col = "#111827"))
+  grid.text("Large", x = ax_x1 - 0.03, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Dashed line along W = S diagonal
+  diag_x_end <- 0.84
+  diag_y_end <- 0.88
+  grid.lines(x = c(ax_x0, diag_x_end), y = c(ax_y0, diag_y_end), 
+             gp = gpar(lwd = 2, lty = "dashed", col = "#475569"))
+  
+  # Text blocks inside quadrants
+  # 1. Top-left: Dominant-party and personalist dictatorships
+  grid.text("Dominant-party and personalist dictatorships\n(Poor policy performance:\nW and W/S are both small.)",
+            x = ax_x0 + 0.06, y = ax_y1 - 0.03, just = c("left", "top"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 2. Top-right: Democracies
+  grid.text("Democracies\n(Good policy performance:\nW and W/S are both large.)",
+            x = 0.63, y = ax_y1 - 0.03, just = c("left", "top"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 3. Bottom-left: Monarchies and military juntas
+  grid.text("Monarchies and military juntas\n(Middling policy performance:\nW is small but W/S is large.)",
+            x = ax_x0 + 0.06, y = ax_y0 + 0.17, just = c("left", "bottom"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # Divider line above footnote
+  grid.lines(x = c(0.03, 0.97), y = c(0.045, 0.045), gp = gpar(lwd = 0.8, col = "#94A3B8"))
+  
+  # Footnote at bottom: Note: W/S is large (and the loyalty norm is weak) along the dotted line.
+  grid.text(expression(paste(italic("Note: "), italic("W/S"), " is large (and the loyalty norm is weak) along the dotted line.")),
+            x = 0.03, y = 0.022, just = "left",
+            gp = gpar(fontsize = 11, col = "#374151"))
+  
+  popViewport()
+}
+
+draw_selectorate_performance_figure()
+```
+
+:::{.nonincremental}
+- Low $W$, low $W/S$ $\rightarrow$ Few elites but loyal, the dictator can extract for himself. Poor performance (Kleptocracy)
+:::
+
+## Selectorate Theory: Government Performance
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9.5
+#| fig-height: 5.5
+#| out-width: "900px"
+#| out-height: "520px"
+
+library(grid)
+
+draw_selectorate_performance_figure <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Banner at top: "FIGURE 8.6 ■ Selectorate Theory and Government Performance"
+  banner_y <- 0.93
+  banner_h <- 0.075
+  grid.rect(x = 0.50, y = banner_y, width = 0.94, height = banner_h,
+            gp = gpar(fill = "#1E293B", col = "#1E293B"))
+  
+  grid.text("FIGURE 8.6", x = 0.055, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Small white square separator
+  grid.rect(x = 0.19, y = banner_y, width = 0.012, height = 0.012,
+            gp = gpar(fill = "white", col = "white"))
+  
+  grid.text("Selectorate Theory and Government Performance", 
+            x = 0.215, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Axis lines
+  ax_x0 <- 0.15
+  ax_x1 <- 0.95
+  ax_y0 <- 0.14
+  ax_y1 <- 0.85
+  
+  # Y axis & X axis lines
+  grid.lines(x = c(ax_x0, ax_x0), y = c(ax_y0, ax_y1), gp = gpar(lwd = 2.4, col = "#111827"))
+  grid.lines(x = c(ax_x0, ax_x1), y = c(ax_y0, ax_y0), gp = gpar(lwd = 2.4, col = "#111827"))
+  
+  # Y axis tick labels: Large & Small
+  grid.text("Large", x = ax_x0 - 0.025, y = ax_y1 - 0.01, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text("Small", x = ax_x0 - 0.025, y = ax_y0 + 0.02, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Y axis title: Selectorate (S)
+  grid.text(expression(bold("Selectorate (") * bolditalic("S") * bold(")")), 
+            x = ax_x0 - 0.08, y = (ax_y0 + ax_y1) / 2, just = "center", rot = 90,
+            gp = gpar(fontsize = 14, col = "#111827"))
+  
+  # X axis labels: Small, Winning Coalition (W), Large
+  grid.text("Small", x = ax_x0 + 0.12, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text(expression(bold("Winning Coalition (") * bolditalic("W") * bold(")")), 
+            x = (ax_x0 + ax_x1) / 2, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 14, col = "#111827"))
+  grid.text("Large", x = ax_x1 - 0.03, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Dashed line along W = S diagonal
+  diag_x_end <- 0.84
+  diag_y_end <- 0.88
+  grid.lines(x = c(ax_x0, diag_x_end), y = c(ax_y0, diag_y_end), 
+             gp = gpar(lwd = 2, lty = "dashed", col = "#475569"))
+  
+  # Text blocks inside quadrants
+  # 1. Top-left: Dominant-party and personalist dictatorships
+  grid.text("Dominant-party and personalist dictatorships\n(Poor policy performance:\nW and W/S are both small.)",
+            x = ax_x0 + 0.06, y = ax_y1 - 0.03, just = c("left", "top"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 2. Top-right: Democracies
+  grid.text("Democracies\n(Good policy performance:\nW and W/S are both large.)",
+            x = 0.63, y = ax_y1 - 0.03, just = c("left", "top"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 3. Bottom-left: Monarchies and military juntas
+  grid.text("Monarchies and military juntas\n(Middling policy performance:\nW is small but W/S is large.)",
+            x = ax_x0 + 0.06, y = ax_y0 + 0.17, just = c("left", "bottom"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # Divider line above footnote
+  grid.lines(x = c(0.03, 0.97), y = c(0.045, 0.045), gp = gpar(lwd = 0.8, col = "#94A3B8"))
+  
+  # Footnote at bottom: Note: W/S is large (and the loyalty norm is weak) along the dotted line.
+  grid.text(expression(paste(italic("Note: "), italic("W/S"), " is large (and the loyalty norm is weak) along the dotted line.")),
+            x = 0.03, y = 0.022, just = "left",
+            gp = gpar(fontsize = 11, col = "#374151"))
+  
+  popViewport()
+}
+
+draw_selectorate_performance_figure()
+```
+
+:::{.nonincremental}
+- Low $W$, high $W/S$ $\rightarrow$ Few elites, but not loyal, they need to receive many resources. Middling performance
+:::
+
+## Selectorate Theory: Government Performance
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 9.5
+#| fig-height: 5.5
+#| out-width: "900px"
+#| out-height: "520px"
+
+library(grid)
+
+draw_selectorate_performance_figure <- function() {
+  grid.newpage()
+  pushViewport(viewport(width = 1, height = 1))
+  
+  # Banner at top: "FIGURE 8.6 ■ Selectorate Theory and Government Performance"
+  banner_y <- 0.93
+  banner_h <- 0.075
+  grid.rect(x = 0.50, y = banner_y, width = 0.94, height = banner_h,
+            gp = gpar(fill = "#1E293B", col = "#1E293B"))
+  
+  grid.text("FIGURE 8.6", x = 0.055, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Small white square separator
+  grid.rect(x = 0.19, y = banner_y, width = 0.012, height = 0.012,
+            gp = gpar(fill = "white", col = "white"))
+  
+  grid.text("Selectorate Theory and Government Performance", 
+            x = 0.215, y = banner_y, just = "left",
+            gp = gpar(fontsize = 13.5, fontface = "bold", col = "white"))
+  
+  # Axis lines
+  ax_x0 <- 0.15
+  ax_x1 <- 0.95
+  ax_y0 <- 0.14
+  ax_y1 <- 0.85
+  
+  # Y axis & X axis lines
+  grid.lines(x = c(ax_x0, ax_x0), y = c(ax_y0, ax_y1), gp = gpar(lwd = 2.4, col = "#111827"))
+  grid.lines(x = c(ax_x0, ax_x1), y = c(ax_y0, ax_y0), gp = gpar(lwd = 2.4, col = "#111827"))
+  
+  # Y axis tick labels: Large & Small
+  grid.text("Large", x = ax_x0 - 0.025, y = ax_y1 - 0.01, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text("Small", x = ax_x0 - 0.025, y = ax_y0 + 0.02, just = "right",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Y axis title: Selectorate (S)
+  grid.text(expression(bold("Selectorate (") * bolditalic("S") * bold(")")), 
+            x = ax_x0 - 0.08, y = (ax_y0 + ax_y1) / 2, just = "center", rot = 90,
+            gp = gpar(fontsize = 14, col = "#111827"))
+  
+  # X axis labels: Small, Winning Coalition (W), Large
+  grid.text("Small", x = ax_x0 + 0.12, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  grid.text(expression(bold("Winning Coalition (") * bolditalic("W") * bold(")")), 
+            x = (ax_x0 + ax_x1) / 2, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 14, col = "#111827"))
+  grid.text("Large", x = ax_x1 - 0.03, y = ax_y0 - 0.05, just = "center",
+            gp = gpar(fontsize = 13.5, col = "#111827"))
+  
+  # Dashed line along W = S diagonal
+  diag_x_end <- 0.84
+  diag_y_end <- 0.88
+  grid.lines(x = c(ax_x0, diag_x_end), y = c(ax_y0, diag_y_end), 
+             gp = gpar(lwd = 2, lty = "dashed", col = "#475569"))
+  
+  # Text blocks inside quadrants
+  # 1. Top-left: Dominant-party and personalist dictatorships
+  grid.text("Dominant-party and personalist dictatorships\n(Poor policy performance:\nW and W/S are both small.)",
+            x = ax_x0 + 0.06, y = ax_y1 - 0.03, just = c("left", "top"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 2. Top-right: Democracies
+  grid.text("Democracies\n(Good policy performance:\nW and W/S are both large.)",
+            x = 0.63, y = ax_y1 - 0.03, just = c("left", "top"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # 3. Bottom-left: Monarchies and military juntas
+  grid.text("Monarchies and military juntas\n(Middling policy performance:\nW is small but W/S is large.)",
+            x = ax_x0 + 0.06, y = ax_y0 + 0.17, just = c("left", "bottom"),
+            gp = gpar(fontsize = 13, fontface = "plain", col = "#111827", lineheight = 1.25))
+  
+  # Divider line above footnote
+  grid.lines(x = c(0.03, 0.97), y = c(0.045, 0.045), gp = gpar(lwd = 0.8, col = "#94A3B8"))
+  
+  # Footnote at bottom: Note: W/S is large (and the loyalty norm is weak) along the dotted line.
+  grid.text(expression(paste(italic("Note: "), italic("W/S"), " is large (and the loyalty norm is weak) along the dotted line.")),
+            x = 0.03, y = 0.022, just = "left",
+            gp = gpar(fontsize = 11, col = "#374151"))
+  
+  popViewport()
+}
+
+draw_selectorate_performance_figure()
+```
+
+:::{.nonincremental}
+- High $W$, high $W/S$ $\rightarrow$ Diffused support and low loyalty require public goods. Good performance
+:::
+
+# Summing Up {.section}
+
+## What We Learned
+
+- Like elected politicians, dictators need a support coalition
+- We classified dictatorships based on the support coalition
+- Violence and information are both used to cement support
+- Dictators have to manage [elites]{.alert} in their coalition and the [masses]{.alert}
+- In doing so **familiar problems** emerge
+  - Commitment, collective action, information
+  - Power-sharing institutions attenuate these problems
+  - This is why "pseudo-democratic" institutions (parliaments, ministries, elections) are common in dictatorships
+- The extent of power-sharing can explain economic performance
+
+
+## 
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 70vh; font-size: 2.5em; font-weight: bold; color: Black;"}
+Thank you!
+:::
