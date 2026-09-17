@@ -93,7 +93,7 @@ Explaining dictators' economic performance
 
 
 ::: {.fragment}
-Tend to be more relatively stable. Why?
+Tend to be relatively more stable. Why?
 :::
 
 :::
@@ -106,7 +106,7 @@ Tend to be more relatively stable. Why?
 
 ## Monarchic Dictatorships
 
-Tend to be more relatively stable. Why?
+Tend to be relatively more stable. Why?
 
 :::: {.columns}
 
@@ -224,7 +224,7 @@ draw_monarchic_network()
 
 - Durable access to power through intermarriage 
 
-- Everyone has an interest in government stability $\implies$ Less incentives to overthrow the king
+- Everyone has an interest in government stability $\implies$ Fewer incentives to overthrow the king
 
 - Power sharing and succession encoded in family norms 
 
@@ -400,7 +400,7 @@ draw_military_networks()
 
 - Diffused military strength makes balance of power uncertain
 
-- Military may prefer to "allow" democracy rather than maintaining power
+- Military may prefer to "allow" democracy rather than maintain power
 
 :::
 
@@ -543,7 +543,7 @@ draw_civilian_dictatorship()
 
 - The dictator is a [civilian]{.alert} (not a member of the army)
 
-- Needs to build support base out of existing social groups and institutions
+- Needs to build a support base out of existing social groups and institutions
 
 - [Party]{.alert}-centered regimes use party organizations to distribute resources, mobilize the masses, project power
 
@@ -555,7 +555,7 @@ draw_civilian_dictatorship()
 
 
 
-## Types of Dictatorships in Time
+## Types of Dictatorships Over Time
 
 ![](figures/dictatorship-types.png){fig-align="center"}
 
@@ -749,7 +749,7 @@ Problem of bargaining between the dictator and the support coalition
 - The dictator is initially weak, needs a support coalition to rule 
 - SC (elites) wants access to power and resources in exchange for support
 - But the dictator will likely try to consolidate its power over the coalition
-  - E.g., Stalin: grabbed absolute power by killing faction leaders and large-scale purges
+  - E.g., Stalin: grabbed absolute power through purges and the execution of faction leaders
 - Fearing this, elites in the SC may stage early coups, making the regime unstable
   - Risky outcome for everybody, all parties want to avoid it
 
@@ -757,7 +757,7 @@ Problem of bargaining between the dictator and the support coalition
 
 The bargain is plagued by familiar political problems:
 
-- [Commitment]{.alert} problem of the dictator $\rightarrow$ promise to share power today can be reneged on tomorrow
+- [Commitment]{.alert} problem of the dictator $\rightarrow$ a promise to share power today can be reneged on tomorrow
 - [Monitoring]{.alert} problem $\rightarrow$ elites don't know what the dictator is doing/planning, making "judgement errors" likely
 - [Collective action]{.alert} problem of the elites $\rightarrow$ if they can't act together against the dictator they are even weaker
 
@@ -781,7 +781,7 @@ Problem of managing the masses
 [Repression]{.alert} trade-offs 
 
 - Large-scale repression makes the dictator too dependent on the army
-- The dictator may want to maintain the army weak and build up internal security services
+- The dictator may want to keep the army weak and build up internal security services
 - Ultimately risky if social unrest becomes too large to manage (e.g., Arab Spring)
 
 
@@ -795,7 +795,7 @@ Problem of managing the masses
 
 - Co-optation $\rightarrow$ grant access to benefits and resources to organized social groups to make them invested in the regime
 - What we called "liberalization without democratization" (managed by soft-liners)
-- Another commitment problem: resource distribution can be stopped once threat of revolt ends
+- Another commitment problem: resource distribution can be stopped once the threat of revolt ends
 - Giving formal say to opposition parties or organizations (e.g., unions) grants them some future influence
 - As we know, the trade-off is that liberalizations can become democratizations
 
@@ -807,7 +807,7 @@ Problem of managing the masses
 - Why do we see differences in economic performances between dictatorships?
 - Our scientific approach:
   - Start from variation in authoritarian institutions (power-sharing)
-  - Study how ruler's incentives to provide economic goods vary with these institutions
+  - Study how rulers' incentives to provide economic goods vary with these institutions
 
 - For this, we will use a stylized model of political regimes: [selectorate]{.alert} theory 
 
@@ -984,14 +984,14 @@ draw_selectorate_locations_figure()
 ## The Loyalty Calculus
 
 - The dictator needs to redistribute resources to $W$ to stay in power
-  - Smaller $W$ $\implies$ individual goods (e.g, public companies' ownership)
-  - Larger $W$ $\implies$ public goods (e.g., growth, infrastructures)
-  - Economic performance becomes more important if $W$ larger
+  - Smaller $W$ $\implies$ individual goods (e.g., public companies' ownership)
+  - Larger $W$ $\implies$ public goods (e.g., growth, infrastructure)
+  - Economic performance becomes more important if $W$ is larger
 
 - Members of $W$ choose whether to confirm or withdraw support
   - Low $W/S$ $\implies$ little chance to be in the next $W$
   - High $W/S$ $\implies$ high chance to be in the next $W$
-  - $W$ members are more loyal if $W/S$ lower
+  - $W$ members are more loyal if $W/S$ is lower
 
 
 ## Selectorate Theory: Government Performance
@@ -1300,7 +1300,7 @@ draw_selectorate_performance_figure()
 ```
 
 :::{.nonincremental}
-- High $W$, high $W/S$ $\rightarrow$ Diffused support and low loyalty require public goods. Good performance
+- High $W$, high $W/S$ $\rightarrow$ Diffuse support and low loyalty require public goods. Good performance
 :::
 
 # Summing Up {.section}
@@ -1313,7 +1313,7 @@ draw_selectorate_performance_figure()
 - Dictators have to manage [elites]{.alert} in their coalition and the [masses]{.alert}
 - In doing so **familiar problems** emerge
   - Commitment, collective action, information
-  - Power-sharing institutions attenuate (but not solve) these problems
+  - Power-sharing institutions attenuate (but do not solve) these problems
   - This is why "pseudo-democratic" institutions (parliaments, ministries, elections) are common in dictatorships
 - The extent of power-sharing can explain economic performance
 
