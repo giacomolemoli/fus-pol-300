@@ -1,6 +1,7 @@
 ---
 title: "5. Democratic Transitions"
 subtitle: "Comparative Politics"
+author: "Giacomo Lemoli"
 format: revealjs
 ---
 

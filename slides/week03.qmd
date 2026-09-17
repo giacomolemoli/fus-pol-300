@@ -1,6 +1,7 @@
 ---
 title: "3. The State"
 subtitle: "Comparative Politics"
+author: "Giacomo Lemoli"
 format: revealjs
 ---
 

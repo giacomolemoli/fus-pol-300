@@ -1,6 +1,7 @@
 ---
 title: "4. Democracy and Dictatorship: Economic Origins"
 subtitle: "Comparative Politics"
+author: "Giacomo Lemoli"
 format: revealjs
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "6. Varieties of Dictatorship"
 subtitle: "Comparative Politics"
+author: "Giacomo Lemoli"
 format: revealjs
 ---
 
@@ -9,7 +10,7 @@ format: revealjs
 
 ::::{.columns}
 :::{.column width="25%"}
-![Adolf Hitler(Germany) (Source: Bundesarchiv)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/960px-Hitler_portrait_crop_%28cropped%29%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+![Adolf Hitler (Germany) (Source: Bundesarchiv)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/960px-Hitler_portrait_crop_%28cropped%29%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
 :::
 
 :::{.column width="25%"}
@@ -60,8 +61,7 @@ How they rule
 
 :::{.nonincremental}
 - The surprising (?) prevalence of parties and elections
-- Violence and repression
-- Media and propaganda
+- From violence to media and information
 :::
 
 . . . 
@@ -742,39 +742,62 @@ The goal is to convince educated citizens that they **govern well**
 
 # Fundamental Problems of Authoritarian Rule {.section}
 
-## Authoritarian Power-Sharing
+## The Problem of Authoritarian Power-Sharing
 
-Problems within the ruling elites
+Problem of bargaining between the dictator and the support coalition
 
-- The dictator is initially weak
-- He needs a support coalition to rule $\rightarrow$ power-sharing institutions
+- The dictator is initially weak, needs a support coalition to rule 
+- SC (elites) wants access to power and resources in exchange for support
 - But the dictator will likely try to consolidate its power over the coalition
-- Example of Stalin: consolidated his power over time by eliminating faction leaders and then purging everybody
-- Fearing this, elites in the support coalitions may stage coups, making the regime unstable
+  - E.g., Stalin: grabbed absolute power by killing faction leaders and large-scale purges
+- Fearing this, elites in the SC may stage early coups, making the regime unstable
+  - Risky outcome for everybody, all parties want to avoid it
 
-## Problems of Authoritarian Power-Sharing
+## The Problem of Authoritarian Power-Sharing
 
-- [Commitment]{.alert} problem of the dictator $\rightarrow$ a promise to share power today can be reneged on tomorrow
-- [Monitoring]{.alert} problem $\rightarrow$ elites don't know what the dictator is doing/planning
-- [Collective action]{.alert} problem of the elites $\rightarrow$ identify possible successors and share information
+The bargain is plagued by familiar political problems:
 
-Solution: institutions that credibly transfer power to elites (e.g., parliaments, councils, politburos) $\rightarrow$ credibly threaten to punish power grabs of the dictator
+- [Commitment]{.alert} problem of the dictator $\rightarrow$ promise to share power today can be reneged on tomorrow
+- [Monitoring]{.alert} problem $\rightarrow$ elites don't know what the dictator is doing/planning, making "judgement errors" likely
+- [Collective action]{.alert} problem of the elites $\rightarrow$ if they can't act together against the dictator they are even weaker
 
-Remaining problem: changes in the balance of power can lead to weakening or strengthening of these institutions
+. . . 
 
-(commitment problem may not be fully eliminated)
+Solution: [institutions]{.alert} that transfer power to elites (e.g., parliaments, councils, politburos) 
 
-## Authoritarian Control
+- Allow constant monitoring of the dictator, elite coordination $\rightarrow$ Credibly threaten to punish future power grab attempts 
+- However, they can still be weakened or strengthened
 
-Problems between dictator and masses
 
-- Repression $\rightarrow$ trade-off between large-scale repression and empowering the army
-- The dictator may want to maintain the army weak and empower internal security services
-- This may be a risk if social unrest becomes too large to manage (e.g., Arab Spring)
 
-- Co-optation $\rightarrow$ give access to benefits and resources to organized social groups and make them invested in the regime
-- Liberalization without democratization (managed by soft-liners)
-- Institutions (e.g., parties) can also solve a credible commitment problem in the distribution of benefits 
+## The Problem of Authoritarian Control
+
+Problem of managing the masses
+
+. . . 
+
+<div style="height: 0.3cm;"></div>
+
+[Repression]{.alert} trade-offs 
+
+- Large-scale repression makes the dictator too dependent on the army
+- The dictator may want to maintain the army weak and build up internal security services
+- Ultimately risky if social unrest becomes too large to manage (e.g., Arab Spring)
+
+
+## The Problem of Authoritarian Control
+
+Problem of managing the masses
+
+<div style="height: 0.3cm;"></div>
+
+[Co-optation]{.alert} trade-offs 
+
+- Co-optation $\rightarrow$ grant access to benefits and resources to organized social groups to make them invested in the regime
+- What we called "liberalization without democratization" (managed by soft-liners)
+- Another commitment problem: resource distribution can be stopped once threat of revolt ends
+- Giving formal say to opposition parties or organizations (e.g., unions) grants them some future influence
+- As we know, the trade-off is that liberalizations can become democratizations
 
 # Economic Performance {.section}
 
@@ -795,8 +818,8 @@ Problems between dictator and masses
 #| fig-align: center
 #| fig-width: 9.5
 #| fig-height: 5.5
-#| out-width: "900px"
-#| out-height: "520px"
+#| out-width: "680px"
+#| out-height: "395px"
 
 library(grid)
 
@@ -862,7 +885,7 @@ draw_selectorate_figure()
 
 
 :::{.nonincremental}
-- **Selectorate** ($S$) $\rightarrow$ group who selects the leder
+- **Selectorate** ($S$) $\rightarrow$ group who selects the leader
 - **Winning Coalition** ($W$) $\rightarrow$ supporters needed to remain in power
 :::
 
@@ -873,8 +896,8 @@ draw_selectorate_figure()
 #| fig-align: center
 #| fig-width: 9.5
 #| fig-height: 5.5
-#| out-width: "900px"
-#| out-height: "520px"
+#| out-width: "680px"
+#| out-height: "395px"
 
 library(grid)
 
@@ -978,8 +1001,8 @@ draw_selectorate_locations_figure()
 #| fig-align: center
 #| fig-width: 9.5
 #| fig-height: 5.5
-#| out-width: "900px"
-#| out-height: "520px"
+#| out-width: "680px"
+#| out-height: "395px"
 
 library(grid)
 
@@ -1081,8 +1104,8 @@ draw_selectorate_performance_figure()
 #| fig-align: center
 #| fig-width: 9.5
 #| fig-height: 5.5
-#| out-width: "900px"
-#| out-height: "520px"
+#| out-width: "680px"
+#| out-height: "395px"
 
 library(grid)
 
@@ -1184,8 +1207,8 @@ draw_selectorate_performance_figure()
 #| fig-align: center
 #| fig-width: 9.5
 #| fig-height: 5.5
-#| out-width: "900px"
-#| out-height: "520px"
+#| out-width: "680px"
+#| out-height: "395px"
 
 library(grid)
 
@@ -1290,7 +1313,7 @@ draw_selectorate_performance_figure()
 - Dictators have to manage [elites]{.alert} in their coalition and the [masses]{.alert}
 - In doing so **familiar problems** emerge
   - Commitment, collective action, information
-  - Power-sharing institutions attenuate these problems
+  - Power-sharing institutions attenuate (but not solve) these problems
   - This is why "pseudo-democratic" institutions (parliaments, ministries, elections) are common in dictatorships
 - The extent of power-sharing can explain economic performance
 
