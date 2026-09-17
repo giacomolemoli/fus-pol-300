@@ -809,7 +809,7 @@ draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c(1))
 
 :::{.fragment}
 :::{.nonincremental}
-- Almost everyone is very willing to revolt, but Person 1 ($T = 0$) protests alone 
+- Almost everyone is close to revolting, but Person 1 ($T = 0$) protests alone 
 - Highly discontented society, yet only 1 person protests
 :::
 :::

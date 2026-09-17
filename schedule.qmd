@@ -15,9 +15,9 @@ bibliography: references.bib
 | 3 | Thu, September 10 | *Discussion Session* | @lee2017legibility | |
 | 4 | Mon, September 14 | Democracy and Dictatorship: Economic Causes | FCP ch.5 | [Week 4](slides/week04.qmd){target="_blank"} |
 | 4 | Thu, September 17 | *Discussion Session* | @dasgupta2018technological | |
-| 5 | Mon, September 21 | Democratic Transitions | FCP ch.7 | |
+| 5 | Mon, September 21 | Democratic Transitions | FCP ch.7 | [Week 5](slides/week05.qmd){target="_blank"}|
 | 5 | Thu, September 24 | *Discussion Session* | @basu2026democratizing | |
-| 6 | Mon, September 28 | Varieties of Dictatorship | FCP ch.8 <br> @guriev2019informational| |
+| 6 | Mon, September 28 | Varieties of Dictatorship | FCP ch.8 <br> @guriev2019informational| [Week 6](slides/week06.qmd){target="_blank"}|
 | 6 | Thu, October 1 | *Discussion Session* | @rozenas2019autocrats | |
 | 7 | Mon, October 5 | Parliamentary and Presidential Systems | FCP ch.10 | |
 | 7 | Thu, October 8 | *Discussion Session* | @cervellati2024random | |
