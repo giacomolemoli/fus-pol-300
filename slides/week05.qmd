@@ -45,7 +45,7 @@ Analyze the forces that lead people to obtain democratic transitions
 
 - Key problem: citizens' coordination under risk of repression
 
-- Two models: [collective action]{.alert} theory and [tipping]{.alert} models
+- Two models: [collective action]{.alert} theory and [tipping]{.alert} model
 
 - Explain why revolts are rare and why they surprisingly occur
 
@@ -810,7 +810,7 @@ draw_tipping_society(c(0, 2, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = c(1))
 :::{.fragment}
 :::{.nonincremental}
 - Almost everyone is close to revolting, but Person 1 ($T = 0$) protests alone 
-- Highly discontented society, yet only 1 person protests
+- Highly discontent society, yet only 1 person protests
 :::
 :::
 
@@ -866,9 +866,9 @@ draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = 1:9)
 
 - Catalyzing events can make people more willing to protest triggering a cascade
 
-- East Germany: USSR position likely signalled violent repression was less likely
+- **East Germany**: USSR position likely signalled violent repression was less likely
 
-- Arab Spring: A street vendor's self-immolation started the revolts
+- **Arab Spring**: A street vendor's self-immolation started the revolts
 :::
 :::
 
@@ -906,13 +906,13 @@ draw_tipping_society(c(0, 0, 2, 2, 2, 2, 2, 2, 2, 10), revolting_indices = 1:9)
 
 ## A Strategic Theory of Transition: Foundations and Logic
 
-Top-down transition $\rightarrow$ democratic reforms lead to democratization
+Top-down transition $\rightarrow$ liberalizing reforms lead to democratization
 
 . . . 
 
 Key idea: the government does **not** want to democratize
 
-- Moderate factions ("[soft-liners]{.alert}") $\rightarrow$ support liberal reforms (e.g., freedom of expression) to "co-opt" the opposition
+- Moderate factions ("[soft-liners]{.alert}") $\rightarrow$ support liberal reforms (e.g., freedom of association) to "co-opt" the opposition
 - [Opposition]{.alert} $\rightarrow$ wants to use the reforms to further challenge the government's power
 - Knowing this, soft-liners are reluctant to do any reform
 - Democratization is the result of [miscalculation]{.alert} of the government
