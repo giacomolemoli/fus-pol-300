@@ -307,7 +307,7 @@ Is a democracy presidential, parliamentary, or semi-presidential? This depends o
   - Removed if [no confidence]{.alert} vote won by a majority
   - Pres: legislature cannot remove the government without cause
 
-2. A [popularly elected]{.alert} head of state serves [fixed term]{.alert} in office
+2. A [popularly elected]{.alert} head of state serves a [fixed term]{.alert} in office
   - Either "direct" or "indirect" vote, e.g., Electoral College
   - Parl: HoS not popularly elected, mostly ceremonial role (including Kings)
 
@@ -728,15 +728,15 @@ Government Formation Process
 
 - Party leaders bargain over possible coalitions (next slides)
 - "Supervision" role of the HoS: effective influence varies by country
-- Bargaining lead by a "formateur". Typically first-ranked party's leader (most likely PM)
-- PM appoint cabinet members $\rightarrow$ cabinet posts at the center of bargaining process
+- Bargaining led by a "formateur". Typically the first-ranked party's leader (likely future PM)
+- PM appoints cabinet members $\rightarrow$ cabinet posts at the center of the bargaining process
 
 . . . 
 
 Government Dissolution Process
 
-- Once formed, the government rules until new election or no confidence vote
-- If loses confidence, remains in power until a new one is formed (early election or new coalition)
+- Once formed, the government rules until a new election or a no confidence vote
+- If it loses confidence, it remains in power until a new one is formed (early election or new coalition)
 
 
 ## Theory of Government Formation
@@ -762,7 +762,7 @@ $\implies$ We want to isolate the key forces that drive the bargaining process
   - They need office to deliver what they promised to voters
   - They need to deliver what they promised if they want to stay in office
 - Office has both intrinsic and instrumental value to politicians
-- They trade-off constantly between these two goals
+- They trade off constantly between these two goals
 
 ## Gamson's Law
 
@@ -966,12 +966,12 @@ draw_pres_arrow(x1 = 0.655, y1 = 0.22, x2 = 0.725, y2 = 0.22, label = "Appoints"
 
 **Government**: President (Chief Executive and Head of State) + Cabinet
 
-- The President is always the "formateur", their party automatically included in cabinet
-- No responsibility to legislature $\rightarrow$ Govt replaced at fixed intervals
+- The President is always the "formateur", and their party is automatically included in the cabinet
+- No responsibility to the legislature $\rightarrow$ Govt is replaced at fixed intervals
 
 ## Types of Cabinets
 
-In a Pres. system the logic of coalition formation bargaining falls
+In a Pres. system the logic of coalition formation bargaining breaks down
 
 ::::{.columns}
 ::: {.column width="50%"}
@@ -987,7 +987,7 @@ In a Pres. system the logic of coalition formation bargaining falls
 :::{.fragment}
 The ability to rule as "minority" depends on the President-legislature balance of power
 
-A President still needs a legislative majority to pass laws $\implies$ coalitions government may be needed to get things done
+A President still needs a legislative majority to pass laws $\implies$ coalition government may be needed to get things done
 :::
 
 ## Cabinet Composition
@@ -1173,13 +1173,13 @@ draw_semi_arrow(x1 = 0.625, y1 = 0.24, x2 = 0.730, y2 = 0.38, label = "Selects",
 
 **Government**: Prime Minister + Cabinet (+ President)
 
-- The government can be responsible to legislature *and* President
+- The government can be responsible to the legislature *and* the President
 - Large variation in *effective* powers of the President
 
 ## Cohabitation of Prime Minister and President
 
 - The President and the PM can be from different parties $\rightarrow$ [cohabitation]{.alert}
-- During cohabitation, the President is in legislative majority
+- During cohabitation, the President is in a legislative minority
 - Unlike Pres. systems, cohabitation in the executive may be unavoidable
 
 ## Balance of Powers
@@ -1302,9 +1302,9 @@ grid.lines(c(0.50, 0.50), c(spec_y - 0.04, spec_y + 0.04),
 
 
 - Semi-Presidentialism has both Pres. and Parl. features
-- [Balance of powers]{.alert} between PM and President pulls towards one pole
+- The [balance of powers]{.alert} between PM and President pulls towards one pole
 - The President is less strong than in Pres. democracy
-  - The government is responsible to the legislature, Pres. needs a majority to get their preferred policies
+  - The government is responsible to the legislature; the Pres. needs a majority to get their preferred policies
 - The PM is also less strong than in Parl. democracy
 
 
@@ -1322,7 +1322,7 @@ The types of democracy reflect different ways to structure the relationship betw
   - Coalition formation bargaining $\rightarrow$ office and policy incentives
   - Govt survival determined in parliament
 - Semi-Presidential systems $\rightarrow$ "mixed" features
-  - President can form the govt, but govt requires parliamentary majority
+  - The President can form the govt, but the govt requires a parliamentary majority
 
 
 
