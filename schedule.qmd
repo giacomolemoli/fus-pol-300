@@ -19,7 +19,7 @@ bibliography: references.bib
 | 5 | Thu, September 24 | *Discussion Session* | @basu2026democratizing | |
 | 6 | Mon, September 28 | Varieties of Dictatorship | FCP ch.8 <br> @guriev2019informational| [Week 6](slides/week06.qmd){target="_blank"}|
 | 6 | Thu, October 1 | *Discussion Session* | @rozenas2019autocrats | |
-| 7 | Mon, October 5 | Parliamentary and Presidential Systems | FCP ch.10 | |
+| 7 | Mon, October 5 | Parliamentary and Presidential Systems | FCP ch.10 | [Week 7](slides/week07.qmd){target="_blank"}|
 | 7 | Thu, October 8 | *Discussion Session* | @cervellati2024random | |
 | | Mon, October 12 | **Midterm Review** | | |
 | | Thu, October 15 | **<u>Midterm Exam</u>** | | |

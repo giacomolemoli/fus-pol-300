@@ -300,7 +300,7 @@ popViewport()
 
 ## Criteria for Classification
 
-Is a democracy presidential, parliamentary, or semi-presidential? This depends on
+Is a democracy presidential, parliamentary, or semi-presidential? It depends on
 
 1. [Responsibility]{.alert} of the government to the legislature
   - Parl/Semi-Pres: legislature has constitutional power to remove the government without cause
@@ -724,18 +724,18 @@ grid.rect(cx, cy + 0.028, width = 0.038, height = 0.013,
 
 ## Government Formation and Dissolution Process
 
-Government Formation Process 
+Government [Formation]{.alert} Process 
 
 - Party leaders bargain over possible coalitions (next slides)
-- "Supervision" role of the HoS: effective influence varies by country
-- Bargaining led by a "formateur". Typically the first-ranked party's leader (likely future PM)
+- "Supervision" role of the HoS (effective influence varies by country)
+- Bargaining led by a "formateur", typically the largest party's leader (likely PM)
 - PM appoints cabinet members $\rightarrow$ cabinet posts at the center of the bargaining process
 
 . . . 
 
-Government Dissolution Process
+Government [Dissolution]{.alert} Process
 
-- Once formed, the government rules until a new election or a no confidence vote
+- Once formed, the govt stays until the next election or a no confidence vote
 - If it loses confidence, it remains in power until a new one is formed (early election or new coalition)
 
 
@@ -748,21 +748,23 @@ $\implies$ We want to isolate the key forces that drive the bargaining process
 1. [Office-seeking]{.alert} incentives $\rightarrow$ office concessions
   - MPs care about office (cabinet portfolios), that's their condition for support
   - Larger parties want more portfolios
-  - Pull towards a [Minimum Winning Coalition]{.alert}: smallest possible majority
+  - Pull towards a [Minimal Winning Coalition]{.alert}: smallest possible majority
 
 2. [Policy-seeking]{.alert} incentives $\rightarrow$ policy concessions
-  - MPs have ideological motivations, want to get their priorities done
+  - MPs have ideological motivations, want their policies implemented
   - Larger parties want more leverage in government policy
   - Pull towards a [connected coalition]{.alert}: parties ideologically close
 
 ## Office vs Policy
 
-- Both incentives are present even if politicians care more about one
+- Both incentives are present
 - Democratic competition forces politicians to pursue both
   - They need office to deliver what they promised to voters
   - They need to deliver what they promised if they want to stay in office
 - Office has both intrinsic and instrumental value to politicians
-- They trade off constantly between these two goals
+- Even if purely office-seeking, they are forced to behave *as if* they were policy-seeking
+- Even if purely policy-seeking, they are forced to behave *as if* they were office-seeking
+- This entails trade-offs, e.g., what govt coalition to enter
 
 ## Gamson's Law
 
@@ -969,34 +971,26 @@ draw_pres_arrow(x1 = 0.655, y1 = 0.22, x2 = 0.725, y2 = 0.22, label = "Appoints"
 - The President is always the "formateur", and their party is automatically included in the cabinet
 - No responsibility to the legislature $\rightarrow$ Govt is replaced at fixed intervals
 
-## Types of Cabinets
+## Types of Government
 
 In a Pres. system the logic of coalition formation bargaining breaks down
 
 ::::{.columns}
-::: {.column width="50%"}
+::: {.column width="60%"}
 - The President can appoint co-party members even if the party has a minority of seats
 - $\Uparrow$ Minority cabinets, $\Downarrow$ coalition cabinets
-- However, coalition cabinets are common
+- However, coalition cabinets remain common
 :::
-::: {.column width="50%"}
-![](figures/cheibub-przeworski-saiegh.png){fig-align="center"}
+::: {.column width="40%"}
+![Cheibub, Przeworski, Saiegh (2004)](figures/cheibub-przeworski-saiegh.png){fig-align="center"}
 :::
 ::::
 
 :::{.fragment}
-The ability to rule as "minority" depends on the President-legislature balance of power
-
 A President still needs a legislative majority to pass laws $\implies$ coalition government may be needed to get things done
+
+More limited legislative powers of the Pres., $\implies$ cabinet proportionality
 :::
-
-## Cabinet Composition
-
-Absence of responsibility to the legislature $\implies$ less bargaining with parties
-
-- More disproportional cabinet composition (in favor of Pres. party)
-- Nonpartisan cabinet members more likely
-- Proportionality increases where the legislative powers of the President are more limited
 
 
 # Governments in Semi-Presidential Democracies {.section}
@@ -1178,6 +1172,14 @@ draw_semi_arrow(x1 = 0.625, y1 = 0.24, x2 = 0.730, y2 = 0.38, label = "Selects",
 
 ## Cohabitation of Prime Minister and President
 
+::::{.columns}
+::: {.column width="50%"}
+![François Mitterrand](https://upload.wikimedia.org/wikipedia/commons/f/f1/Reagan_Mitterrand_1984_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+:::
+::: {.column width="50%"}
+![Jacques Chirac (INRA, DIST, Jean Weber)](https://upload.wikimedia.org/wikipedia/commons/a/a6/Jacques_Chirac_1990_%28crop%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled)
+:::
+::::
 - The President and the PM can be from different parties $\rightarrow$ [cohabitation]{.alert}
 - During cohabitation, the President is in a legislative minority
 - Unlike Pres. systems, cohabitation in the executive may be unavoidable
