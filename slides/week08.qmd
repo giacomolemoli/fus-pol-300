@@ -132,9 +132,9 @@ grid.lines(c(0.59, 0.68), c(0.62, 0.52), arrow = arrow_sub,
 
 - We have analyzed how electoral outcomes (voters' choices) affect government
 
-- Treating voters' choices as "given" and focusing on what comes later 
+- We treated voters' choices as "given" and focused on what comes later 
 
-- Today: "rules" of elections affect voters' choices and electoral outcomes
+- Today: how the "rules" of elections affect voters' choices and electoral outcomes
 
 ---
 
@@ -145,7 +145,7 @@ grid.lines(c(0.59, 0.68), c(0.62, 0.52), arrow = arrow_sub,
 Including:
 
 - [Electoral formula]{.alert} $\rightarrow$ how votes are translated into seats
-- [Ballot structure]{.alert} $\rightarrow$ vote for candidates or parties, how many votes
+- [Ballot structure]{.alert} $\rightarrow$ whether to vote for candidates or parties, and how many votes to cast
 - [District magnitude]{.alert} $\rightarrow$ how many seats are elected in a district
 
 :::{.fragment}
@@ -155,9 +155,9 @@ $\implies$ These procedures change the [decision problem]{.alert} of voters and 
 
 ## Our Plan for Today
 
-The key classification of ES based on the electoral formula
+Key classification of electoral systems based on the electoral formula:
 
-- [Majoritarian]{.alert} $\rightarrow$ who receives most votes wins
+- [Majoritarian]{.alert} $\rightarrow$ whoever receives the most votes wins
 
 - [Proportional]{.alert} $\rightarrow$ seats are proportional to votes
 
@@ -165,11 +165,11 @@ The key classification of ES based on the electoral formula
 
 :::{.fragment}
 :::{.nonincremental}
-For each of these families we will see:
+For each of these families, we will see:
 
-- Most popular systems in the world
+- The most popular systems in the world
 - The implications for the strategies of voters 
-  - Next week we will look at the strategies of parties
+  - Next week, we will look at the strategies of parties
 - The trade-offs for democratic outcomes
 :::
 :::
@@ -244,7 +244,7 @@ for (i in 1:4) {
 ::::
 
 - A single vote for a candidate in a single-member district
-- The candidate with most votes (plurality) is elected $\rightarrow$ "First-past-the-post" 
+- The candidate with the most votes (plurality) is elected $\rightarrow$ "First-past-the-post" 
 - What do you think are the benefits and/or problems of such a system?
 
 ## Single-Member District Plurality System
@@ -258,7 +258,7 @@ for (i in 1:4) {
     - Clear rules make clear choices
 
 - One representative per district $\implies$ stronger [accountability]{.alert}
-    - Easy to attribute responsibilities
+    - Easy to attribute responsibility
     - Representatives work for their voters
 
 :::
@@ -270,7 +270,7 @@ for (i in 1:4) {
     - E.g., only the largest ethnic group in the district is represented
 
 - Low national-level representation $\rightarrow$ a minority party voted in *every* district can win 0 seats
-    - Favor large parties at the expense of small parties with dispersed voters
+    - Favors large parties at the expense of small parties with dispersed voters
 :::
 ::::
 
@@ -337,8 +337,8 @@ grid.text("Vote", 0.55, py[2] + 0.06,
           gp = gpar(fontsize = 10.5, fontface = "bold", col = "#15803D"))
 ```
 
-- A vote for a candidate with no chances of a plurality is "wasted"
-- You may want vote for the "best" candidate **who has chances of winning**
+- A vote for a candidate with no chance of winning a plurality is "wasted"
+- You may want to vote for the "best" candidate **who has a chance of winning**
 - In SMDP, strategic voting can be more salient than sincere voting
 
 ## Single Nontransferable Vote
@@ -426,7 +426,7 @@ for (i in 1:4) {
 
 - Personalistic competition + smaller groups of voters needed for election $\implies$ targeted [vote-buying]{.alert} instead of [programmatic]{.alert} appeals
 
-- Less votes to win $\implies$ less need to moderate, more [extremism]{.alert}
+- Fewer votes needed to win $\implies$ less need to moderate, more [extremism]{.alert}
 
 :::
 ::::
@@ -434,7 +434,7 @@ for (i in 1:4) {
 
 ## Alternative Vote
 
-Several names: Alternative vote, Instant-runoff vote, Ranked-choice vote
+Several names: Alternative Vote, Instant-Runoff Voting, Ranked-Choice Voting
 
 
 ```{r}
@@ -523,8 +523,8 @@ grid.text("Elected", cx2[2], 0.72, gp = gpar(fontsize = 9.5, fontface = "bold", 
 
 
 - Voters rank candidates by preference
-- The candidate with less first preferences is eliminated
-- The second preferences of his voters are assigned to the others
+- The candidate with the fewest first preferences is eliminated
+- The second preferences of their voters are assigned to the remaining candidates
 
 
 
@@ -535,9 +535,9 @@ grid.text("Elected", cx2[2], 0.72, gp = gpar(fontsize = 9.5, fontface = "bold", 
 
 **Advantages**
 
-- Advantages of SMDP for [accountability]{.alert} $\rightarrow$ one representative per district
+- Retains the advantages of SMDP for [accountability]{.alert} $\rightarrow$ one representative per district
 
-- Voters use their full [preferences]{.alert} $\rightarrow$ less incentives for strategic voting
+- Voters use their full [preferences]{.alert} $\rightarrow$ fewer incentives for strategic voting
 
 - Candidates need to rank high for many people $\rightarrow$ broader appeals + between-party bargaining
 
@@ -645,8 +645,8 @@ grid.text("Elected", xs2[1], 0.76, gp = gpar(fontsize = 9.5, fontface = "bold", 
 :::
 ::::
 
-- If a candidate gets a majority in the first round, he/she wins
-- If not, the two most voted candidates go to the second round
+- If a candidate wins a majority in the first round, they win
+- If not, the top two candidates advance to the second round
 
 
 ## Majority-Runoff Two-Round System
@@ -661,7 +661,7 @@ grid.text("Elected", xs2[1], 0.76, gp = gpar(fontsize = 9.5, fontface = "bold", 
 
 - Voters can change their minds between rounds 
 
-- In the second round candidates need to attract others' voters $\rightarrow$ bargaining and [compromise]{.alert}
+- In the second round, candidates need to attract other candidates' voters $\rightarrow$ bargaining and [compromise]{.alert}
 
 - The winner is supported by a majority
 
@@ -692,9 +692,9 @@ grid.text("Elected", xs2[1], 0.76, gp = gpar(fontsize = 9.5, fontface = "bold", 
 - Typically advocated for multiethnic societies where minority exclusion can threaten peace
 
 - **Main criticisms**: [fragmentation]{.alert}, [instability]{.alert}, and [accountability]{.alert}
-  - PR reproduces social divisions without clear incentives to cooperation
-  - Coalition govts are more unstable and responsibilities are diluted
-  - More chances for fringe or extremist parties
+  - PR reproduces social divisions without clear incentives for cooperation
+  - Coalition governments are more unstable and responsibility is diluted
+  - Greater chances for fringe or extremist parties
 
 
 ## List PR Systems
@@ -768,7 +768,7 @@ for (s in 1:10) {
 ```
 
 - Parties present lists of candidates in multimember districts
-- Seats are given in proportion to the votes going to the list
+- Seats are allocated in proportion to the votes cast for the list
 - Differences in the "details" of the system are key
 
 ## District Magnitude
@@ -777,20 +777,20 @@ for (s in 1:10) {
 
 - The most important factor influencing the proportionality of a system
 
-- Extreme case: a unique list for the whole country 
-  - E.g., European Parliament elections in many countries, Netherlands, Israel
+- Extreme case: a single nationwide list 
+  - E.g., the Netherlands, Israel, and European Parliament elections in many countries
 
 - The larger the magnitude, the less direct the link between voters and representatives
 
 ## Important Concepts: Electoral Thresholds
 
-[Electoral threshold]{.alert} $\rightarrow$ minimum % of voters a party needs to enter the parliament
+[Electoral threshold]{.alert} $\rightarrow$ minimum % of votes a party needs to enter parliament
 
-- A *natural* threshold is implicit $\rightarrow$ n. of seats is small so there will always be excluded parties
+- A *natural* threshold is implicit $\rightarrow$ when the number of seats is small, some parties are inevitably excluded
 
 - *Formal* thresholds are used to reduce party fragmentation
 
-- Large thresholds decrease representation and re-introduce strategic voting
+- High thresholds decrease representation and re-introduce strategic voting
 
 
 ## Important Concepts: Type of List
@@ -802,7 +802,7 @@ for (s in 1:10) {
 :::{.column width="50%"}
 **Closed List**
 
-- *Who* is elected depends on the position in the list
+- *Who* is elected depends on the position on the list
 - If a party wins $n$ seats, they go to the first $n$ candidates
 - Gives [parties]{.alert} full control over [candidates]{.alert}
   - Less personalistic system
@@ -816,7 +816,7 @@ for (s in 1:10) {
 
 
 
-## List PR Systems
+## Important Concepts: Type of List
 
 [Types of party lists]{.alert} $\rightarrow$ determine which candidates from the list are elected
 
@@ -827,8 +827,8 @@ for (s in 1:10) {
 
 - Voters vote for the list **and** for candidates within the list
 - Seats won by the list are allocated based on the number of personal votes instead of list order 
-  - More choice to voters, but at the cost of more complexity
-  - Re-introduce personal vote
+  - More choice for voters, but at the cost of greater complexity
+  - Re-introduces the personal vote
 :::
 :::{.column width="50%"}
 ![Danish Open List ballot paper (2019) (Source: Minnekon - Wikimedia Commons)](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ballot_paper_of_2019_Danish_parliament_election.jpg/960px-Ballot_paper_of_2019_Danish_parliament_election.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20221216121450)
@@ -924,9 +924,9 @@ for (i in 1:3) {
 ```
 
 :::{.nonincremental}
-- $\approx$ to AV in multimember districts
-- Voters rank all candidates
-- Candidates over a certain **quota** of votes are elected
+- Similar to AV in multimember districts
+- Voters rank candidates
+- Candidates who reach a certain **quota** of votes are elected
 :::
 
 
@@ -1017,8 +1017,8 @@ for (i in 1:3) {
 ```
 
 :::{.nonincremental}
-- At each step: least voted candidate is eliminated
-- Votes for eliminated candidates **and** surplus votes for elected candidates are assigned to other candidates based on ranked choices
+- At each step, the candidate with the fewest votes is eliminated
+- Votes for eliminated candidates **and** surplus votes for elected candidates are transferred to other candidates based on ranked choices
 :::
 
 
@@ -1030,7 +1030,7 @@ for (i in 1:3) {
 
 **Advantages**
 
-- Maintains the advantages of the AV in terms of voter choice while being proportional
+- Maintains the advantages of AV in terms of voter choice while being proportional
 
 - More control over candidate choice than list PR
 
@@ -1041,10 +1041,10 @@ for (i in 1:3) {
 
 **Criticisms**
 
-- All criticisms of candidate-centered systems
+- All the criticisms of candidate-centered systems
   - Personalism, intraparty factionalism
 
-- $\Uparrow$ n. of candidates to be ranked
+- $\Uparrow$ number of candidates to rank
   - Even more difficult for voters to make an informed choice
   - Lower district magnitude mitigates the problem but reduces proportionality too 
 
@@ -1056,14 +1056,14 @@ for (i in 1:3) {
 
 ## Mixed Electoral Systems
 
-Shares of voters elected under majoritarian and proportional systems
+Seats are allocated under both majoritarian and proportional systems
 
 ::::{.columns}
 :::{.column width="50%"}
 - Voters have two votes 
 - Typically multiple electoral [tiers]{.alert}
   - Majoritarian seats in low-level districts with small magnitude
-  - Proportional seats in high-level constituency (regional or national)
+  - Proportional seats in high-level constituencies (regional or national)
 :::
 :::{.column width="50%"}
 ![New Zealand ballot paper (1993 -- sample)](https://upload.wikimedia.org/wikipedia/commons/d/da/New_Zealand_MMP_voting_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20110327014732)
@@ -1076,7 +1076,7 @@ Shares of voters elected under majoritarian and proportional systems
 
 **Advantages**
 
-- Combine the appealing features of the two systems
+- Combines the appealing features of both systems
 
 - PROP $\implies$ proportional outcomes and [social]{.alert} representation
 
@@ -1087,7 +1087,7 @@ Shares of voters elected under majoritarian and proportional systems
 
 **Criticisms**
 
-- Two different classes of legislators with different "loyalties" $\rightarrow$ parties and voters
+- Two different classes of legislators with different "loyalties" (parties vs. voters)
 
 - Low cohesion
 
@@ -1108,8 +1108,8 @@ Shares of voters elected under majoritarian and proportional systems
 
 - Choosing an ES implies trade-offs
 
-- [Majoritarian]{.alert} systems favor clear majorities and responsibilities
-  - But less representation for some social groups
+- [Majoritarian]{.alert} systems favor clear majorities and accountability
+  - But lower representation for some social groups
 
 - [Proportional]{.alert} systems favor broad representation 
   - But more fragmented and potentially unstable governments
@@ -1122,14 +1122,14 @@ Shares of voters elected under majoritarian and proportional systems
 - The electoral system makes one or the other more relevant
 
 - This has a **key implication** for the study of politics: 
-$\implies$ we generally cannot make inferences about what voters would do under an ES from their behavior under another ES
+$\implies$ we generally cannot infer what voters would do under one electoral system from their behavior under another
 
-- E.g., "If the UK adopted list PR, Labour would win voters in these areas"
-  - Maybe yes, but a lot of voters would change their vote
+- E.g., "If the UK adopted list PR, Labour would win more votes in these areas"
+  - Perhaps, but many voters would change their vote
   - Knowing this, new parties would have an incentive to emerge
   - So everything would change
 
-- Next week: we will see that the number of parties also depends on the ES
+- Next week, we will see that the number of parties also depends on the electoral system
 
 
 
