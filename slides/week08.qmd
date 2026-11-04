@@ -134,7 +134,7 @@ grid.lines(c(0.59, 0.68), c(0.62, 0.52), arrow = arrow_sub,
 
 - We treated voters' choices as "given" and focused on what comes later 
 
-- Today: how the "rules" of elections affect voters' choices and electoral outcomes
+- Today: how the "rules" affect voters' choices and electoral outcomes
 
 ---
 
@@ -169,7 +169,6 @@ For each of these families, we will see:
 
 - The most popular systems in the world
 - The implications for the strategies of voters 
-  - Next week, we will look at the strategies of parties
 - The trade-offs for democratic outcomes
 :::
 :::
@@ -244,8 +243,8 @@ for (i in 1:4) {
 ::::
 
 - A single vote for a candidate in a single-member district
-- The candidate with the most votes (plurality) is elected $\rightarrow$ "First-past-the-post" 
-- What do you think are the benefits and/or problems of such a system?
+- The candidate with the most votes (plurality) is elected 
+- Also called "First-past-the-post" 
 
 ## Single-Member District Plurality System
 
@@ -259,7 +258,7 @@ for (i in 1:4) {
 
 - One representative per district $\implies$ stronger [accountability]{.alert}
     - Easy to attribute responsibility
-    - Representatives work for their voters
+    - Representatives work for "their" voters
 
 :::
 :::{.column width="50%"}
@@ -406,7 +405,6 @@ for (i in 1:4) {
 ::::
 - "Extension" of SMDP to [multimember districts]{.alert}
 - Parties present lists of candidates, voters vote for one of them
-- What do you think of this system?
 
 ## Single Nontransferable Vote
 
@@ -524,7 +522,7 @@ grid.text("Elected", cx2[2], 0.72, gp = gpar(fontsize = 9.5, fontface = "bold", 
 
 - Voters rank candidates by preference
 - The candidate with the fewest first preferences is eliminated
-- The second preferences of their voters are assigned to the remaining candidates
+- The remaining candidates get the second preferences of his/her voters
 
 
 
@@ -661,7 +659,7 @@ grid.text("Elected", xs2[1], 0.76, gp = gpar(fontsize = 9.5, fontface = "bold", 
 
 - Voters can change their minds between rounds 
 
-- In the second round, candidates need to attract other candidates' voters $\rightarrow$ bargaining and [compromise]{.alert}
+- In the second round, candidates need to attract other candidates' voters $\rightarrow$ [moderation]{.alert}
 
 - The winner is supported by a majority
 
@@ -771,7 +769,7 @@ for (s in 1:10) {
 - Seats are allocated in proportion to the votes cast for the list
 - Differences in the "details" of the system are key
 
-## District Magnitude
+## Important Concepts: District Magnitude
 
 [District magnitude]{.alert} $\rightarrow$ n. of candidates elected in a district
 
