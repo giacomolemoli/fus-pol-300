@@ -25,7 +25,7 @@ bibliography: references.bib
 | | Thu, October 15 | **<u>Midterm Exam</u>** | | |
 | | | **Academic travel** | | |
 | | Mon, November 2 | **November break** | | |
-| 8 | Thu, November 5 | Electoral Systems | FCP ch.11 | |
+| 8 | Thu, November 5 | Electoral Systems | FCP ch.11 | [Week 8](slides/week08.qmd){target="_blank"}|
 | 8 | Mon, November 9 | *Discussion Session* | @eggers2015proportionality | |
 | 9 | Thu, November 12 | Cleavages and Party Systems | FCP ch.12 | |
 | 9 | Mon, November 16 | *Discussion Session* | @mcnamee2019indirect | |

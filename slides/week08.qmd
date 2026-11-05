@@ -227,6 +227,7 @@ for (i in 1:4) {
   }
 }
 ```
+
 :::
 ::: {.column width="30%"}
 ![](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1920px-Flag_of_the_United_Kingdom_%281-2%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){width=20%}
