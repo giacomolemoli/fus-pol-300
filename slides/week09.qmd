@@ -8,7 +8,7 @@ format: revealjs
 
 ## From the First Lecture
 
-**Q**: Why do Parliaments have different numbers of parties?
+**Q**: Why do parliaments have different numbers of parties?
 
 :::: {.columns}
 
@@ -27,8 +27,8 @@ format: revealjs
 ::::
 
 :::{.nonincremental}
-- [Effective Number of Parties]{.alert} (a measure of Parliament fragmentation): US, UK $\approx$ 2; Netherlands $\approx$ 8
-- Are voters or parties different? Or do the vote rules matter?
+- [Effective Number of Parties]{.alert} (a measure of legislative fragmentation): US, UK $\approx$ 2; Netherlands $\approx$ 8
+- Are voters or parties different? Or do electoral rules matter?
 :::
 
 ## From the First Lecture
@@ -49,33 +49,33 @@ format: revealjs
 
 :::{.nonincremental}
 - Kenya and Tanzania $\rightarrow$ geographic neighbors, same national language
-- Kenya: prob. that two people vote the same party $\uparrow$ 40pp if they are coethnics
-- Tanzania: almost same prob. between coethnics and non-coethnics
-- Why do we see ethnic *cleavages* in some countries and not others?
+- Kenya: prob. that two people vote for the same party $\uparrow$ 40pp if they are coethnics
+- Tanzania: almost the same prob. between coethnics and non-coethnics
+- Why do we see ethnic [cleavages]{.alert} in some countries and not others?
 :::
 
 ## The "Puzzle" of Party Systems
 
-Why do different countries have different different [party systems]{.alert}?
+In other words, why do countries have different [party systems]{.alert}?
 
 $\implies$ Party system: the number and size of parties
 
 <div style="height: 1cm;"></div>
 
 - Are **voters** different? (E.g., they [self-identify]{.alert} differently)
-- Are the **politicians** different? (E.g., they care about some interests or others)
-- Do the **rules** of the game matter? (E.g., [electoral system]{.alert})
+- Are **politicians** different? (E.g., they care more about some voters)
+- Do the **rules** of the game matter? (E.g., [electoral systems]{.alert})
 
 <div style="height: 1cm;"></div>
 
 . . . 
 
-Now we are able to understand how these dimensions of politics interact
+We are now able to understand how these dimensions of politics interact
 
 
 ## Our Plan for Today
 
-What is a [political party]{.alert} 
+What is a [political party]{.alert}?
 
 - The nature and functions of parties
 
@@ -83,22 +83,22 @@ What is a [political party]{.alert}
 
 Social [cleavages]{.alert} and why they matter
 
-- Overlapping vs cross-cutting cleavages
-- "Activating" cleavages $\rightarrow$ the origins of ethnic identities
+- Case: the origins of ethnic identities
+- Overlapping vs. cross-cutting cleavages
 
 . . . 
 
-How electoral institutions shape the interaction between voters and parties
+[Electoral institutions]{.alert} shape the interaction between voters and parties
 
 - Mechanical and strategic effects
-- From society to legislative parties
+- From society to parties in parliament
 
 
 # Parties and Cleavages: Concepts and Definitions {.section}
 
-## What is a Party
+## What Is a Party?
 
-> A group of officials or would-be officials who are linked with a sizeable group of citizens into an organization; a chief object of this organization is to ensur that its officials attain power or are maintained in power (Shively 2001, 234)
+> A group of officials or would-be officials who are linked with a sizeable group of citizens into an organization; a chief object of this organization is to ensure that its officials attain power or are maintained in power (Shively 2001, 234)
 
 <div style="height: 1cm;"></div>
 
@@ -116,8 +116,12 @@ The parties that exist in a country $\implies$ the party system
 
 > Parties are the core institution of democratic politics (Lipset 1996)
 
+. . . 
+
+Parties perform key functions in a democracy
+
 - Represent, articulate, and champion the interests of the membership
-- Aggregate demands of voters into coherent agenda
+- Aggregate voters' demands into a coherent agenda
 - Promote political participation $\rightarrow$ "mobilize" their voters
 - Organize power contestation $\rightarrow$ overcome collective action problems
 - Coordinate politicians once in power
@@ -131,7 +135,7 @@ The parties that exist in a country $\implies$ the party system
 
 - Only one party is legally allowed to hold power
 
-- This means not being a democracy
+- By definition, these are not democracies
 :::
 :::{.column width="50%"}
 ![Supreme People's Assembly of North Korea (KCNA/Reuters)](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/4/14/1397490656602/a94a8a7a-2134-49ad-9b27-feb1058049e8-2060x1236.jpeg?width=620&dpr=2&s=none&crop=none)
@@ -146,12 +150,13 @@ The parties that exist in a country $\implies$ the party system
 :::{.column width="50%"}
 **One-party dominant systems**
 
-- Multiple parties allowed, but only one has realistic chances of getting power
+- Multiple parties are allowed, but only one has a realistic chance of winning elections
 
-- Classification as democracy/dictatorship can be subtle and contested
+- Classification as a democracy or dictatorship can be subtle and contested
 
-- Is the government undermining the opposition or is it simply more popular? 
-    - Cf. regional governments: Democratic Party in Jim Crow US South, CSU in Bavaria, etc
+- Is the government undermining the opposition, or is it simply more popular? 
+
+- Cf. Rwanda vs. South Africa; the Democratic Party in the Jim Crow US South vs. the CSU in Bavaria
 
 :::
 :::{.column width="50%"}
@@ -168,9 +173,9 @@ The parties that exist in a country $\implies$ the party system
 :::{.column width="50%"}
 **Two-party systems**
 
-- Only two major parties have a realistic chance of holding power
+- Multiple parties exist, but only two major parties have a realistic chance of winning elections
 
-- Even if many parties compete for office, only two can realistically make it
+- Cf. Democratic Party vs. Republican Party in the US; Jamaica Labour Party vs. People's National Party in Jamaica
 
 :::
 :::{.column width="50%"}
@@ -185,12 +190,12 @@ The parties that exist in a country $\implies$ the party system
 :::{.column width="50%"}
 **Multiparty systems**
 
-- More than two political parties have a realistic chance of holding power
+- More than two political parties have a realistic chance of winning elections
 
 - They can rule separately or as part of a coalition
 :::
 :::{.column width="50%"}
-![Netherland's House of Representatives (Futurism)](https://constitutionnet.org/sites/default/files/dutch_parliament_may_2016.jpg)
+![Dutch House of Representatives (Futurism)](https://constitutionnet.org/sites/default/files/dutch_parliament_may_2016.jpg)
 :::
 ::::
 
@@ -199,17 +204,24 @@ The parties that exist in a country $\implies$ the party system
 
 - If we just counted parties running for office, most countries would be multiparty systems
 
-- A two-party system $\rightarrow$ only two parties can *effectively* govern
+- A two-party system means that only two parties can *effectively* govern
 
-- To account for the effective size of the party system $\rightarrow$ [Effective Number of Parties]{.alert}
+- The size of the party system $\rightarrow$ [Effective Number of Parties]{.alert}
 
 :::{.fragment}
 $ENP = \frac{1}{(\text{Vote share Party A})^2 + (\text{Vote share Party B})^2 + ... }$
+
+using the share of total votes each party receives
 :::
 
 :::{.fragment}
 :::{.nonincremental}
-- Replacing the Vote share with the Seat share in legislature $\rightarrow$ Effective Number of *legislative* parties
+
+- Replacing votes with seats won gives us the *legislative* ENP
+
+$ENP = \frac{1}{(\text{Seat share Party A})^2 + (\text{Seat share Party B})^2 + ... }$
+
+using the share of total seats each party holds in parliament
 :::
 :::
 
@@ -364,18 +376,22 @@ for (p in 1:3) {
 
 ## Cleavages
 
-Origins of parties $\rightarrow$ origins of different political interests
+Parties originate from the need for collective action to advance shared political interests
 
 . . . 
 
 [Cleavages]{.alert} $\rightarrow$ social divisions that can become different political camps
 
 
-- Cleavages are induced by economic, cultural, geographic differences
+- Cleavages are induced by economic, cultural, and geographic differences
 
 - If people on one side of the cleavage share the same political interests $\implies$ a party may be formed and the cleavage is "activated" or "politicized"
 
-
+- Some historically relevant cleavages include:
+  - Urban-rural
+  - Class
+  - Religious/confessional
+  - Post-material
 
 # The Origins of Party Systems {.section}
 
@@ -454,42 +470,40 @@ grid.text("Source: Clark, Golder, and Golder (2017), Figure 12.4", 0.95, 0.04, j
 
 - People are potential members of different ethnic and social groups
     - E.g., think of voters in NYC, Lagos, Jakarta
-- Our Q: when/why do party systems represent a country's ethnic divisions?
-- Two different but related processes:
-    - People identify with certain ethnicities and not others $\rightarrow$ social [cleavages]{.alert}
-    - People in the same ethnicity coordinate their political behavior $\rightarrow$ ethnic [parties]{.alert}
+- Which of these group structures are reflected in the party system?
+- Following Duverger, this depends on several interrelated processes:
+    - People identify with certain groups and not others $\rightarrow$ social [cleavages]{.alert}
+    - People in the same group coordinate their political behavior $\rightarrow$ ethnic [parties]{.alert}
+    - Electoral institutions constrain choices $\rightarrow$ e.g., sincere or strategic voting
 
 ## The Origins of Ethnic Cleavages
 
-Political and economic forces shaped the formation of modern ethnic identities
+Political and economic forces shaped modern ethnic identities
 
 ::::{.columns}
 :::{.column width="50%"}
 ![Pengl, Roessler, Rueda (APSR 2021)](figures/pengl-roessler-rueda-fig1.png){width=100%}
 :::
 :::{.column width="50%"}
-In Africa:
-
 - Missionaries and colonial authorities $\rightarrow$ "created" linguistic categories by harmonizing local dialects
-- Agricultural innovations $\rightarrow$ ethnicity valuable to manage control of land
-- Publications in vernacular languages and cash crops $\implies$ collective identities, ethnic boundaries, group mobilization
+- Publications in local languages $\implies$ group identity and pride
+- Agricultural innovations $\implies$ made ethnicity valuable to manage control of land
+- Both factors $\implies$ collective identity, ethnic boundaries, and group mobilization
 :::
 ::::
 
 ## The Origins of Ethnic Cleavages
 
-Colonial institutions made some cleavages more salient than others 
+Institutions make some cleavages more salient than others 
 
 ::::{.columns}
 :::{.column width="50%"}
-![Religious divisions among Yorubas (calculations from DHS)](figures/yoruba-dhs.png)
+![Religious divisions among the Yoruba (calculations from DHS)](figures/yoruba-dhs.png)
 :::
 :::{.column width="50%"}
-Yorubas in Nigeria:
-
-- The main national cleavage in Nigeria is between North (Muslim-majority) and South (Christian-majority)
-- Colonial institutions made local Yoruba ancestries more salient than religion (Laitin 1986) 
-- Yorubas are religiously heterogeneous but this divide is not salient
+- The main national cleavage in Nigeria is between the North (Muslim-majority) and the South (Christian-majority)
+- Among the Yoruba, British colonial institutions made local ancestries more salient than religion (Laitin 1986) 
+- As a result, the Yoruba are divided by religion, but this divide is not salient
 
 :::
 ::::
@@ -497,7 +511,7 @@ Yorubas in Nigeria:
 
 ## The Origins of Ethnic Cleavages
 
-Colonial (and post-colonial) borders created new majority/minority patterns
+Colonial and post-colonial borders created new majority/minority patterns
 
 ::::{.columns}
 :::{.column width="50%"}
@@ -505,8 +519,8 @@ Colonial (and post-colonial) borders created new majority/minority patterns
 :::
 :::{.column width="50%"}
 - Chewas and Tumbukas are "small" groups in Zambia but "large" groups in Malawi
-- Larger size $\implies$ electoral strength
-- More political competition and hostility between the two groups in Malawi
+- Larger size $\implies$ electoral strength, so the Chewa-Tumbuka cleavage is more salient in Malawi
+- This leads to political competition and greater hostility between the two groups in Malawi
 :::
 ::::
 
@@ -612,10 +626,10 @@ b_y1 <- cy_m + box_h/2 + gap_y/2
 b_y2 <- cy_m - box_h/2 - gap_y/2
 
 # Column Headers
-grid.text("Oyo City", b_x1, b_y1 + box_h/2 + 0.035,
+grid.text("Oyo", b_x1, b_y1 + box_h/2 + 0.035,
           gp = gpar(fontsize = 11, fontface = "bold", col = "#B45309"))
 
-grid.text("Ijebu City", b_x2, b_y1 + box_h/2 + 0.035,
+grid.text("Ijebu", b_x2, b_y1 + box_h/2 + 0.035,
           gp = gpar(fontsize = 11, fontface = "bold", col = "#B45309"))
 
 # Row Headers
@@ -673,9 +687,9 @@ Economic or territorial inequalities reinforce ethnic divisions
 
 - Ethnic identities $\rightarrow$ *potential* political cleavages
 
-- Yet party systems are not always ethnically divided
+- Historical processes, economic development, and institutions can activate them politically
 
-- Recall that electoral systems $\rightarrow$ how votes are transformed into seats
+- Like other institutions, electoral systems also make ethnic cleavages more or less salient
 
 - We have seen why they matter $\rightarrow$ (dis)proportionality, strategic voting
 
@@ -684,6 +698,8 @@ Economic or territorial inequalities reinforce ethnic divisions
 
 
 ## Mechanical Effects of Electoral Laws
+
+Electoral laws mechanically constrain how many parties hold office
 
 ```{r}
 #| echo: false
@@ -733,9 +749,10 @@ for (i in 1:4) {
 }
 ```
 
-- Disproportional laws create barriers to small parties
+:::{.nonincremental}
 - SMDP favors large national parties or local majorities
-
+- E.g., Scottish National Party (2015) $\rightarrow$ 4.7% of votes, 8.6% of seats
+:::
 
 
 ## Strategic Effects of Electoral Laws
@@ -745,11 +762,11 @@ for (i in 1:4) {
 - Voters prefer to vote for parties that have a chance of winning seats
 
 - The same logic applies to politicians when they decide whether to run
-    - If they run as minority party, they are unlikely to be elected
+    - If they run as a minority party under SMDP, they are unlikely to be elected
     - Even if they are elected, they will have few seats 
-    - Politicians may prefer to enter larger parties
+    - They may prefer to work within a larger party
 
-- By contrast, in proportional systems small parties can enter parliament and matter for government coalitions
+- By contrast, in proportional systems, even small parties can enter parliament and matter for government coalitions
 
 :::{.fragment}
 $\implies$ [strategic voting]{.alert} of voters and [strategic entry]{.alert} of politicians
@@ -768,7 +785,7 @@ $\implies$ [strategic voting]{.alert} of voters and [strategic entry]{.alert} of
 
 . . . 
 
-We now have an answer to why US, UK, and Netherlands have different ENP
+We now have an answer to why the US, the UK, and the Netherlands have different ENPs
 
 - The SMDP system pushes *everyone* to coordinate around two big parties
 
@@ -777,35 +794,40 @@ We now have an answer to why US, UK, and Netherlands have different ENP
 
 ## Duverger and Ethnic Voting
 
-What are the implications of Duverger's theory for ethnic parties? Should we see more or less ethnic party systems in PR vs SMDP?
+What are the implications of Duverger's theory for ethnic parties? Should we see more or fewer ethnic party systems under PR vs. SMDP?
 
 . . . 
 
-It depends on several things
+It depends on several factors:
 
 - If many small groups live in mixed areas, SMDP can favor cross-ethnic coalitions
 
 - If large groups live in separate regions, SMDP can produce large ethnic parties
 
-- In principle, PR favors parties that compete along other cleavages
+- In principle, PR encourages parties to compete along other cleavages 
 
 - However, the overlap of ethnicity, geography, and the economy may still favor ethnic parties
-    - PR systems are less ethnicized (Huber 2012) but coethnic voting is not much smaller (Müller-Crepon and Bormann 2026)
+    - PR systems are less ethnicized (Huber 2012), but coethnic voting is not substantially lower (Müller-Crepon and Bormann 2026)
 
 ## From Parties Back to Cleavages
 
-Importantly, given a set of rules that allocate power, parties want to maximize their support
+Given a set of rules that allocate power, parties want to maximize their support
 
 . . . 
 
-$\implies$ if the ES favors ethnic parties, they will promote ethnic identification
+$\implies$ In ethnicized party systems, parties promote ethnic identification
 
 . . . 
 
 ::::{.columns}
 :::{.column width="50%"}
-- The salience of ethnic identity increases in proximity to elections
-- Voters' expectations and politicians' appeals reinforce each other
+- The salience of ethnic identity (relative to national identity) increases in proximity to elections
+- Politicians appeal to coethnics to "vote together"
+- People expect that only coethnic politicians will represent their interests
+
+:::{.fragment}
+$\implies$ stronger ethnic identities and ethnic parties
+:::
 :::
 :::{.column width="50%"}
 ![Eifert, Miguel, and Posner (AJPS 2010)](figures/eifert-et-al-fig1.png)
@@ -816,16 +838,20 @@ $\implies$ if the ES favors ethnic parties, they will promote ethnic identificat
 
 ## From Parties Back to Cleavages
 
-Importantly, given a set of rules that allocate power, parties want to maximize their support
+Given a set of rules that allocate power, parties want to maximize their support
 
-$\implies$ if the ES favors ethnic parties, they will promote ethnic identification
+$\implies$ In ethnicized party systems, parties promote ethnic identification
 
 . . . 
 
 ::::{.columns}
 :::{.column width="50%"}
-- People sort in regions where their group is the majority
-- This reinforces local majorities and increases incentives for ethnic voting
+- People expect that a coethnic local government will represent them better
+- They want to live in regions where their group is the majority
+
+:::{.fragment}
+$\implies$ This reinforces local majorities and provides further incentives for ethnic voting
+:::
 :::
 :::{.column width="50%"}
 ![Müller-Crepon (AJPS 2026)](figures/cmc-figure1.png)
@@ -839,7 +865,7 @@ $\implies$ if the ES favors ethnic parties, they will promote ethnic identificat
 
 ## What We Learned
 
-A country's party system is due to its social heterogeneity (cleavages) and the rules that translate social demands into political power
+A country's party system is shaped by its social heterogeneity (cleavages) and the rules that translate social demands into political power (electoral institutions)
 
 ::::{.columns}
 :::{.column width="50%"}
@@ -923,16 +949,13 @@ grid.roundrect(0.175, 0.635, width = 0.17, height = 0.065, r = unit(0.012, "snpc
                gp = gpar(fill = "#FEF2F2", col = "#DC2626", lwd = 1.2))
 grid.text("Parties mobilize &\nshape identities", 0.175, 0.635,
           gp = gpar(fontsize = 8, fontface = "bold", col = "#991B1B", lineheight = 0.95))
-
-
-
-
 ```
 :::
 :::{.column width="50%"}
 - Cleavages and identities $\rightarrow$ potential parties
 - Electoral rules $\rightarrow$ effective parties
-- But parties $\rightarrow$ shape both cleavages and electoral rules
+  - Strategic and mechanical effects
+- Parties $\rightarrow$ shape both cleavages and electoral rules to advance their interests
 :::
 ::::
 
