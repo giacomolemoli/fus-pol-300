@@ -29,7 +29,7 @@ bibliography: references.bib
 | 8 | Mon, November 9 | *Discussion Session* | @eggers2015proportionality | |
 | 9 | Thu, November 12 | Cleavages and Party Systems | FCP ch.12 | [Week 9](slides/week09.qmd){target="_blank"}|
 | 9 | Mon, November 16 | *Discussion Session* | @mcnamee2019indirect | |
-| 10 | Thu, November 19 | Veto Players | FCP ch.13 | |
+| 10 | Thu, November 19 | Veto Players | FCP ch.13 | [Week 10](slides/week10.qmd){target="_blank"}|
 | 10 | Mon, November 23 | *Discussion Session* | @keefer2003limits | |
 | 11 | Thu, November 26 | Effects of Institutions | FCP ch.14 | |
 | 11 | Mon, November 30 | *Discussion Session* | @samii2013perils | |
