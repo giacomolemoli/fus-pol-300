@@ -31,7 +31,7 @@ bibliography: references.bib
 | 9 | Mon, November 16 | *Discussion Session* | @mcnamee2019indirect | |
 | 10 | Thu, November 19 | Veto Players | FCP ch.13 | [Week 10](slides/week10.qmd){target="_blank"}|
 | 10 | Mon, November 23 | *Discussion Session* | @keefer2003limits | |
-| 11 | Thu, November 26 | Effects of Institutions | FCP ch.14 | |
+| 11 | Thu, November 26 | Effects of Institutions | FCP ch.14 | [Week 11](slides/week11.qmd){target="_blank"}|
 | 11 | Mon, November 30 | *Discussion Session* | @samii2013perils | |
 | | Thu, December 3 | **Final Exam Review** | | |
 | | Mon, December 7 | **<u>Final Exam</u>** | | |
